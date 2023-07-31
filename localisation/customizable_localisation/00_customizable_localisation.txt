@@ -90,9 +90,9 @@
 
 #WEATHER, TIME
 #GetWeatherAdjective 			Checks Capital scope.
-#GetLocalWeatherAdjective		Requires a province scope. 
+#GetLocalWeatherAdjective		Requires a province scope.
 #GetTemperature					Checks Capital scope.
-#GetLocalTemperature 			Requires a province scope. 
+#GetLocalTemperature 			Requires a province scope.
 #GetSeason #WIP
 
 #CHINA
@@ -507,9 +507,9 @@ defined_text = {
 		}
 	}
 	text = {
-		localisation_key = GetRelation_Acquaintance 
-		trigger = { 
-			NOR = { 
+		localisation_key = GetRelation_Acquaintance
+		trigger = {
+			NOR = {
 				relationship_with_root_trigger = yes
 				family_of_root_trigger = yes
 				liege = { character = ROOT }
@@ -518,12 +518,12 @@ defined_text = {
 					dynasty = ROOT
 					NOT = { dynasty = none }
 				}
-			} 
+			}
 		}
 	}
 	text = {
 		localisation_key = GetRelation_fellow_member
-		trigger = { 
+		trigger = {
 			NOR = { #Should not be prioritized over Son/Daughter/Wife,etc.
 				relationship_with_root_trigger = yes
 				family_of_root_trigger = yes
@@ -540,7 +540,7 @@ defined_text = {
 	text = {
 		localisation_key = GetRelation_Concubine
 		weight_multiplier = { factor = 100 }
-		trigger = { 
+		trigger = {
 			is_consort = ROOT
 			is_female = yes
 		}
@@ -548,7 +548,7 @@ defined_text = {
 	text = {
 		localisation_key = GetRelation_Consort
 		weight_multiplier = { factor = 100 }
-		trigger = { 
+		trigger = {
 			is_consort = ROOT
 			is_female = no
 		}
@@ -880,7 +880,7 @@ defined_text = {
 	text = {
 		trigger = { is_female = yes }
 		localisation_key = Actress
-	}	
+	}
 }
 
 defined_text = {
@@ -906,7 +906,7 @@ defined_text = {
 	text = {
 		trigger = { is_female = no }
 		localisation_key = String_King
-	}	
+	}
 }
 
 defined_text = {
@@ -919,7 +919,7 @@ defined_text = {
 	text = {
 		trigger = { is_female = no }
 		localisation_key = String_Prince
-	}	
+	}
 }
 
 defined_text = {
@@ -932,7 +932,7 @@ defined_text = {
 	text = {
 		trigger = { is_female = no }
 		localisation_key = String_groom
-	}	
+	}
 }
 
 defined_text = {
@@ -945,7 +945,7 @@ defined_text = {
 	text = {
 		trigger = { is_female = yes }
 		localisation_key = String_Master
-	}	
+	}
 }
 
 ###CHARACTER DESCRIPTIONS###
@@ -986,15 +986,15 @@ defined_text = {
 	name = GetFaceDescription
 
 	text = {
-		trigger = { 
-			trait = fair 
+		trigger = {
+			trait = fair
 			is_female = yes
 		}
 		localisation_key = String_beautiful
 	}
 	text = {
-		trigger = { 
-			trait = fair 
+		trigger = {
+			trait = fair
 			is_female = no
 		}
 		localisation_key = String_handsome
@@ -1027,8 +1027,8 @@ defined_text = {
 		localisation_key = String_harelipped
 	}
 	text = {
-		trigger = { 
-			is_strong_trigger = yes 
+		trigger = {
+			is_strong_trigger = yes
 		}
 		localisation_key = String_strong_jawed
 	}
@@ -1037,7 +1037,7 @@ defined_text = {
 		localisation_key = String_thin
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
 				trait = lunatic
 				trait = possessed
@@ -1047,14 +1047,14 @@ defined_text = {
 		localisation_key = String_crazed
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			interesting_face_trigger = no
 			trait = nord
 		}
 		localisation_key = String_ruddy
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			interesting_face_trigger = no
 			OR = {
 				trait = akaviri
@@ -1066,7 +1066,7 @@ defined_text = {
 		localisation_key = String_tanned
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			interesting_face_trigger = no
 			OR = {
 				graphical_culture = arabicgfx
@@ -1079,13 +1079,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			interesting_face_trigger = no 
+			interesting_face_trigger = no
 			trait = redguard
 		}
 		localisation_key = String_dark_skinned
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			interesting_face_trigger = no
 			OR = {
 				trait = quey
@@ -1449,10 +1449,10 @@ defined_text = {
 		localisation_key = INSULT_DEMONIC
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
 				trait = syphilitic
-				trait = has_aztec_disease 
+				trait = has_aztec_disease
 			}
 		}
 		localisation_key = INSULT_UNCLEAN
@@ -1462,7 +1462,7 @@ defined_text = {
 		localisation_key = INSULT_UNCLEAN
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			has_severe_disability_trigger = yes
 		}
 		localisation_key = INSULT_CRIPPLE
@@ -1506,7 +1506,7 @@ defined_text = {
 		localisation_key = INSULT_LEPER
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			has_severe_disability_trigger = yes
 		}
 		localisation_key = INSULT_CRIPPLE
@@ -1617,247 +1617,247 @@ defined_text = {
 }
 
 defined_text = {
-	name = GetSRGreeting 
-	
+	name = GetSRGreeting
+
 	#Added a few strings for some of the religions, whomever goes over secret religious societies might want to go through and add proper triggers for them, expand with missing religions.
 	#I'm too busy fixing bugs and handling the new systems ~ Korba.
 	text = {
 		localisation_key = String_Gods_blessing_upon_thee
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_Peace_be_upon_you
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_Allfathers_strength
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_hist_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_OldGods_blessing_upon_thee
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_veloths_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_vivec_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_almalexia_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_sotha_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_nerevar_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_Ancestors_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_sul_strength
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_azura_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_boethiah_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_clavicus_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_hermaeus_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_hircine_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_jyggalag_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_malacath_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_mehrunes_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_mephala_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_meridia_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_molag_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_namira_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_nocturnal_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_peryite_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_sanguine_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_sheogorath_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_vaermina_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_animism_bear_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_animism_wolf_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_animism_eagle_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_animism_moth_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_animism_whale_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_dragon_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_sithis_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_underking_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_underking_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_underking_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_alduin_blessings
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
@@ -1869,35 +1869,35 @@ defined_text = {
 	name = GetSRFarewell
 	text = {
 		localisation_key = String_Go_with_God
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 
 	text = {
 		localisation_key = String_May_the_Gods_protect_you
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 
 	text = {
 		localisation_key = String_May_the_Ancestors_guide_you
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 
 	text = {
 		localisation_key = String_May_Zun_illuminate_your_path
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 
 	text = {
 		localisation_key = String_Fire_and_blood
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
@@ -1907,49 +1907,49 @@ defined_text = {
 	name = GetSRTrinketSymbol
 	text = {
 		localisation_key = String_crescent
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_six_pointed_star
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_fire_symbol
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_world_tree_symbol
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_life_tree_symbol
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_ancestors_symbol
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_sun_symbol
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
 	text = {
 		localisation_key = String_Fire_and_blood
-		trigger = { 
+		trigger = {
 			always = no
 		}
 	}
@@ -2096,7 +2096,7 @@ defined_text = {
 
 defined_text = {
 	name = GetReligiousPerson
-	text = { 
+	text = {
 		localisation_key = String_Diviner
 		trigger = {
 			OR = {
@@ -2105,167 +2105,167 @@ defined_text = {
 			}
 		}
 	}
-	text = { 
+	text = {
 		localisation_key = String_Maruhkati #Alessian
 		trigger = { religion = maruhkati }
 	}
-	text = { 
+	text = {
 		localisation_key = String_Alikr
 		trigger = { religion = alikr }
 	}
-	text = { 
+	text = {
 		localisation_key = String_Satakal
 		trigger = { religion = satakal }
 	}
-	text = { 
+	text = {
 		localisation_key = String_Auriel
 		trigger = { religion = auriel }
 	}
-	text = { 
+	text = {
 		localisation_key = String_green_pact
 		trigger = { religion = green_pact }
 	}
-	text = { 
+	text = {
 		localisation_key = String_almsivi
 		trigger = { religion = almsivi }
 	}
-	text = { 
+	text = {
 		localisation_key = String_nerevarine
 		trigger = { religion = nerevarine }
 	}
-	text = { 
+	text = {
 		localisation_key = String_almsivi_old_velothi
 		trigger = { religion = almsivi_old_velothi }
 	}
-	text = { 
+	text = {
 		localisation_key = String_reclamationist
 		trigger = { religion = reclamationist }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_azura
 		trigger = { religion = daedra_azura }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_boethiah
 		trigger = { religion = daedra_boethiah }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_clavicus
 		trigger = { religion = daedra_clavicus }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_hermaeus
 		trigger = { religion = daedra_hermaeus }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_hircine
 		trigger = { religion = daedra_hircine }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_mehrunes
 		trigger = { religion = daedra_mehrunes }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_mephala
 		trigger = { religion = daedra_mephala }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_meridia
 		trigger = { religion = daedra_meridia }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_molag
 		trigger = { religion = daedra_molag }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_namira
 		trigger = { religion = daedra_namira }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_nocturnal
 		trigger = { religion = daedra_nocturnal }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_peryite
 		trigger = { religion = daedra_peryite }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_sanguine
 		trigger = { religion = daedra_sanguine }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_sheogorath
 		trigger = { religion = daedra_sheogorath }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_jyggalag
 		trigger = { religion = daedra_jyggalag }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_vaermina
 		trigger = { religion = daedra_vaermina }
 	}
-	text = { 
+	text = {
 		localisation_key = String_daedra_malacath
 		trigger = { religion = daedra_malacath }
 	}
-	text = { 
+	text = {
 		localisation_key = String_riddlethar
 		trigger = { religion = riddlethar }
 	}
-	text = { 
+	text = {
 		localisation_key = String_alkosh
 		trigger = { religion = alkosh }
 	}
-	text = { 
+	text = {
 		localisation_key = String_baan_dar
 		trigger = { religion = baan_dar }
 	}
-	text = { 
+	text = {
 		localisation_key = String_hist_group
 		trigger = { religion_group = hist_group }
 	}
-	text = { 
+	text = {
 		localisation_key = String_old_gods
 		trigger = { religion = old_gods }
 	}
-	text = { 
+	text = {
 		localisation_key = String_forsworn_heresy
 		trigger = { religion = forsworn_heresy }
 	}
-	text = { 
+	text = {
 		localisation_key = String_king_of_worms_cult
 		trigger = { religion = king_of_worms_cult }
 	}
-	text = { 
+	text = {
 		localisation_key = String_sithis
 		trigger = { religion = sithis }
 	}
-	text = { 
+	text = {
 		localisation_key = String_animism
 		trigger = { religion = animism }
 	}
-	text = { 
+	text = {
 		localisation_key = String_dragon_cult
 		trigger = { religion = dragon_cult }
 	}
-	text = { 
+	text = {
 		localisation_key = String_anuic_skaal
 		trigger = { religion = anuic_skaal }
 	}
-	text = { 
+	text = {
 		localisation_key = String_ideal_masters
 		trigger = { religion = ideal_masters }
 	}
-	text = { 
+	text = {
 		localisation_key = String_orgnum
 		trigger = { religion = pyandoneaic }
 	}
-	text = { 
+	text = {
 		localisation_key = String_porgnum
 		trigger = { religion = postorgnumic }
 	}
-	text = { 
+	text = {
 		localisation_key = String_tsaesci_courts
 		trigger = { religion_group = tsaesci_courts }
 	}
@@ -2285,15 +2285,15 @@ defined_text = {
 		localisation_key = String_kamal_pantheon
 		trigger = { religion = kamal_pantheon }
 	}
-	text = { 
+	text = {
 		localisation_key = String_winter_wind
 		trigger = { religion = winter_wind }
 	}
-	text = { 
+	text = {
 		localisation_key = String_sea_worship
 		trigger = { religion = sea_worship }
 	}
-	text = { 
+	text = {
 		localisation_key = String_brethren
 		trigger = { religion = brethren }
 	}
@@ -2301,19 +2301,19 @@ defined_text = {
 		localisation_key = String_kamal_pantheon
 		trigger = { religion = kamal_pantheon }
 	}
-	text = { 
+	text = {
 		localisation_key = String_winter_wind
 		trigger = { religion = winter_wind }
 	}
-	text = { 
+	text = {
 		localisation_key = String_tangmo_pantheon
 		trigger = { religion = tangmo_pantheon }
 	}
-	text = { 
+	text = {
 		localisation_key = String_bhut_cult
 		trigger = { religion = bhut_cult }
 	}
-	text = { 
+	text = {
 		localisation_key = String_shani_cult
 		trigger = { religion = shani_cult }
 	}
@@ -2391,16 +2391,16 @@ defined_text = {
 
 defined_text = { #WIP
 	name = GetPrayers
-	text = { 
+	text = {
 		localisation_key = String_prayers
 		trigger = { always = yes }
 	}
 }
 
 defined_text = {
-	name = GetTrueReligionGroupPersons 
+	name = GetTrueReligionGroupPersons
 
-	# text = { 
+	# text = {
 		# localisation_key = String_Christians
 		# trigger = { true_religion_group_christian_trigger = yes }
 	# }
@@ -2410,15 +2410,15 @@ defined_text = {
 defined_text = {
 	name = GetTrueReligionAdjective
 
-	# text = { 
+	# text = {
 		# localisation_key = String_Catholic
 		# trigger = { true_religion_catholic_trigger = yes }
 	# }
-	# text = { 
+	# text = {
 		# localisation_key = String_Norse
-		# trigger = { 
+		# trigger = {
 			# OR = {
-				# true_religion_norse_pagan_reformed_trigger = yes 
+				# true_religion_norse_pagan_reformed_trigger = yes
 				# true_religion_norse_pagan_trigger = yes
 			# }
 		# }
@@ -2504,11 +2504,11 @@ defined_text = {
 		# localisation_key = String_Catholic
 		# trigger = { true_religion_catholic_trigger = yes }
 	# }
-	# text = { 
+	# text = {
 		# localisation_key = String_Norse_Follower
 		# trigger = { true_religion_norse_pagan_reformed_trigger = yes }
 	# }
-	# text = { 
+	# text = {
 		# localisation_key = norse_pagan
 		# trigger = { true_religion_norse_pagan_trigger = yes }
 	# }
@@ -2519,7 +2519,7 @@ defined_text = {
 
 	# text = {
 		# localisation_key = GOD_GOD
-		# trigger = { 
+		# trigger = {
 			# true_religion_group_christian_trigger = yes
 		# }
 	# }
@@ -2529,39 +2529,39 @@ defined_text = {
     name = GetTrueReligionScriptureName
     # text = {
         # localisation_key = String_Bible
-        # trigger = { 
+        # trigger = {
             # true_religion_group_christian_trigger = yes
             # NOT = { true_religion_messalian_trigger = yes }
         # }
     # }
-    # text = { 
+    # text = {
         # localisation_key = String_Asceticus
         # trigger = { true_religion_messalian_trigger = yes }
     # }
-    # text = { 
+    # text = {
         # localisation_key = String_Book_of_Illumination
         # trigger = { true_religion_yazidi_trigger = yes }
     # }
-    # text = { 
+    # text = {
         # localisation_key = String_Epistles_of_Wisdom
         # trigger = { true_religion_druze_trigger = yes }
     # }
-    # text = { 
+    # text = {
         # localisation_key = String_Great_Secret
         # trigger = { true_religion_mazdaki_trigger = yes }
     # }
-    # text = { 
+    # text = {
         # localisation_key = String_Sagas
-        # trigger = { 
+        # trigger = {
             # OR = {
                 # true_religion_norse_pagan_trigger = yes
                 # true_religion_norse_pagan_reformed_trigger = yes
             # }
         # }
     # }
-    # text = { 
+    # text = {
         # localisation_key = String_Legends
-        # trigger = { 
+        # trigger = {
             # true_religion_group_pagan_group_trigger = yes
             # NOR = {
                 # true_religion_norse_pagan_trigger = yes
@@ -2573,20 +2573,20 @@ defined_text = {
 
 defined_text = {
 	name = GetTrueReligionPerson
-	# text = { 
+	# text = {
 		# localisation_key = String_Catholic
 		# trigger = { true_religion_catholic_trigger = yes }
 	# }
-	# text = { 
+	# text = {
 		# localisation_key = String_Christian
-		# trigger = { 
+		# trigger = {
 			# true_religion_group_christian_trigger = yes
 			# NOT = { true_religion_catholic_trigger = yes }
 		# }
 	# }
 	# text = {
 		# localisation_key = String_Norse
-		# trigger = { 
+		# trigger = {
 			# OR = {
 				# true_religion_norse_pagan_trigger = yes
 				# true_religion_norse_pagan_reformed_trigger = yes
@@ -2732,8 +2732,8 @@ defined_text = {
 		localisation_key = GetHolding_Castle_2
 		trigger = {
 			holding_type = castle
-			county = { 
-				holder_scope = { 
+			county = {
+				holder_scope = {
 					higher_tier_than = DUKE
 					NOT = { higher_tier_than = KING }
 				}
@@ -2762,8 +2762,8 @@ defined_text = {
 		localisation_key = GetHolding_Nomad_2
 		trigger = {
 			holding_type = nomad
-			county = { 
-				holder_scope = { 
+			county = {
+				holder_scope = {
 					higher_tier_than = DUKE
 					NOT = { higher_tier_than = KING }
 				}
@@ -2788,8 +2788,8 @@ defined_text = {
 		localisation_key = GetHolding_Tribal_2
 		trigger = {
 			holding_type = tribal
-			county = { 
-				holder_scope = { 
+			county = {
+				holder_scope = {
 					higher_tier_than = COUNT
 					NOT = { higher_tier_than = DUKE }
 				}
@@ -2814,8 +2814,8 @@ defined_text = {
 		localisation_key = GetHolding_City_2
 		trigger = {
 			holding_type = city
-			county = { 
-				holder_scope = { 
+			county = {
+				holder_scope = {
 					higher_tier_than = DUKE
 					NOT = { higher_tier_than = KING }
 				}
@@ -2839,7 +2839,7 @@ defined_text = {
 					holding_type = nomad
 					holding_type = tribal
 					holding_type = city
-				}	
+				}
 			}
 		}
 	}
@@ -2849,8 +2849,8 @@ defined_text = {
 	name = GetChamberOpening
 	text = {
 		localisation_key = GetChamberOpening_Door
-		trigger = { 
-			NOR = { 
+		trigger = {
+			NOR = {
 				capital_scope = { holding_type = tribal }
 				capital_scope = { holding_type = nomad }
 			}
@@ -2858,7 +2858,7 @@ defined_text = {
 	}
 	text = {
 		localisation_key = GetChamberOpening_TentOpening
-		trigger = { 
+		trigger = {
 			OR = {
 				capital_scope = { holding_type = tribal }
 				capital_scope = { holding_type = nomad }
@@ -2872,7 +2872,7 @@ defined_text = {
 	text = {
 		localisation_key = GetChamber_Chambers
 		trigger = {
-			NOR = { 
+			NOR = {
 				capital_scope = { holding_type = tribal }
 				capital_scope = { holding_type = nomad }
 			}
@@ -3051,7 +3051,7 @@ defined_text = {
 
 	text = {
 		localisation_key = GetTemperature_Sweltering
-		
+
 		weight_multiplier = {
 			factor = 10
 
@@ -3082,10 +3082,10 @@ defined_text = {
 	}
 	text = {
 		localisation_key = GetTemperature_Freezing
-		
+
 		weight_multiplier = {
 			factor = 10
-			
+
 			modifier = {
 				factor = 25
 				capital_scope = {
@@ -3123,10 +3123,10 @@ defined_text = {
 	}
 	text = {
 		localisation_key = GetTemperature_Cold
-		
+
 		weight_multiplier = {
 			factor = 10
-			
+
 			modifier = {
 				factor = 25
 				capital_scope = {
@@ -3164,10 +3164,10 @@ defined_text = {
 	}
 	text = {
 		localisation_key = GetTemperature_Warm
-		
+
 		weight_multiplier = {
 			factor = 20
-			
+
 			modifier = {
 				factor = 0
 				ROOT = { has_character_flag = battle_event_in_progess }
@@ -3213,7 +3213,7 @@ defined_text = {
 		localisation_key = GetTemperature_Freezing
 		weight_multiplier = {
 			factor = 10
-			
+
 			modifier = {
 				factor = 25
 				capital_scope = {
@@ -3254,7 +3254,7 @@ defined_text = {
 
 		weight_multiplier = {
 			factor = 10
-			
+
 			modifier = {
 				factor = 25
 				capital_scope = {
@@ -3294,7 +3294,7 @@ defined_text = {
 		localisation_key = GetTemperature_Warm
 		weight_multiplier = {
 			factor = 20
-			
+
 			modifier = {
 				factor = 0
 				ROOT = { has_character_flag = battle_event_in_progess }
@@ -3350,9 +3350,9 @@ defined_text = {
 #	name = GetSeason
 
 #	text = {
-#		trigger = { 
+#		trigger = {
 #			NOR = {
-#				
+#
 #			}
 #		}
 #		localisation_key = String_spring
@@ -3408,7 +3408,7 @@ defined_text = {
 		weight_multiplier = { factor = 6 }
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
 				num_of_friends = 1
 				trait = socializer
@@ -3423,10 +3423,10 @@ defined_text = {
 		weight_multiplier = { factor = 6 }
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			OR = {
-				has_character_modifier = pet_hunting_dog 
-				has_character_modifier = guide_dog 
+				has_character_modifier = pet_hunting_dog
+				has_character_modifier = guide_dog
 			}
 		}
 		localisation_key = String_dog
@@ -3439,12 +3439,12 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_health
-		weight_multiplier = { 
+		weight_multiplier = {
 			factor = 1 #0.5
 			modifier = {
 				trait = craven
 				factor = 6
-			} 
+			}
 		}
 	}
 }
@@ -3526,7 +3526,7 @@ defined_text = {
 
 defined_text = {
 	name = GetSocietyRankUpTooltip1
-	
+
 	text = {
 		trigger = {
 			is_two_off_max_rank = yes
@@ -3549,7 +3549,7 @@ defined_text = {
 		}
 		localisation_key = GetSocietyRankUpTooltip1_2RankOff_Immortal
 	}
-	
+
 	text = {
 		trigger = {
 			is_three_off_max_rank = yes
@@ -3572,7 +3572,7 @@ defined_text = {
 		}
 		localisation_key = GetSocietyRankUpTooltip1_3RankOff_Immortal
 	}
-	
+
 	text = {
 		trigger = {
 			is_four_off_max_rank = yes
@@ -3595,7 +3595,7 @@ defined_text = {
 		}
 		localisation_key = GetSocietyRankUpTooltip1_4RankOff_Immortal
 	}
-	
+
 	text = {
 		trigger = {
 			is_five_off_max_rank = yes
@@ -3618,7 +3618,7 @@ defined_text = {
 		}
 		localisation_key = GetSocietyRankUpTooltip1_5RankOff_Immortal
 	}
-	
+
 	text = {
 		trigger = {
 			is_six_off_max_rank = yes
@@ -3647,7 +3647,7 @@ defined_text = {
 	name = GetSocietyRankUpTooltip2
 
 	text = {
-		trigger = { 
+		trigger = {
 			NOR = {
 				society_member_of = monastic_order_jain
 				society_member_of = monastic_order_buddhist
@@ -3656,7 +3656,7 @@ defined_text = {
 		localisation_key = ""
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			society_rank == 1
 			OR = {
 				society_member_of = monastic_order_jain
@@ -3666,7 +3666,7 @@ defined_text = {
 		localisation_key = GetSocietyRankUpTooltip2_MOBuddhistJain_Rank1
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			society_rank >= 2
 			OR = {
 				society_member_of = monastic_order_jain
@@ -3681,7 +3681,7 @@ defined_text = {
 	name = GetSocietyRankUpTooltip3
 
 	text = {
-		trigger = { 
+		trigger = {
 			NOR = {
 				society_member_of = monastic_order_jain
 				society_member_of = monastic_order_buddhist
@@ -3704,7 +3704,7 @@ defined_text = {
 	name = GetSocietyRankUpTooltip4
 
 	text = {
-		trigger = { 
+		trigger = {
 			NOR = {
 				society_member_of = monastic_order_jain
 				society_member_of = monastic_order_buddhist
@@ -3713,7 +3713,7 @@ defined_text = {
 		localisation_key = ""
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			society_rank == 1
 			OR = {
 				society_member_of = monastic_order_jain
@@ -3723,7 +3723,7 @@ defined_text = {
 		localisation_key = request_to_rank_up_within_society_virtues1
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			society_rank == 2
 			OR = {
 				society_member_of = monastic_order_jain
@@ -3733,7 +3733,7 @@ defined_text = {
 		localisation_key = request_to_rank_up_within_society_virtues2
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			society_rank == 3
 			OR = {
 				society_member_of = monastic_order_jain
@@ -3761,7 +3761,7 @@ defined_text = {
 }
 defined_text = {
 	name = GetWeaponsmithWeapon
-	
+
 	text = {
 		trigger = { has_character_flag = weapon_sword }
 		localisation_key = String_sword
@@ -3785,7 +3785,7 @@ defined_text = {
 	text = {
 		trigger = { has_character_flag = weapon_bow }
 		localisation_key = String_bow
-	}	
+	}
 }
 
 defined_text = {
@@ -3822,8 +3822,8 @@ defined_text = {
 		localisation_key = String_inferno_is_maybe_cool
 	}
 	text = {
-		weight_multiplier = { 
-			factor = 1 
+		weight_multiplier = {
+			factor = 1
 			modifier = {
 				factor = 0
 				NOT = { trait = immortal }
@@ -3839,13 +3839,13 @@ defined_text = {
 		localisation_key = String_that_feeling
 	}
 	text = {
-		weight_multiplier = { 
+		weight_multiplier = {
 			factor = 1
 			modifier = {
 				factor = 0.3
 				NOT = {
 					trait = gardener
-				} 
+				}
 			}
 		}
 		localisation_key = String_gardening_noble_work
@@ -3859,7 +3859,7 @@ defined_text = {
 
 defined_text = {
 	name = GetFriendEnjoyableQuirk #noun, singular
-	
+
 	text = {
 		localisation_key = String_way_with_words
 		trigger = {
@@ -3897,7 +3897,7 @@ defined_text = {
 		trigger = {
 			trait = gardener
 		}
-	}	
+	}
 	text = {
 		localisation_key = String_morbid_sense_of_humor
 		trigger = {
@@ -3909,7 +3909,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				is_benevolent_trigger = yes
-				is_dumb_trigger = yes	
+				is_dumb_trigger = yes
 			}
 		}
 	}
@@ -3921,7 +3921,7 @@ defined_text = {
 	}
 	text = {
 		localisation_key = String_challenging_me
-	}	
+	}
 	text = {
 		localisation_key = String_infectious_smile
 		trigger = {
@@ -3931,7 +3931,7 @@ defined_text = {
 				has_attractive_trait_trigger = yes
 			}
 		}
-	}	
+	}
 	text = {
 		localisation_key = String_taste_in_music
 	}
@@ -3959,7 +3959,7 @@ defined_text = {
 			has_pleasant_trait_trigger = yes
 			NOT = { age = 40 }
 		}
-	}	
+	}
 	text = {
 		localisation_key = String_jaded_view_of_romance
 		trigger = {
@@ -4002,7 +4002,7 @@ defined_text = {
 
 ### Chinese flavor
 defined_text = {
-	name = GetChineseConvoTopic #Note that these are a little dry sounding and don't necessarily mention China by name. How to use in a sentence: 
+	name = GetChineseConvoTopic #Note that these are a little dry sounding and don't necessarily mention China by name. How to use in a sentence:
 	# "As we discuss [adventurous_spirit.GetHerHis] travels to the [the_protector_general.Offmap.GetFullName] [adventurous_spirit.GetSheHe] speaks passionately about [adventurous_spirit.GetChineseConvoTopic]"
 	# text = {
 		# localisation_key = String_such_a_wealthy_realm
@@ -4275,7 +4275,7 @@ defined_text = {
 		localisation_key = String_personality_stressed_depressed
 		weight_multiplier = {
 			factor = 10
-		}		
+		}
 		trigger = {
 			OR = {
 				trait = stressed
@@ -4366,7 +4366,7 @@ defined_text = {
 		localisation_key = String_personality_education_intrigue
 		weight_multiplier = {
 			factor = 10
-		}		
+		}
 		trigger = {
 			has_education_intrigue_trigger = yes
 			ROOT = { has_education_intrigue_trigger = yes }
@@ -4387,7 +4387,7 @@ defined_text = {
 		localisation_key = String_personality_gardener
 		weight_multiplier = {
 			factor = 10
-		}		
+		}
 		trigger = {
 			trait = gardener
 			ROOT = { trait = gardener }
@@ -4527,7 +4527,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 1
 		}
-		trigger = {			
+		trigger = {
 			culture_group = ROOT
 		}
 	}
@@ -4536,7 +4536,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 1
 		}
-		trigger = {			
+		trigger = {
 			religion = ROOT
 		}
 	}
@@ -4545,7 +4545,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 1
 		}
-		trigger = {			
+		trigger = {
 			same_realm = ROOT
 		}
 	}
@@ -4554,7 +4554,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 1
 		}
-		trigger = {			
+		trigger = {
 			any_artifact = {
 				count = 1
 			}
@@ -4564,7 +4564,7 @@ defined_text = {
 				}
 			}
 		}
-	}	
+	}
 	#Same life style focus...
 	text = {
 		localisation_key = String_personality_focus_war
@@ -4581,7 +4581,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_hunting
 			ROOT = { has_focus = focus_hunting }
 		}
@@ -4591,7 +4591,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_seduction
 			ROOT = { has_focus = focus_seduction }
 		}
@@ -4601,7 +4601,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_intrigue
 			ROOT = { has_focus = focus_intrigue }
 		}
@@ -4611,7 +4611,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_carousing
 			ROOT = { has_focus = focus_carousing }
 		}
@@ -4621,7 +4621,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_family
 			ROOT = { has_focus = focus_family }
 		}
@@ -4631,7 +4631,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_theology
 			ROOT = { has_focus = focus_theology }
 		}
@@ -4641,7 +4641,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_scholarship
 			ROOT = { has_focus = focus_scholarship }
 		}
@@ -4651,7 +4651,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_rulership
 			ROOT = { has_focus = focus_rulership }
 		}
@@ -4661,7 +4661,7 @@ defined_text = {
 		weight_multiplier = {
 			factor = 10
 		}
-		trigger = {			
+		trigger = {
 			has_focus = focus_business
 			ROOT = { has_focus = focus_business }
 		}
@@ -5331,7 +5331,7 @@ defined_text = { #Read like: we are busy focusing on the [GetRandomChineseFocus]
 	name = GetRandomChineseFocus
 	# text = {
 		# localisation_key = String_random_region
-		# trigger = {		
+		# trigger = {
 			# OR = {
 				# has_status = thras_stable
 				# has_status = thras_booming
@@ -5359,7 +5359,7 @@ defined_text = { #Read like: we are busy focusing on the [GetRandomChineseFocus]
 # Gets the name of the current month
 defined_text = {
 	name = GetMonth
-	
+
 	text = {
 		trigger = {
 			month = 0
@@ -5451,7 +5451,7 @@ defined_text = {
 # Gets the name of the Chinese refugee's specialty
 defined_text = {
 	name = GetChineseProfession
-	
+
 	text = {
 		trigger = {
 			has_character_flag = is_chinese_administrator
@@ -5484,7 +5484,7 @@ defined_text = {
 # Gets the name of the Chinese courtier's invite reason (for when they die, mostly? Could be used elsewhere though.)
 defined_text = {
 	name = GetChineseCharacterRole
-	
+
 	text = {
 		trigger = {
 			has_character_flag = is_chinese_administrator
@@ -5529,7 +5529,7 @@ defined_text = {
 
 defined_text = {
 	name = GetRegionalBigAnimal
-	
+
 	text = {
 		localisation_key = String_stag
 		trigger = {
@@ -5574,7 +5574,7 @@ defined_text = {
 }
 defined_text = {
 	name = GetRegionalBigAnimalCap
-	
+
 	text = {
 		localisation_key = String_Stag
 		trigger = {
@@ -5620,7 +5620,7 @@ defined_text = {
 
 defined_text = {
 	name = GetRegionalFerociousAnimal
-	
+
 	text = {
 		localisation_key = String_bear
 		trigger = {
@@ -5655,7 +5655,7 @@ defined_text = {
 
 defined_text = {
 	name = GetPublicOpinionOfWork
-	
+
 	#Vices
 	text = {
 		trigger = {
@@ -5667,7 +5667,7 @@ defined_text = {
 				factor = 10
 				OR = {
 					has_focus = focus_seduction
-					has_lifestyle_diplomacy_trigger = yes				
+					has_lifestyle_diplomacy_trigger = yes
 				}
 			}
 		}
@@ -5936,7 +5936,7 @@ defined_text = {
 		weight_multiplier = { factor = 100 }
 		localisation_key = String_amusing
 	}
-	
+
 	fallback_text = {
 		localisation_key = String_opinion_fallback #decent
 	}
@@ -5944,7 +5944,7 @@ defined_text = {
 
 defined_text = { #NOTE: only used when writing a book (due to event_target:new_book)!
 	name = GetExpectationOfWork
-	
+
 	#fast writers...
 	text = {
 		trigger = {
@@ -6061,7 +6061,7 @@ defined_text = { #NOTE: only used when writing a book (due to event_target:new_b
 }
 defined_text = {
 	name = GetTimeItTookToWriteBook
-	
+
 	text = {
 		trigger = {
 			has_character_flag = currently_working_on_a_book
@@ -6178,7 +6178,7 @@ defined_text = {
 	text = {
 		localisation_key = String_hate_to_admit_it
 		trigger = {
-			has_benevolent_trait_trigger = no		
+			has_benevolent_trait_trigger = no
 			has_character_flag = mourner_is_spouse
 		}
 	}
@@ -6188,14 +6188,14 @@ defined_text = {
 			trait = wroth
 			OR = {
 				has_character_flag = mourner_is_spouse
-				has_character_flag = mourner_is_grown_child			
+				has_character_flag = mourner_is_grown_child
 			}
 		}
 	}
 	text = {
 		localisation_key = String_i_miss_them
 		trigger = {
-			has_character_flag = mourner_is_grown_child			
+			has_character_flag = mourner_is_grown_child
 		}
 	}
 	text = {
@@ -6233,8 +6233,8 @@ defined_text = {
 	text = {
 		localisation_key = Imperial_majesty
 		trigger = {
-			OR = { 
-				tier = EMPEROR 
+			OR = {
+				tier = EMPEROR
 				spouse = { tier = EMPEROR }
 			}
 		}
@@ -6242,8 +6242,8 @@ defined_text = {
 	text = {
 		localisation_key = Majesty
 		trigger = {
-			OR = { 
-				tier = KING 
+			OR = {
+				tier = KING
 				spouse = { tier = KING }
 			}
 		}
@@ -6251,7 +6251,7 @@ defined_text = {
 	text = {
 		localisation_key = Highness
 		trigger = {
-			OR = { 
+			OR = {
 				has_minor_title = title_prince
 				spouse = { has_minor_title = title_prince }
 			}
@@ -6260,8 +6260,8 @@ defined_text = {
 	text = {
 		localisation_key = Excellency
 		trigger = {
-			OR = { 
-				tier = DUKE 
+			OR = {
+				tier = DUKE
 				spouse = { tier = DUKE }
 			}
 		}
@@ -6269,8 +6269,8 @@ defined_text = {
 	text = {
 		localisation_key = Grace
 		trigger = {
-			OR = { 
-				tier = COUNT 
+			OR = {
+				tier = COUNT
 				spouse = { tier = COUNT }
 			}
 		}
@@ -6278,8 +6278,8 @@ defined_text = {
 	text = {
 		localisation_key = Lordship
 		trigger = {
-			OR = { 
-				tier = BARON 
+			OR = {
+				tier = BARON
 				spouse = { tier = BARON }
 			}
 		}
@@ -6287,7 +6287,7 @@ defined_text = {
 	text = {
 		localisation_key = Honorable
 		trigger = {
-			is_ruler = no 
+			is_ruler = no
 			spouse = { is_ruler = no }
 		}
 	}
@@ -6298,7 +6298,7 @@ defined_text = {
 
 defined_text = {
 	name = GetCoronationTimer
-	
+
 	text = {
 		trigger = {
 			has_character_modifier = coronation_request_cooldown
@@ -6309,7 +6309,7 @@ defined_text = {
 
 defined_text = {
 	name = GetBaptismTimer
-	
+
 	text = {
 		trigger = {
 			has_character_modifier = baptism_request_cooldown
@@ -6396,7 +6396,7 @@ defined_text = { #Dead Emperors forget their Popes.
 
 defined_text = { #Only used for Prince-Bishops' descriptions.
 	name = GetCrownedByDesc
-	
+
 	text = {
 		trigger = {
 			is_alive = yes
@@ -6406,8 +6406,8 @@ defined_text = { #Only used for Prince-Bishops' descriptions.
 	}
 	text = {
 		trigger = {
-			OR = { 
-				is_alive = no 
+			OR = {
+				is_alive = no
 				persistent_event_target:coronation_priest_per = { is_alive = no }
 			}
 		}
@@ -6415,9 +6415,9 @@ defined_text = { #Only used for Prince-Bishops' descriptions.
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetHouse
-	
+
 	text = {
 		trigger = {
 			is_tribal = yes
@@ -6438,9 +6438,9 @@ defined_text = {
 		localisation_key = string_palace
 	}
 }
-defined_text = { 
+defined_text = {
 	name = GetWildernessWeather
-	
+
 	# text = {
 		# trigger = {
 			# capital_scope = { region = world_africa }
@@ -6488,12 +6488,12 @@ defined_text = {
 #sleepwalking
 
 #Asthma
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA522
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6503,12 +6503,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB522
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6518,12 +6518,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC522
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6533,9 +6533,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE522
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -6544,9 +6544,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD522
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -6555,9 +6555,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF522
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -6566,9 +6566,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG522
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -6578,12 +6578,12 @@ defined_text = {
 }
 
 #Vomiting
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA523
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6593,12 +6593,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB523
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6608,12 +6608,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC523
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6623,9 +6623,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD523
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -6634,9 +6634,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE523
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -6645,9 +6645,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF523
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -6656,9 +6656,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG523
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -6668,12 +6668,12 @@ defined_text = {
 }
 
 #Hair and Rashes
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA524
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6683,12 +6683,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB524
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6698,12 +6698,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC524
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6713,9 +6713,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD524
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -6724,9 +6724,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE524
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -6735,9 +6735,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF524
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -6746,9 +6746,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG524
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -6758,12 +6758,12 @@ defined_text = {
 }
 
 #Metalmouth
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA525
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6773,12 +6773,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB525
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6788,12 +6788,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC525
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6803,9 +6803,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD525
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -6814,9 +6814,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE525
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -6825,9 +6825,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF525
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -6836,9 +6836,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG525
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -6847,12 +6847,12 @@ defined_text = {
 	}
 }
 #Fever and Sweath
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA526
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6862,12 +6862,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB526
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6877,12 +6877,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC526
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6892,9 +6892,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD526
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -6903,9 +6903,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE526
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -6914,9 +6914,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF526
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -6925,9 +6925,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG526
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -6937,12 +6937,12 @@ defined_text = {
 }
 
 #Amnesia
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA527
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6952,12 +6952,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB527
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6967,12 +6967,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC527
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -6982,9 +6982,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD527
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -6993,9 +6993,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE527
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7004,9 +7004,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF527
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7015,9 +7015,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG527
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7027,12 +7027,12 @@ defined_text = {
 }
 
 #Panic attack
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA528
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7042,12 +7042,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB528
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7057,12 +7057,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC528
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7072,9 +7072,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD528
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7083,9 +7083,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE528
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7094,9 +7094,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF528
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7105,9 +7105,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG528
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7117,12 +7117,12 @@ defined_text = {
 }
 
 #Undernourishment
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA529
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7132,12 +7132,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB529
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7147,12 +7147,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC529
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7162,9 +7162,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD529
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7173,9 +7173,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE529
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7184,9 +7184,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF529
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7195,9 +7195,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG529
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7207,12 +7207,12 @@ defined_text = {
 }
 
 #Epilectic episode
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA530
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7222,12 +7222,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB530
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7237,12 +7237,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC530
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7252,9 +7252,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD530
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7263,9 +7263,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE530
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7274,9 +7274,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF530
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7285,9 +7285,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG530
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7297,12 +7297,12 @@ defined_text = {
 }
 
 #Blood and cramps
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA531
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7312,12 +7312,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB531
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7327,12 +7327,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC531
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7342,9 +7342,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD531
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7353,9 +7353,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE531
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7364,9 +7364,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF531
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7375,9 +7375,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG531
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7387,12 +7387,12 @@ defined_text = {
 }
 
 #Teeth hurting and falling
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA532
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7402,12 +7402,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB532
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7417,12 +7417,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC532
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7432,9 +7432,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD532
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7443,9 +7443,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE532
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7454,9 +7454,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF532
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7465,9 +7465,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG532
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7476,12 +7476,12 @@ defined_text = {
 	}
 }
 #insomnia
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA533
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7491,12 +7491,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB533
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7506,12 +7506,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC533
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7521,9 +7521,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD533
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7532,9 +7532,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE533
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7543,9 +7543,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF533
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7554,9 +7554,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG533
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7565,12 +7565,12 @@ defined_text = {
 	}
 }
 #hallucinations
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA534
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7580,12 +7580,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB534
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7595,12 +7595,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC534
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7610,9 +7610,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD534
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7621,9 +7621,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE534
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7632,9 +7632,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF534
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7643,9 +7643,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG534
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7654,12 +7654,12 @@ defined_text = {
 	}
 }
 #sleepwalking
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA535
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7669,12 +7669,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB535
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7684,12 +7684,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC535
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7699,9 +7699,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD535
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7710,9 +7710,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE535
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7721,9 +7721,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF535
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7732,9 +7732,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG535
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7745,12 +7745,12 @@ defined_text = {
 
 #Post-labor
 #fever
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA541
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7760,12 +7760,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB541
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7775,12 +7775,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC541
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7790,9 +7790,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD541
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7801,9 +7801,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE541
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7812,9 +7812,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF541
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7823,9 +7823,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG541
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7835,12 +7835,12 @@ defined_text = {
 }
 
 #hair loss
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpA542
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_mother_physician_per = { 
+			persistent_event_target:pregnancy_mother_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7850,12 +7850,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpB542
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_spouse_physician_per = { 
+			persistent_event_target:pregnancy_spouse_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7865,12 +7865,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpC542
-	
+
 	text = {
 		trigger = {
-			persistent_event_target:pregnancy_regent_physician_per = { 
+			persistent_event_target:pregnancy_regent_physician_per = {
 				is_alive = yes
 				NOT = { trait = incapable }
 				prisoner = no
@@ -7880,9 +7880,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpD542
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_healer_help
@@ -7891,9 +7891,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpE542
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_priest_comfort
@@ -7902,9 +7902,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpF542
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_shaman_comfort
@@ -7913,9 +7913,9 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetTroubledHelpG542
-	
+
 	text = {
 		trigger = {
 			has_character_flag = pregnancy_spouse_comfort
@@ -7925,12 +7925,12 @@ defined_text = {
 }
 
 #blood - uses same tooltips as pre-partum blood.
-#defined_text = { 
+#defined_text = {
 #	name = GetTroubledHelpA543
-#	
+#
 #	text = {
 #		trigger = {
-#			persistent_event_target:pregnancy_mother_physician_per = { 
+#			persistent_event_target:pregnancy_mother_physician_per = {
 #				is_alive = yes
 #				NOT = { trait = incapable }
 #				prisoner = no
@@ -7940,12 +7940,12 @@ defined_text = {
 #	}
 #}
 #
-#defined_text = { 
+#defined_text = {
 #	name = GetTroubledHelpB543
-#	
+#
 #	text = {
 #		trigger = {
-#			persistent_event_target:pregnancy_spouse_physician_per = { 
+#			persistent_event_target:pregnancy_spouse_physician_per = {
 #				is_alive = yes
 #				NOT = { trait = incapable }
 #				prisoner = no
@@ -7955,12 +7955,12 @@ defined_text = {
 #	}
 #}
 
-#defined_text = { 
+#defined_text = {
 #	name = GetTroubledHelpC543
-#	
+#
 #	text = {
 #		trigger = {
-#			persistent_event_target:pregnancy_regent_physician_per = { 
+#			persistent_event_target:pregnancy_regent_physician_per = {
 #				is_alive = yes
 #				NOT = { trait = incapable }
 #				prisoner = no
@@ -7970,9 +7970,9 @@ defined_text = {
 #	}
 #}
 
-#defined_text = { 
+#defined_text = {
 #	name = GetTroubledHelpD543
-#	
+#
 #	text = {
 #		trigger = {
 #			has_character_flag = pregnancy_healer_help
@@ -7981,9 +7981,9 @@ defined_text = {
 #	}
 #}
 
-#defined_text = { 
+#defined_text = {
 #	name = GetTroubledHelpE543
-#	
+#
 #	text = {
 #		trigger = {
 #			has_character_flag = pregnancy_priest_comfort
@@ -7992,9 +7992,9 @@ defined_text = {
 #	}
 #}
 
-#defined_text = { 
+#defined_text = {
 #	name = GetTroubledHelpF543
-#	
+#
 #	text = {
 #		trigger = {
 #			has_character_flag = pregnancy_shaman_comfort
@@ -8003,9 +8003,9 @@ defined_text = {
 #	}
 #}
 
-#defined_text = { 
+#defined_text = {
 #	name = GetTroubledHelpG543
-#	
+#
 #	text = {
 #		trigger = {
 #			has_character_flag = pregnancy_spouse_comfort
@@ -8015,9 +8015,9 @@ defined_text = {
 #}
 
 #Used in HF.20237
-defined_text = { 
+defined_text = {
 	name = GetPapalOrgyIntro
-	
+
 	text = {
 		trigger = {
 			has_character_flag = flag_papal_orgy_drunk
@@ -8038,12 +8038,12 @@ defined_text = {
 	}
 }
 
-defined_text = { 
+defined_text = {
 	name = GetFertilityGoddess
-	
+
 	text = {
 		trigger = {
-			OR = { 
+			OR = {
 				religion_group = human_pantheon
 				religion_group = mer_pantheon
 				religion_group = khajiit_pantheon
@@ -8054,14 +8054,14 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			OR = { 
+			OR = {
 				religion_group = yokudan_pantheon
 			}
 		}
 		localisation_key = string_goddess_morwha
 	}
 	fallback_text = {
-		localisation_key = string_fallback_old_goddess 
+		localisation_key = string_fallback_old_goddess
 	}
 }
 
@@ -8072,7 +8072,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				is_adult = no
-				AND = { #Or this character is younger than ROOT, by at least 40 years... 
+				AND = { #Or this character is younger than ROOT, by at least 40 years...
 					ROOT = { is_older_than = PREV }
 					ROOT = { age_diff = { who = PREV years = 40 } }
 					NOT = { character = ROOT } #and it's not the ROOT character
@@ -8104,11 +8104,11 @@ defined_text = {
 						character = ROOT
 					}
 				}
-				AND = { #Or this character is younger than ROOT, by at least 30 years... 
+				AND = { #Or this character is younger than ROOT, by at least 30 years...
 					ROOT = { is_older_than = PREV }
 					ROOT = { age_diff = { who = PREV years = 30 } }
 					NOT = { character = ROOT } #and it's not the ROOT character
-				}			
+				}
 			}
 		}
 	}
@@ -8131,7 +8131,7 @@ defined_text = {
 			is_elder_age_trigger = yes
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = string_fallback_GetAgeAdjective #Fetches GetCharacterLook
 	}
@@ -8273,7 +8273,7 @@ defined_text = { #Simple use, describing a character's immediate countenance/app
 		trigger = {
 			OR = {
 				is_evil_trigger = yes
-				is_devil_worshiper_trigger = yes		
+				is_devil_worshiper_trigger = yes
 			}
 		}
 		weight_multiplier = { factor = 100 }
@@ -8506,8 +8506,8 @@ defined_text = { #Dead Christians forget their Popes.
 		# trigger = {
 			# ROOT = { persistent_event_target:baptizing_pope_per = { always = yes } }
 			# is_alive = yes
-			# OR = { 
-				# trait = baptized_by_pope 
+			# OR = {
+				# trait = baptized_by_pope
 				# trait = baptized_by_patriarch
 			# }
 		# }
@@ -8518,8 +8518,8 @@ defined_text = { #Dead Christians forget their Popes.
 			# FROM = { persistent_event_target:baptizing_pope_per = { always = yes } }
 			# FROM = {
 				# is_alive = yes
-				# OR = { 
-					# trait = baptized_by_pope 
+				# OR = {
+					# trait = baptized_by_pope
 					# trait = baptized_by_patriarch
 				# }
 			# }
@@ -8612,7 +8612,7 @@ defined_text = { #Dead Christians forget their Popes.
 
 defined_text = { #Response to visit of new Vassal of a Crowned Catholic/Fraticelli King
 	name = GetHomageReaction
-	
+
 	text = {
 		trigger = {
 			has_character_flag = flag_homage_play_success
@@ -8678,7 +8678,7 @@ defined_text = { #Response to visit of new Vassal of a Crowned Catholic/Fraticel
 
 defined_text = { #Intro for the Appeased's response event.
 	name = GetSwayVisitIntro
-	
+
 	text = {
 		trigger = {
 			FROM = { has_character_flag = flag_appease_visit_relative }
@@ -8695,7 +8695,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = hedonist
-				has_character_flag = flag_appease_visit_inside 
+				has_character_flag = flag_appease_visit_inside
 			}
 		}
 		localisation_key = string_appease_visit_inside_hedonist
@@ -8704,7 +8704,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = gamer
-				has_character_flag = flag_appease_visit_inside 
+				has_character_flag = flag_appease_visit_inside
 			}
 		}
 		localisation_key = string_appease_visit_inside_gamer
@@ -8713,7 +8713,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = socializer
-				has_character_flag = flag_appease_visit_inside 
+				has_character_flag = flag_appease_visit_inside
 			}
 		}
 		localisation_key = string_appease_visit_inside_socializer
@@ -8722,7 +8722,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = mystic
-				has_character_flag = flag_appease_visit_inside 
+				has_character_flag = flag_appease_visit_inside
 			}
 		}
 		localisation_key = string_appease_visit_inside_mystic
@@ -8731,7 +8731,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = scholar
-				has_character_flag = flag_appease_visit_inside 
+				has_character_flag = flag_appease_visit_inside
 			}
 		}
 		localisation_key = string_appease_visit_inside_scholar
@@ -8744,9 +8744,9 @@ defined_text = { #Intro for the Appeased's response event.
 					trait = mystic
 					trait = socializer
 					trait = gamer
-					trait = hedonist 
+					trait = hedonist
 				}
-				has_character_flag = flag_appease_visit_inside 
+				has_character_flag = flag_appease_visit_inside
 			}
 		}
 		localisation_key = string_appease_visit_inside_default
@@ -8755,7 +8755,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = hunter
-				has_character_flag = flag_appease_visit_outside 
+				has_character_flag = flag_appease_visit_outside
 			}
 		}
 		localisation_key = string_appease_visit_outside_hunter
@@ -8764,7 +8764,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = falconer
-				has_character_flag = flag_appease_visit_outside 
+				has_character_flag = flag_appease_visit_outside
 			}
 		}
 		localisation_key = string_appease_visit_outside_falconer
@@ -8773,7 +8773,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = gardener
-				has_character_flag = flag_appease_visit_outside 
+				has_character_flag = flag_appease_visit_outside
 			}
 		}
 		localisation_key = string_appease_visit_outside_gardener
@@ -8782,7 +8782,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = duelist
-				has_character_flag = flag_appease_visit_outside 
+				has_character_flag = flag_appease_visit_outside
 			}
 		}
 		localisation_key = string_appease_visit_outside_duelist
@@ -8791,7 +8791,7 @@ defined_text = { #Intro for the Appeased's response event.
 		trigger = {
 			FROM = {
 				trait = architect
-				has_character_flag = flag_appease_visit_outside 
+				has_character_flag = flag_appease_visit_outside
 			}
 		}
 		localisation_key = string_appease_visit_outside_architect
@@ -8804,9 +8804,9 @@ defined_text = { #Intro for the Appeased's response event.
 					trait = falconer
 					trait = gardener
 					trait = duelist
-					trait = architect 
+					trait = architect
 				}
-				has_character_flag = flag_appease_visit_outside 
+				has_character_flag = flag_appease_visit_outside
 			}
 		}
 		localisation_key = string_appease_visit_outside_default
@@ -8815,7 +8815,7 @@ defined_text = { #Intro for the Appeased's response event.
 
 defined_text = { #Outro for the Appeased's response event.
 	name = GetSwayVisitOutro
-	
+
 	text = {
 		trigger = {
 			FROM = { has_character_flag = flag_appease_visit_swayed_3 }
@@ -8847,42 +8847,42 @@ defined_text = { #Outro for the Appeased's response event.
 		localisation_key = string_appease_visit_failure_1
 	}
 }
-defined_text = { 
+defined_text = {
 	name = GetLeechRank
-	
+
 	text = {
 		trigger = {
-			AND = { 
+			AND = {
 				is_female = no
-				lower_real_tier_than = KING 
+				lower_real_tier_than = KING
 			}
 		}
 		localisation_key = string_leech_lord
 	}
 	text = {
 		trigger = {
-			AND = { 
+			AND = {
 				is_female = yes
-				lower_real_tier_than = KING 
+				lower_real_tier_than = KING
 			}
 		}
 		localisation_key = string_leech_lady
 	}
 	text = {
 		trigger = {
-			higher_real_tier_than = KING 
+			higher_real_tier_than = KING
 		}
 		localisation_key = string_leech_ruler
 	}
-	fallback_text = { 
+	fallback_text = {
 		localisation_key = string_leech_ruler
 	}
 
 #	text = {
 #		trigger = {
 #			is_female = no
-#			OR = { 
-#				real_tier = KING 
+#			OR = {
+#				real_tier = KING
 #				spouse = { real_tier = KING }
 #			}
 #		}
@@ -8891,8 +8891,8 @@ defined_text = {
 #	text = {
 #		trigger = {
 #			is_female = yes
-#			OR = { 
-#				real_tier = KING 
+#			OR = {
+#				real_tier = KING
 #				spouse = { real_tier = KING }
 #			}
 #		}
@@ -8901,8 +8901,8 @@ defined_text = {
 #	text = {
 #		trigger = {
 #			is_female = no
-#			OR = { 
-#				real_tier = EMPEROR 
+#			OR = {
+#				real_tier = EMPEROR
 #				spouse = { real_tier = EMPEROR }
 #			}
 #		}
@@ -8911,8 +8911,8 @@ defined_text = {
 #	text = {
 #		trigger = {
 #			is_female = yes
-#			OR = { 
-#				real_tier = EMPEROR 
+#			OR = {
+#				real_tier = EMPEROR
 #				spouse = { real_tier = EMPEROR }
 #			}
 #		}
@@ -8922,7 +8922,7 @@ defined_text = {
 
 defined_text = { #Custom loc for Main Antagonize slander event.
 	name = GetRandomSlanderDesc
-	
+
 	text = {
 		trigger = {
 			FROM = { has_character_flag = flag_antagonized_option_kinslayer }
@@ -9260,7 +9260,7 @@ defined_text = { #Custom loc for Main Antagonize slander event.
 
 defined_text = { #Custom loc for Main Antagonize slander event (for Antagonized reaction event).
 	name = GetRandomSlanderReactionDesc
-	
+
 	text = {
 		trigger = {
 			ROOT = { has_character_flag = flag_antagonized_option_kinslayer }
@@ -9582,21 +9582,21 @@ defined_text = { #Custom loc for Main Antagonize slander event (for Antagonized 
 	text = {
 		trigger = {
 			ROOT = { #Fallback for occasional desyncronized multiplayer.
-				NOR = { 
-					has_character_flag = flag_antagonized_option_heretic 
-					has_character_flag = flag_antagonized_option_infidel 
-					has_character_flag = flag_antagonized_option_relative 
-					has_character_flag = flag_antagonized_option_hunchback 
-					has_character_flag = flag_antagonized_option_zealous 
-					has_character_flag = flag_antagonized_option_trusting 
-					has_character_flag = flag_antagonized_option_dull 
-					has_character_flag = flag_antagonized_option_shy 
-					has_character_flag = flag_antagonized_option_paranoid 
-					has_character_flag = flag_antagonized_option_just 
-					has_character_flag = flag_antagonized_option_honest 
-					has_character_flag = flag_antagonized_option_gregarious 
-					has_character_flag = flag_antagonized_option_erudite 
-					has_character_flag = flag_antagonized_option_deceitful 
+				NOR = {
+					has_character_flag = flag_antagonized_option_heretic
+					has_character_flag = flag_antagonized_option_infidel
+					has_character_flag = flag_antagonized_option_relative
+					has_character_flag = flag_antagonized_option_hunchback
+					has_character_flag = flag_antagonized_option_zealous
+					has_character_flag = flag_antagonized_option_trusting
+					has_character_flag = flag_antagonized_option_dull
+					has_character_flag = flag_antagonized_option_shy
+					has_character_flag = flag_antagonized_option_paranoid
+					has_character_flag = flag_antagonized_option_just
+					has_character_flag = flag_antagonized_option_honest
+					has_character_flag = flag_antagonized_option_gregarious
+					has_character_flag = flag_antagonized_option_erudite
+					has_character_flag = flag_antagonized_option_deceitful
 					has_character_flag = flag_antagonized_option_cynical
 					has_character_flag = flag_antagonized_option_cruel
 					has_character_flag = flag_antagonized_option_craven
@@ -9646,24 +9646,24 @@ defined_text = { #Custom loc for Main Antagonize slander event (for Antagonized 
 
 defined_text = {
 	name = GetHaruspexName
-	
+
 	text = {
-		trigger = { 
-			FROMFROM = { 
+		trigger = {
+			FROMFROM = {
 				is_alive = yes
-				NOT = { character = ROOT } 
-			} 
+				NOT = { character = ROOT }
+			}
 		}
 		localisation_key = string_named_diviner
 	}
 	text = {
-		trigger = { 
-			FROMFROM = { 
+		trigger = {
+			FROMFROM = {
 				OR = {
-					character = ROOT 
+					character = ROOT
 					is_alive = no
-				} 
-			} 
+				}
+			}
 		}
 		localisation_key = string_cheap_diviner
 	}
@@ -9672,52 +9672,52 @@ defined_text = {
 
 defined_text = {
 	name = GetReformationNature
-	
+
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_peaceful
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_peaceful
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_warlike
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_warlike
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_defensive
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_defensive
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_proselytizing
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_proselytizing
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_dogmatic
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_dogmatic
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_cosmopolitan
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_cosmopolitan
 	}
@@ -9725,100 +9725,100 @@ defined_text = {
 
 defined_text = {
 	name = GetReformationReligion
-	
+
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = norse_pagan_reformed
-				# NOR = { 
-					# has_religion_feature = religion_matriarchal 
+				# NOR = {
+					# has_religion_feature = religion_matriarchal
 					# has_religion_feature = religion_equal
-				# } 
-			# } 
+				# }
+			# }
 		# }
 		# localisation_key = string_reformed_religion_norse
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = norse_pagan_reformed
-				# OR = { 
-					# has_religion_feature = religion_matriarchal 
+				# OR = {
+					# has_religion_feature = religion_matriarchal
 					# has_religion_feature = religion_equal
-				# } 
-			# } 
+				# }
+			# }
 		# }
 		# localisation_key = string_reformed_religion_norse_equal
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = tengri_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_tengri
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = slavic_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_slavic
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = baltic_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_baltic
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = finnish_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_finnish
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = west_african_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_west_african
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = zun_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_zunist
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = bon_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_bon
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = aztec_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_aztec
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = hellenic_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_hellenic
 	# }
@@ -9826,36 +9826,36 @@ defined_text = {
 
 defined_text = {
 	name = GetReformationLeadership
-	
+
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_temporal_head
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_temporal_head
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_theocratic_head
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_theocratic_head
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_autocephaly
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_autocephaly
 	}
 	text = {
-		trigger = { 
-			ROOT = { 
+		trigger = {
+			ROOT = {
 				has_religion_feature = religion_no_leader
-			} 
+			}
 		}
 		localisation_key = string_reformed_religion_no_leader
 	}
@@ -9863,44 +9863,44 @@ defined_text = {
 
 defined_text = {
 	name = GetReformationOutro
-	
+
 	# text = {
-		# trigger = { 
-			# ROOT = { 
-				# NOR = { 
+		# trigger = {
+			# ROOT = {
+				# NOR = {
 					# religion = hellenic_pagan_reformed
 					# religion = bon_reformed
 					# religion = zun_pagan_reformed
 					# religion = aztec_reformed
-				# } 
-			# } 
+				# }
+			# }
 		# }
 		# localisation_key = string_reformed_religion_default_outro
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = aztec_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_aztec_outro
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
+		# trigger = {
+			# ROOT = {
 				# religion = hellenic_pagan_reformed
-			# } 
+			# }
 		# }
 		# localisation_key = string_reformed_religion_hellenic_outro
 	# }
 	# text = {
-		# trigger = { 
-			# ROOT = { 
-				# OR = { 
+		# trigger = {
+			# ROOT = {
+				# OR = {
 					# religion = zun_pagan_reformed
 					# religion = bon_reformed
-				# } 
-			# } 
+				# }
+			# }
 		# }
 		# localisation_key = string_reformed_religion_eastern_outro
 	# }
@@ -10087,7 +10087,7 @@ defined_text = {
 		# localisation_key = random_miracle_04
 		# trigger = {
 			# is_variable_equal = { which = global_miracle value = 4 }
-		# }	
+		# }
 	# }
 
 	# #Mindreading
@@ -10103,7 +10103,7 @@ defined_text = {
 		# localisation_key = random_miracle_06
 		# trigger = {
 			# is_variable_equal = { which = global_miracle value = 6 }
-		# }	
+		# }
 	# }
 
 	# #Angel Encounter
@@ -10111,16 +10111,16 @@ defined_text = {
 		# localisation_key = random_miracle_07
 		# trigger = {
 			# is_variable_equal = { which = global_miracle value = 7 }
-		# }	
+		# }
 	# }
 
 	# ##Rare Ones
-	# #Walking on water 
+	# #Walking on water
 	# text = {
 		# localisation_key = random_miracle_08
 		# trigger = {
 			# is_variable_equal = { which = global_miracle value = 8 }
-		# }	
+		# }
 	# }
 
 	# #Heard after death
@@ -10128,7 +10128,7 @@ defined_text = {
 		# localisation_key = random_miracle_09
 		# trigger = {
 			# is_variable_equal = { which = global_miracle value = 9 }
-		# }	
+		# }
 	# }
 
 	# #Create fire
@@ -10169,7 +10169,7 @@ defined_text = {
 		# localisation_key = random_miracle_14
 		# trigger = {
 			# is_variable_equal = { which = global_miracle value = 14 }
-		# }	
+		# }
 	# }
 
 	# #Talking dog
@@ -10177,7 +10177,7 @@ defined_text = {
 		# localisation_key = random_miracle_15
 		# trigger = {
 			# is_variable_equal = { which = global_miracle value = 15 }
-		# }	
+		# }
 	# }
 
 	# #Flying
@@ -10854,7 +10854,7 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = norse_pagan
 						# religion = tengri_pagan
 						# religion = norse_pagan_reformed
@@ -10862,7 +10862,7 @@ defined_text = {
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = norse_pagan
 						# religion = tengri_pagan
 						# religion = norse_pagan_reformed
@@ -10877,7 +10877,7 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = slavic_pagan
 						# religion = baltic_pagan
 						# religion = slavic_pagan_reformed
@@ -10885,7 +10885,7 @@ defined_text = {
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = slavic_pagan
 						# religion = baltic_pagan
 						# religion = slavic_pagan_reformed
@@ -10900,13 +10900,13 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = finnish_pagan
 						# religion = finnish_pagan_reformed
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = finnish_pagan
 						# religion = finnish_pagan_reformed
 					# }
@@ -10919,7 +10919,7 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = west_african_pagan
 						# religion = west_african_pagan_reformed
 						# religion = zun_pagan
@@ -10927,7 +10927,7 @@ defined_text = {
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = west_african_pagan
 						# religion = west_african_pagan_reformed
 						# religion = zun_pagan
@@ -10942,7 +10942,7 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = hellenic_pagan
 						# religion = hellenic_pagan_reformed
 						# religion = bon
@@ -10950,7 +10950,7 @@ defined_text = {
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = hellenic_pagan
 						# religion = hellenic_pagan_reformed
 						# religion = bon
@@ -10965,7 +10965,7 @@ defined_text = {
 
 defined_text = {
 	name = GetRandomMythologicalCreature
-	
+
 	# text = {
 		# localisation_key = random_mythological_creature_dragon
 	# }
@@ -11042,7 +11042,7 @@ defined_text = {
 
 defined_text = {
 	name = GetJizyaName
-	
+
 	# text = {
 		# trigger = { religion_group = muslim }
 		# localisation_key = key_jizya
@@ -11055,7 +11055,7 @@ defined_text = {
 
 defined_text = {
 	name = GetJizyaNameCap
-	
+
 	# text = {
 		# trigger = { owner = { religion_group = muslim } }
 		# localisation_key = key_jizya
@@ -11068,7 +11068,7 @@ defined_text = {
 
 defined_text = {
 	name = GetJizyaDesc
-	
+
 	# text = {
 		# trigger = { owner = { religion_group = muslim } }
 		# localisation_key = key_jizya_desc
@@ -11081,20 +11081,20 @@ defined_text = {
 
 defined_text = {
 	name = GetByzCrownDesc
-	
+
 	# text = {
-		# trigger = { 
-			# NOR = { 
-				# is_random_world = yes 
+		# trigger = {
+			# NOR = {
+				# is_random_world = yes
 				# has_alternate_start_parameter = { key = religion_names value = random }
 			# }
 		# }
 		# localisation_key = key_real_byz_crown_desc
 	# }
 	# text = {
-		# trigger = { 
-			# OR = { 
-				# is_random_world = yes 
+		# trigger = {
+			# OR = {
+				# is_random_world = yes
 				# has_alternate_start_parameter = { key = religion_names value = random }
 			# }
 		# }
@@ -11103,20 +11103,20 @@ defined_text = {
 }
 defined_text = {
 	name = GetHRECrownDesc
-	
+
 	# text = {
-		# trigger = { 
-			# NOR = { 
-				# is_random_world = yes 
+		# trigger = {
+			# NOR = {
+				# is_random_world = yes
 				# has_alternate_start_parameter = { key = religion_names value = random }
 			# }
 		# }
 		# localisation_key = key_real_hre_crown_desc
 	# }
 	# text = {
-		# trigger = { 
-			# OR = { 
-				# is_random_world = yes 
+		# trigger = {
+			# OR = {
+				# is_random_world = yes
 				# has_alternate_start_parameter = { key = religion_names value = random }
 			# }
 		# }
@@ -11126,17 +11126,17 @@ defined_text = {
 
 defined_text = {
 	name = GetReformPaganismDesc
-	
+
 	# text = {
-		# trigger = { 
-			# NOT = { 
+		# trigger = {
+			# NOT = {
 				# has_dlc = "Holy Fury"
 			# }
 		# }
 		# localisation_key = key_old_pagan_reformation_desc
 	# }
 	# text = {
-		# trigger = { 
+		# trigger = {
 				# has_dlc = "Holy Fury"
 		# }
 		# localisation_key = key_new_pagan_reformation_desc
@@ -11512,7 +11512,7 @@ defined_text = {
 			OR = {
 				has_character_flag = lance_tier_1
 				has_character_flag = lance_tier_2
-			}		
+			}
 		}
 		localisation_key = string_lance
 	}
@@ -11745,13 +11745,13 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = hindu
 						# religion = buddhist
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = hindu
 						# religion = buddhist
 					# }
@@ -11764,13 +11764,13 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = jain
 						# religion = taoist
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = jain
 						# religion = taoist
 					# }
@@ -11783,13 +11783,13 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = shiite
 						# religion = sunni
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = shiite
 						# religion = sunni
 					# }
@@ -11845,24 +11845,24 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
-						# religion = orthodox 
+					# OR = {
+						# religion = orthodox
 						# religion = monothelite
 						# religion = iconoclast
 						# religion = paulician
 						# religion = miaphysite
 						# religion = monophysite
-					# } 
+					# }
 				# }
 				# ROOT = {
-					# OR = { 
-						# religion = orthodox 
+					# OR = {
+						# religion = orthodox
 						# religion = monothelite
 						# religion = iconoclast
 						# religion = paulician
 						# religion = miaphysite
 						# religion = monophysite
-					# } 
+					# }
 				# }
 			# }
 		# }
@@ -11893,11 +11893,11 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion_group = christian
 						# religion_group = zoroastrian_group
 						# religion_group = jewish_group
-					# } 
+					# }
 					# NOR = {
 						# religion = cathar
 						# religion = waldensian
@@ -11907,11 +11907,11 @@ defined_text = {
 					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion_group = christian
 						# religion_group = zoroastrian_group
 						# religion_group = jewish_group
-					# } 
+					# }
 					# NOR = {
 						# religion = cathar
 						# religion = waldensian
@@ -11932,7 +11932,7 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = catholic
 						# religion = fraticelli
 						# religion = orthodox
@@ -11944,10 +11944,10 @@ defined_text = {
 						# religion = nestorian
 						# religion_group = zoroastrian_group
 						# religion_group = jewish_group
-					# } 
+					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = catholic
 						# religion = fraticelli
 						# religion = orthodox
@@ -11959,7 +11959,7 @@ defined_text = {
 						# religion = nestorian
 						# religion_group = zoroastrian_group
 						# religion_group = jewish_group
-					# } 
+					# }
 				# }
 			# }
 		# }
@@ -11973,16 +11973,16 @@ defined_text = {
 		# trigger = {
 			# OR = {
 				# FROM = {
-					# OR = { 
+					# OR = {
 						# religion = catholic
 						# religion = fraticelli
-					# } 
+					# }
 				# }
 				# ROOT = {
-					# OR = { 
+					# OR = {
 						# religion = catholic
 						# religion = fraticelli
-					# } 
+					# }
 				# }
 			# }
 		# }
@@ -12048,7 +12048,7 @@ defined_text = {
 		# localisation_key = string_airag
 	# }
 	text = {
-		trigger = { 
+		trigger = {
 			location = {
 				NOR = {
 					region = nirn_tamriel_argonia
@@ -12062,7 +12062,7 @@ defined_text = {
 		localisation_key = string_beer
 	}
 	text = {
-		trigger = { 
+		trigger = {
 			location = {
 				OR = {
 					region = nirn_tamriel_argonia
@@ -12082,7 +12082,7 @@ defined_text = {
 
 defined_text = {
 	name = GetRegionalSmallGameAnimal
-	
+
 	text = {
 		localisation_key = String_rabbit
 		trigger = {
@@ -12160,7 +12160,7 @@ defined_text = {
 				}
 			}
 			# NOR = {
-				# FROM = { 
+				# FROM = {
 					# OR = {
 						# religion = norse_pagan
 						# religion = norse_pagan_reformed
@@ -12239,7 +12239,7 @@ defined_text = {
 		# trigger = {
 			# crusade_target_title = {
 				# NOT = { has_title_flag = crusaded_against_before }
-				# has_title_flag = crusade_inherently_christian 
+				# has_title_flag = crusade_inherently_christian
 			# }
 		# }
 		# localisation_key = string_crusade_firstpart_inherently_christian_1
@@ -12258,7 +12258,7 @@ defined_text = {
 	# text = {
 		# trigger = {
 			# crusade_target_title = {
-				# NOT = { has_title_flag = crusaded_against_before } 
+				# NOT = { has_title_flag = crusaded_against_before }
 				# has_title_flag = crusade_fringe_christian
 			# }
 		# }
@@ -12288,7 +12288,7 @@ defined_text = {
 	# text = {
 		# trigger = {
 			# crusade_target_title = {
-				# has_title_flag = crusaded_against_before 
+				# has_title_flag = crusaded_against_before
 				# has_title_flag = crusade_outside_christian
 			# }
 		# }
@@ -12723,7 +12723,7 @@ defined_text = {
 		localisation_key = string_crusade_root_group
 	}
 
-	fallback_text = { 
+	fallback_text = {
 		localisation_key = string_crusade_root_group
 	}
 }
@@ -12749,25 +12749,25 @@ defined_text = {
 
 defined_text = {
 	name = GetCultureArmyNamePlural
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = andalusian_arabic
 		# }
 		# localisation_key = Culture_Army_Andalusian
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = jurchen
 		# }
 		# localisation_key = Culture_Army_Jurchen
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture_group = altaic
@@ -12776,9 +12776,9 @@ defined_text = {
 		# }
 		# localisation_key = Culture_Army_Altaic
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture = bedouin_arabic
@@ -12788,9 +12788,9 @@ defined_text = {
 		# }
 		# localisation_key = Culture_Army_Bedouin
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture_group = baltic
@@ -12799,17 +12799,17 @@ defined_text = {
 		# }
 		# localisation_key = Culture_Army_Baltic
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = maghreb_arabic
 		# }
 		# localisation_key = Culture_Army_Berber
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture = greek
@@ -12819,25 +12819,25 @@ defined_text = {
 		# }
 		# localisation_key = Culture_Army_Byzantine
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = dutch
 		# }
 		# localisation_key = Culture_Army_Dutch
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture_group = east_slavic
 		# }
 		# localisation_key = Culture_Army_EastSlavic
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture = english
@@ -12846,41 +12846,41 @@ defined_text = {
 		# }
 		# localisation_key = Culture_Army_English
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = ethiopian
 		# }
 		# localisation_key = Culture_Army_Ethiopian
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = frankish
 		# }
 		# localisation_key = Culture_Army_Frankish
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = scottish
 		# }
 		# localisation_key = Culture_Army_Scottish
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = han
 		# }
 		# localisation_key = Culture_Army_Han
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture = hungarian
@@ -12889,17 +12889,17 @@ defined_text = {
 		# }
 		# localisation_key = Culture_Army_Hungarian
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture_group = iberian
 		# }
 		# localisation_key = Culture_Army_Iberian
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture_group = indo_aryan_group
@@ -12908,123 +12908,123 @@ defined_text = {
 		# }
 		# localisation_key = Culture_Army_IndoAryan
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = italian
 		# }
 		# localisation_key = Culture_Army_Italian
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = lombard
 		# }
 		# localisation_key = Culture_Army_Lombard
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture_group = israelite
 		# }
 		# localisation_key = Culture_Army_Israelite
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = nahuatl
 		# }
 		# localisation_key = Culture_Army_Nahua
-	# }	
-	# text = 
+	# }
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
 				# culture_group = north_germanic
 				# culture = old_saxon
-				# culture = saxon 
+				# culture = saxon
 				# culture = frisian
 			# }
 		# }
 		# localisation_key = Culture_Army_NorthGermanic
-	# }	
-	# text = 
+	# }
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = nubian
 		# }
 		# localisation_key = Culture_Army_Nubian
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = pictish
 		# }
 		# localisation_key = Culture_Army_Pictish
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = somali
 		# }
 		# localisation_key = Culture_Army_Somali
-	# }	
-	# text = 
+	# }
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture_group = south_slavic
 		# }
 		# localisation_key = Culture_Army_SouthSlavic
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = suebi
 		# }
 		# localisation_key = Culture_Army_Suebi
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture_group = tibetan_group
 		# }
 		# localisation_key = Culture_Army_Tibetan
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture_group = west_african
 		# }
 		# localisation_key = Culture_Army_WestAfrica
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# OR = {
-				# culture = norman 
+				# culture = norman
 				# culture = occitan
-				# culture = german 
+				# culture = german
 				# culture = breton
 			# }
 		# }
 		# localisation_key = Culture_Army_European
 	# }
-	# text = 
+	# text =
 	# {
-		# trigger = 
+		# trigger =
 		# {
 			# culture = irish
 		# }
@@ -13833,7 +13833,7 @@ defined_text = {
 			has_artifact_flag = skull
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = String_treasury
 	}

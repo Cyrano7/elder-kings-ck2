@@ -1,13 +1,13 @@
 # defined_text = {
 # 	name = GetEra
-	
+
 # 	text = {
 # 		localisation_key = 2_ERA
 # 		trigger = { check_variable = { which = global_current_era value == 2 } }
 # 	}
 # 	text = {
 # 		localisation_key = 3_ERA
-# 		trigger = { check_variable = { which = global_current_era value == 3 } } 
+# 		trigger = { check_variable = { which = global_current_era value == 3 } }
 # 	}
 # 	#text = {
 # 	#	localisation_key = 4_ERA
@@ -17,14 +17,14 @@
 
 defined_text = {
 	name = GetEraYear
-	
+
 	text = {
 		localisation_key = 2_ERA_YEAR
 		trigger = { check_variable = { which = global_current_era value == 2 } }
 	}
 	text = {
 		localisation_key = 3_ERA_YEAR
-		trigger = { check_variable = { which = global_current_era value == 3 } } 
+		trigger = { check_variable = { which = global_current_era value == 3 } }
 	}
 	text = {
 		localisation_key = 4_ERA_YEAR
@@ -35,14 +35,14 @@ defined_text = {
 defined_text = {
 	name = GetStartEra
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = 4_ERA
-		trigger = { start_date = 4259.1.1 } 
+		trigger = { start_date = 4259.1.1 }
 	}
 	text = {
 		localisation_key = 3_ERA
-		trigger = { start_date = 3816.1.1 } 
+		trigger = { start_date = 3816.1.1 }
 	}
 	text = {
 		localisation_key = 2_ERA
@@ -53,14 +53,14 @@ defined_text = {
 defined_text = {
 	name = GetStartYear
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = 4_ERA_YEAR
-		trigger = { start_date = 4259.1.1 } 
+		trigger = { start_date = 4259.1.1 }
 	}
 	text = {
 		localisation_key = START_YEAR_3E
-		trigger = { start_date = 3816.1.1 } 
+		trigger = { start_date = 3816.1.1 }
 	}
 	text = {
 		localisation_key = START_YEAR_2E
@@ -70,7 +70,7 @@ defined_text = {
 
 defined_text = {
 	name = GetPlayedYears
-	
+
 	text = {
 		localisation_key = PLAYED_YEARS
 		trigger = { always = yes }
@@ -80,7 +80,7 @@ defined_text = {
 ### Era features
 defined_text = {
 	name = GetEraFeatures
-	
+
 	text = {
 		localisation_key = ERA_FEATURES_LIST
 	}
@@ -88,14 +88,14 @@ defined_text = {
 
 defined_text = {
 	name = GetDragonbornCanAppear
-	
+
 	text = {
 		localisation_key = "The Last Dragonborn has §Ralready appeared§!, but lesser Doom-Driven heroes can still rise..."
 		trigger = {
 			year = 4435
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Dragonborns and other Doom-Driven heroes will §Yrarely§! appear"
 		trigger = {
@@ -107,7 +107,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Dragonborns and other Doom-Driven heroes will §Yoften§! appear to defeat the current crisis"
 		trigger = {
@@ -123,14 +123,14 @@ defined_text = {
 
 defined_text = {
 	name = GetWarlordCanAppear
-	
+
 	text = {
 		localisation_key = "Poorly-managed realms can be the target of a Warlord Uprising"
 		trigger = {
 			NOT = { check_variable = { which = global_current_era value == 3 } }
 		}
 	}
-	
+
 	text = {
 		localisation_key = "No Warlord Uprising can occur"
 		trigger = {
@@ -142,7 +142,7 @@ defined_text = {
 ### Current events
 defined_text = {
 	name = GetCurrentEvents
-	
+
 	text = {
 		localisation_key = CURRENT_EVENTS_LIST
 	}
@@ -150,7 +150,7 @@ defined_text = {
 
 defined_text = {
 	name = GetDragonbornExist
-	
+
 	text = {
 		localisation_key = "No Dragonborn has been revealed to the world."
 		trigger = {
@@ -161,7 +161,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "A Dragonborn walks in this world!"
 		trigger = {
@@ -174,7 +174,7 @@ defined_text = {
 
 defined_text = {
 	name = GetDaedricInvasion
-	
+
 	text = {
 		localisation_key = "The World is not suffering from a Daedric invasion."
 		trigger = {
@@ -185,21 +185,21 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "A Daedric Prince is §Rcurrently invading§! Tamriel."
 		trigger = {
 			has_global_flag = daedric_invasion_of_tamriel
 		}
 	}
-	
+
 	text = {
 		localisation_key = "A Daedric Prince is §Rcurrently invading§! Akavir."
 		trigger = {
 			has_global_flag = daedric_invasion_of_akavir
 		}
 	}
-	
+
 	text = {
 		localisation_key = "A Daedric Prince is §Rcurrently invading§! Atmora."
 		trigger = {
@@ -210,7 +210,7 @@ defined_text = {
 
 defined_text = {
 	name = GetDragonfires
-	
+
 	text = {
 		localisation_key = "The Dragonfires are out. The barrier between Nirn and Oblivion is weakened."
 		trigger = {
@@ -221,7 +221,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "The Dragonfires are burning. §GThe world is safe.§!"
 		trigger = {
@@ -234,7 +234,7 @@ defined_text = {
 
 defined_text = {
 	name = GetAoK
-	
+
 	text = {
 		localisation_key = "The Amulet of Kings remains hidden."
 		trigger = {
@@ -248,7 +248,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Someone is in possession of the Amulet of Kings!"
 		trigger = {

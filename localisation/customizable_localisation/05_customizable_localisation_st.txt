@@ -1,7 +1,7 @@
 defined_text = {
 	name = GetStActivity
 	use_first_valid = yes
-	
+
 	text = {
 		trigger = {
 			is_daedra_herald = yes
@@ -15,28 +15,28 @@ defined_text = {
 		}
 		localisation_key = string_rp_prison
 	}
-	
+
 	text = {
 		trigger = {
 			immortal = yes
 		}
 		localisation_key = string_rp_immortal
 	}
-	
+
 	text = {
 		trigger = {
 			has_ambition = obj_obtain_amulet
 		}
 		localisation_key = string_rp_amulet
 	}
-	
+
 	text = {
 		trigger = {
 			has_ambition = obj_make_a_friend
 		}
 		localisation_key = string_rp_friends
 	}
-	
+
 	text = {
 		trigger = {
 			num_of_rivals = 1
@@ -44,21 +44,21 @@ defined_text = {
 		localisation_key = string_rp_rivals
 	}
 
-	
+
 	text = {
 		trigger = {
 			trait = impaler
 		}
 		localisation_key = string_rp_impaler
 	}
-	
+
 	text = {
 		trigger = {
 			is_any_kinslayer_trigger = yes
 		}
 		localisation_key = string_rp_kinslayer
 	}
-	
+
 	text = {
 		trigger = {
 			trait = cannibal_trait
@@ -86,22 +86,22 @@ defined_text = {
 		}
 		localisation_key = string_rp_religion_head
 	}
-	
+
 	text = {
 		trigger = {
 			trait = on_pilgrimage
 		}
 		localisation_key = string_rp_pilgrimage
 	}
-	
+
 	text = {
 		trigger = {
 			has_character_modifier = writing_a_book
-			
+
 		}
 		localisation_key = string_rp_book
 	}
-	
+
 	text = {
 		trigger = {
 			OR = {
@@ -123,25 +123,25 @@ defined_text = {
 				any_spouse = {
 					is_child_of = ROOT
 				}
-			} 
+			}
 		}
 		localisation_key = string_rp_sacred_xwedodah
 	}
-	
+
 	text = {
 		trigger = {
 			has_landed_title = e_tamriel
 		}
 		localisation_key = string_rp_rome
 	}
-	
+
 	text = {
 		trigger = {
 			has_focus = focus_seduction
 		}
 		localisation_key = string_rp_seduction
-	}	
-	
+	}
+
 	text = {
 		trigger = {
 			trait = poet
@@ -155,35 +155,35 @@ defined_text = {
 		}
 		localisation_key = string_rp_drinking
 	}
-	
+
 	text = {
 		trigger = {
 			trait = gluttonous
 			}
 		localisation_key = string_rp_gluttonous
 	}
-	
+
 	text = {
 		trigger = {
 			trait = content
 		}
 		localisation_key = string_rp_content
 	}
-	
+
 	text = {
 		trigger = {
 			trait = craven
 		}
 		localisation_key = string_rp_craven
 	}
-	
+
 	text = {
 		trigger = {
 			trait = stressed
 		}
 		localisation_key = string_rp_stressed
 	}
-	
+
 	text = {
 		trigger = {
 			trait = paranoid
@@ -235,7 +235,7 @@ defined_text = {
 			has_artifact = pet_horker
 		}
 		localisation_key = string_taming_a_horker
-	}		
+	}
 
 	text = {
 		trigger = {
@@ -299,7 +299,7 @@ defined_text = {
 		}
 		localisation_key = string_rp_greedy
 	}
-	
+
 	text = {
 		trigger = {
 			age = 90
@@ -308,14 +308,14 @@ defined_text = {
 		}
 		localisation_key = string_refusing_to_die
 	}
-	
+
 	text = {
 		trigger = {
 			stewardship < 5
 		}
 		localisation_key = string_rp_ruling_poorly
 	}
-	
+
 	text = {
 		trigger = {
 			wealth > 1000
@@ -329,7 +329,7 @@ defined_text = {
 	            OR = {
 	            	death_reason = death_legendary_win_duel
 	            	death_reason = death_duel
-	            	death_reason = death_mission_duel	            
+	            	death_reason = death_mission_duel
 	            	death_reason = death_battle_duel
 	            	death_reason = death_claim_duel_attacker
 	            	death_reason = death_claim_duel_defender
@@ -344,14 +344,14 @@ defined_text = {
 		}
 		localisation_key = string_provoking_enemies
 	}
-	
+
 	text = {
 		trigger = {
 			is_random_world = yes
 		}
 		localisation_key = string_rp_random_world
 	}
-	
+
 	text = {
 		trigger = {
 			is_shattered_world = yes
@@ -359,7 +359,7 @@ defined_text = {
 		localisation_key = string_rp_shattered_world
 	}
 
-	
+
 	text = {
 		trigger = {
 			always = yes

@@ -2,7 +2,7 @@
 # Trivial
 defined_text = {
 	name = GetTrivialForgingMaterialArmor
-	
+
 	text = {
 		localisation_key = "Hide"
 	}
@@ -16,7 +16,7 @@ defined_text = {
 
 defined_text = {
 	name = GetTrivialForgingMaterialWeapon
-	
+
 	text = {
 		localisation_key = "Iron"
 	}
@@ -25,7 +25,7 @@ defined_text = {
 # Easy
 defined_text = {
 	name = GetEasyForgingMaterialArmor
-	
+
 	text = {
 		localisation_key = "Steel"
 	}
@@ -37,7 +37,7 @@ defined_text = {
 
 defined_text = {
 	name = GetEasyForgingMaterialWeapon
-	
+
 	text = {
 		localisation_key = "Steel"
 	}
@@ -50,7 +50,7 @@ defined_text = {
 # Medium
 defined_text = {
 	name = GetMediumForgingMaterialArmor
-	
+
 	text = {
 		localisation_key = "Dwarven"
 	}
@@ -75,7 +75,7 @@ defined_text = {
 
 defined_text = {
 	name = GetMediumForgingMaterialWeapon
-	
+
 	text = {
 		localisation_key = "Dwarven"
 	}
@@ -90,7 +90,7 @@ defined_text = {
 # Hard
 defined_text = {
 	name = GetHardForgingMaterialArmor
-	
+
 	text = {
 		localisation_key = "Orcish"
 	}
@@ -109,7 +109,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHardForgingMaterialWeapon
-	
+
 	text = {
 		localisation_key = "Orcish"
 	}
@@ -122,7 +122,7 @@ defined_text = {
 # Very Hard
 defined_text = {
 	name = GetVeryHardForgingMaterialArmor
-	
+
 	text = {
 		localisation_key = "Ebony"
 	}
@@ -165,7 +165,7 @@ defined_text = {
 
 defined_text = {
 	name = GetVeryHardForgingMaterialWeapon
-	
+
 	text = {
 		localisation_key = "Ebony"
 	}
@@ -197,11 +197,11 @@ defined_text = {
 ## Alchemy
 defined_text = {
 	name = GetPotency1
-	
+
 	text = {
 		localisation_key = "Potion"
 	}
-	
+
 	text = {
 		localisation_key = "Poison"
 	}
@@ -209,15 +209,15 @@ defined_text = {
 
 defined_text = {
 	name = GetPotency2
-	
+
 	text = {
 		localisation_key = "Draught"
 	}
-	
+
 	text = {
 		localisation_key = "Solution"
 	}
-	
+
 	text = {
 		localisation_key = "Bane"
 	}
@@ -225,11 +225,11 @@ defined_text = {
 
 defined_text = {
 	name = GetPotency3
-	
+
 	text = {
 		localisation_key = "Elixir"
 	}
-	
+
 	text = {
 		localisation_key = "Toxicant"
 	}
@@ -237,15 +237,15 @@ defined_text = {
 
 defined_text = {
 	name = GetEffect1
-	
+
 	text = {
 		localisation_key = "Health"
 	}
-	
+
 	text = {
 		localisation_key = "Magicka"
 	}
-	
+
 	text = {
 		localisation_key = "Stamina"
 	}
@@ -253,23 +253,23 @@ defined_text = {
 
 defined_text = {
 	name = GetEffect2
-	
+
 	text = {
 		localisation_key = "Fire"
 	}
-	
+
 	text = {
 		localisation_key = "Cold"
 	}
-	
+
 	text = {
 		localisation_key = "Shock"
 	}
-	
+
 	text = {
 		localisation_key = "Poison"
 	}
-	
+
 	text = {
 		localisation_key = "Magic"
 	}
@@ -277,11 +277,11 @@ defined_text = {
 
 defined_text = {
 	name = GetEffect3
-	
+
 	text = {
 		localisation_key = "Invisibility"
 	}
-	
+
 	text = {
 		localisation_key = "Waterbreathing"
 	}
@@ -289,7 +289,7 @@ defined_text = {
 
 defined_text = {
 	name = GetAlchemyTrivial
-	
+
 	text = {
 		localisation_key = alchemy_result_trivial_1
 	}
@@ -297,11 +297,11 @@ defined_text = {
 
 defined_text = {
 	name = GetAlchemyEasy
-	
+
 	text = {
 		localisation_key = alchemy_result_easy_1
 	}
-	
+
 	text = {
 		localisation_key = alchemy_result_easy_2
 	}
@@ -309,15 +309,15 @@ defined_text = {
 
 defined_text = {
 	name = GetAlchemyMedium
-	
+
 	text = {
 		localisation_key = alchemy_result_medium_1
 	}
-	
+
 	text = {
 		localisation_key = alchemy_result_medium_2
 	}
-	
+
 	text = {
 		localisation_key = alchemy_result_medium_3
 	}
@@ -325,11 +325,11 @@ defined_text = {
 
 defined_text = {
 	name = GetAlchemyHard
-	
+
 	text = {
 		localisation_key = alchemy_result_hard_1
 	}
-	
+
 	text = {
 		localisation_key = alchemy_result_hard_2
 	}
@@ -337,7 +337,7 @@ defined_text = {
 
 defined_text = {
 	name = GetAlchemyVeryHard
-	
+
 	text = {
 		localisation_key = alchemy_result_very_hard_1
 	}
@@ -346,31 +346,31 @@ defined_text = {
 ## Assassination
 defined_text = {
 	name = GetAssassinCommoner
-	
+
 	text = {
 		localisation_key = "Baker"
 	}
-	
+
 	text = {
 		localisation_key = "Blacksmith"
 	}
-	
+
 	text = {
 		localisation_key = "Priest"
 	}
-	
+
 	text = {
 		localisation_key = "Innkeeper"
 	}
-	
+
 	text = {
 		localisation_key = "Alchemist"
 	}
-	
+
 	text = {
 		localisation_key = "Shopkeeper"
 	}
-	
+
 	text = {
 		localisation_key = "Pawnbroker"
 	}
@@ -379,47 +379,47 @@ defined_text = {
 ### Great Houses societies
 defined_text = {
 	name = GetGreatHouseSociety
-	
+
 	text = {
 		trigger = { society_member_of = house_dres_council }
 		localisation_key = "House Dres"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_hlaalu_council }
 		localisation_key = "House Hlaalu"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_indoril_council }
 		localisation_key = "House Indoril"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_redoran_council }
 		localisation_key = "House Redoran"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_telvanni_council }
 		localisation_key = "House Telvanni"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_sadras_council }
 		localisation_key = "House Sadras"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_sul_council }
 		localisation_key = "House Sul"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_veloth_council }
 		localisation_key = "House Veloth"
 	}
-	
+
 	text = {
 		trigger = { society_member_of = house_dagoth_council }
 		localisation_key = "House Dagoth"

@@ -232,7 +232,7 @@ defined_text = {
 }
 defined_text = {
 	name = GetGenderHero
-	
+
 	text = {
 		localisation_key = String_Hero
 		trigger = {
@@ -248,7 +248,7 @@ defined_text = {
 }
 defined_text = {
 	name = GetAristocat
-	
+
 	text = {
 		localisation_key = String_Aristocrat
 		trigger = {
@@ -271,7 +271,7 @@ defined_text = {
 
 defined_text = {
 	name = GetTempleOrgnumDesc
-	
+
 	text = {
 		localisation_key = wonder_temple_orgnum_orgnum_repaired
 		trigger = {
@@ -291,7 +291,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = wonder_temple_orgnum_orgnum_destroyed
 		trigger = {
@@ -311,7 +311,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = wonder_temple_orgnum_godslayer_repaired
 		trigger = {
@@ -325,7 +325,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = wonder_temple_orgnum_godslayer_destroyed
 		trigger = {
@@ -339,7 +339,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = wonder_temple_orgnum_heathen_destroyed
 		trigger = {
@@ -354,7 +354,7 @@ defined_text = {
 									has_bloodline_flag = godslayer_bloodline
 								}
 							}
-							
+
 						}
 					}
 				}

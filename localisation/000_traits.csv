@@ -573,7 +573,7 @@ spellsword_study_tooltip;Fighters who wield magic as their favored weapon, Spell
 thief_study_tooltip;Thieves are sneaky and good at talking out of dangerous situations, Intrigue-focused with a smaller bonus to Diplomacy.;;;;;;;;;;;;;x
 trader_study_tooltip;Business-minded and keen at haggling, Traders are Stewardship-focused with a smaller bonus to Diplomacy.;;;;;;;;;;;;;x
 wayfarer_study_tooltip;Affable and resilient, Wayfarers are Diplomacy-focused with a smaller bonus to Stewardship.;;;;;;;;;;;;;x
-witchhunter_study_tooltip;Witch Hunters rely on magic and dexterity to win the day, Learning-focused with a smaller bonus to Intrigue.;;;;;;;;;;;;;x 
+witchhunter_study_tooltip;Witch Hunters rely on magic and dexterity to win the day, Learning-focused with a smaller bonus to Intrigue.;;;;;;;;;;;;;x
 acrobat_1;Journeyman Acrobat;;;;;;;;;;;;;x
 acrobat_1_desc;[Root.GetFirstName] is a reasonably proficient Acrobat, quick-footed and elusive.;;;;;;;;;;;;;x
 acrobat_2;Expert Acrobat;;;;;;;;;;;;;x

@@ -1,11 +1,11 @@
 defined_text = {
 	name = GetEmperorGod
-	
+
 	text = {
 		trigger = { is_female = no }
 		localisation_key = "Emperor-God"
 	}
-	
+
 	text = {
 		trigger = { is_female = yes }
 		localisation_key = "Empress-Divine"
@@ -14,12 +14,12 @@ defined_text = {
 
 defined_text = {
 	name = GetGodGoddess
-	
+
 	text = {
 		trigger = { is_female = no }
 		localisation_key = "God"
 	}
-	
+
 	text = {
 		trigger = { is_female = yes }
 		localisation_key = "Goddess"
@@ -32,22 +32,22 @@ defined_text = {
 # But if you can't, use that
 defined_text = {
 	name = GetOrgnumGodKingEmperor
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } NOT = { has_global_flag = orgnum_god_emperor } }
 		localisation_key = GOD_KING
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } NOT = { has_global_flag = orgnum_god_emperor } }
 		localisation_key = GOD_QUEEN
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } has_global_flag = orgnum_god_emperor }
 		localisation_key = GOD_EMPEROR
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } has_global_flag = orgnum_god_emperor }
 		localisation_key = GOD_EMPRESS
@@ -57,12 +57,12 @@ defined_text = {
 ## Poss pronoun
 defined_text = {
 	name = GetOrgnumKingQueen
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } }
 		localisation_key = "King"
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } }
 		localisation_key = "Queen"
@@ -72,12 +72,12 @@ defined_text = {
 ## Gender
 defined_text = {
 	name = GetOrgnumSheHe
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } }
 		localisation_key = "he"
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } }
 		localisation_key = "she"
@@ -86,12 +86,12 @@ defined_text = {
 
 defined_text = {
 	name = GetOrgnumSheHeCap
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } }
 		localisation_key = "He"
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } }
 		localisation_key = "She"
@@ -101,12 +101,12 @@ defined_text = {
 ## Object pronoun
 defined_text = {
 	name = GetOrgnumHerHim
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } }
 		localisation_key = "him"
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } }
 		localisation_key = "her"
@@ -115,12 +115,12 @@ defined_text = {
 
 defined_text = {
 	name = GetOrgnumHerHimCap
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } }
 		localisation_key = "Him"
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } }
 		localisation_key = "Her"
@@ -130,12 +130,12 @@ defined_text = {
 ## Poss pronoun
 defined_text = {
 	name = GetOrgnumHerHis
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } }
 		localisation_key = "his"
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } }
 		localisation_key = "her"
@@ -144,12 +144,12 @@ defined_text = {
 
 defined_text = {
 	name = GetOrgnumHerHisCap
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = no } }
 		localisation_key = "His"
 	}
-	
+
 	text = {
 		trigger = { c_39000 = { is_female = yes } }
 		localisation_key = "Her"

@@ -4725,7 +4725,7 @@ title_court_calligrapher_desc;The Court Painter is generally a highly skilled ar
 title_court_musician;Court Musician;Musicien;Hofmusiker;;Músico de la corte;;;;;;;;;x
 title_court_musician_desc;The Court Musician is always ready to entertain with soothing or stirring music.;Le musicien est toujours prêt à divertir la cour avec ses mélodies parfois apaisantes, parfois entraînantes.;Der Hofmusiker ist immer bereit, mit sanfter oder ergreifender Musik zu unterhalten.;;El músico de la corte siempre está listo para entretener con música relajante o conmovedora.;;;;;;;;;x
 title_court_painter;Court Painter;;;;;;;;;;;;;x
-title_court_painter_desc;A court painter was an artist who painted for the members of a royal or noble family, sometimes on a fixed salary and on an exclusive basis where the artist was not supposed to undertake other work.;;;;;;;;;;;;;x 
+title_court_painter_desc;A court painter was an artist who painted for the members of a royal or noble family, sometimes on a fixed salary and on an exclusive basis where the artist was not supposed to undertake other work.;;;;;;;;;;;;;x
 title_court_poet;Court Poet;Poète;Hofdichter;;Poeta de la corte;;;;;;;;;x
 title_court_poet_desc;Poets enjoy a great deal of respect and prestige, but sometimes pushing the limits of what is acceptable under social morals.;Les poètes islamiques jouissent d'un fort respect et d'un grand prestige. Traitant souvent du thème de la religion, il leur arrive parfois de repousser les limites de ce que l'Islam perçoit comme acceptable.;Islamische Dichter erlangen großen Ruhm und Ansehen, oft religiöser Natur, aber machmal gehen sie über die Grenzen des im Islam Erlaubten hinaus.;;Los poetas islámicos disfrutan de gran respeto y prestigio, a menudo religiosos, pero a veces rozan los límites de lo aceptable para el Islam.;;;;;;;;;x
 title_court_scribe;Court Scribe;;;;;;;;;;;;;x
@@ -4955,7 +4955,7 @@ vampire.26.desc;I was relieved when the axe separated [FromFrom.GetName]'s head 
 vampire.261.name;I'm going to remember the look on [FromFrom.GetHerHis] face when [FromFrom.GetSheHe] was about to die!;;;;;;;;;;;;;x
 vampire.27.desc;My guards failed! The wretched [FromFrom.GetName] escaped and fled to another realm, meanwhile revealing my ancestry to the peasants and nobility alike!;;;;;;;;;;;;;x
 vampire.271.name;I will kill [FromFrom.GetHerHim] another time!;;;;;;;;;;;;;x
-vampire.3.desc;I just learned about the Alessia.;;;;;;;;;;;;;x 
+vampire.3.desc;I just learned about the Alessia.;;;;;;;;;;;;;x
 vampire.31.name;Why do I even have to learn this?;;;;;;;;;;;;;x
 vampire.4.desc;I hadn't had blood for days. When I saw my ward today, I just couldn't resist.;;;;;;;;;;;;;x
 vampire.40.desc;AI;;;;;;;;;;;;;x

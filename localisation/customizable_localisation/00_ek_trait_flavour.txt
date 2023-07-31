@@ -1,8 +1,8 @@
 defined_text = {
 	name = GetCraven
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = craven_loc
 		trigger = {
@@ -17,9 +17,9 @@ defined_text = {
 
 defined_text = {
 	name = GetCravenDesc
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = craven_loc_desc
 		trigger = {
@@ -38,9 +38,9 @@ defined_text = {
 
 defined_text = {
 	name = GetDiligentDesc
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "[Root.GetFirstName] is dutiful and diligent."
 		trigger = {
@@ -59,9 +59,9 @@ defined_text = {
 
 defined_text = {
 	name = GetWeakDesc
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "[Root.GetFirstName] is scrawny and physically weak."
 		trigger = {
@@ -80,9 +80,9 @@ defined_text = {
 
 defined_text = {
 	name = GetRaceYoung
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Young"
 		trigger = {
@@ -125,24 +125,24 @@ defined_text = {
 
 defined_text = {
 	name = GetElvenAge
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = mer_young
 		trigger = { is_juvenile_mer = yes }
 	}
-	
+
 	text = {
 		localisation_key = mer_adult
 		trigger = { is_adult_mer = yes }
 	}
-	
+
 	text = {
 		localisation_key = mer_aging
 		trigger = { is_milddleaged_mer = yes }
 	}
-	
+
 	text = {
 		localisation_key = mer_old
 		trigger = { is_old_mer = yes }
@@ -151,9 +151,9 @@ defined_text = {
 
 defined_text = {
 	name = GetImpureDesc
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This Altmer has impure blood. Shame on them!"
 		trigger = {
@@ -172,9 +172,9 @@ defined_text = {
 
 defined_text = {
 	name = GetKynareth
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Kynareth"
 		trigger = {
@@ -199,9 +199,9 @@ defined_text = {
 
 defined_text = {
 	name = GetStendarr
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Stendarr"
 		trigger = {
@@ -226,9 +226,9 @@ defined_text = {
 
 defined_text = {
 	name = GetJulianos
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Julianos"
 		trigger = {
@@ -253,9 +253,9 @@ defined_text = {
 
 defined_text = {
 	name = GetArkay
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Arkay"
 		trigger = {
@@ -280,9 +280,9 @@ defined_text = {
 
 defined_text = {
 	name = GetLorkhan
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Lorkhan"
 		trigger = {
@@ -331,9 +331,9 @@ defined_text = {
 
 defined_text = {
 	name = GetBeastForm
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Werewolf"
 		trigger = { is_werewolf = yes }
@@ -373,14 +373,14 @@ defined_text = {
 
 defined_text = {
 	name = GetLycanthropyControl
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = LycanControlNoRing
 		trigger = { NOT = { has_artifact = ring_of_hircine } }
 	}
-	
+
 	text = {
 		localisation_key = LycanControlRing
 		trigger = { has_artifact = ring_of_hircine }
@@ -389,9 +389,9 @@ defined_text = {
 
 defined_text = {
 	name = GetLycanControlRing
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Total (Ring of Hircine) - 10/10"
 		trigger = {
@@ -453,9 +453,9 @@ defined_text = {
 
 defined_text = {
 	name = GetLycanControlNoRing
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Total (10/10)"
 		trigger = {
@@ -517,9 +517,9 @@ defined_text = {
 
 defined_text = {
 	name = GetVampiricStage
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Pure-Blooded"
 		trigger = {
@@ -544,7 +544,7 @@ defined_text = {
 			has_character_flag = stage_2_vampire
 		}
 	}
-	
+
 	fallback_text = { #Vampires without a stage are treated like stage 1 vampires
 		localisation_key = "Satiated (1/4)"
 	}
@@ -552,9 +552,9 @@ defined_text = {
 
 defined_text = {
 	name = GetVampiricStageEffects
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = vampire_pure_blooded_stat_change
 		trigger = {
@@ -579,7 +579,7 @@ defined_text = {
 			has_character_flag = stage_2_vampire
 		}
 	}
-	
+
 	fallback_text = { #Vampires without a stage are treated like stage 1 vampires
 		localisation_key = vampire_stage_1_stat_change
 	}
@@ -588,9 +588,9 @@ defined_text = {
 #Gendered traits
 defined_text = {
 	name = ShieldMaidenGender
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Shieldmaiden"
 		trigger = {
@@ -606,9 +606,9 @@ defined_text = {
 }
 defined_text = {
 	name = SeakingGender
-	
+
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "Seaqueen"
 		trigger = {
@@ -624,9 +624,9 @@ defined_text = {
 }
 defined_text = {
 	name = STAT_WEALTH_LOC
-	
+
 	use_first_valid = yes
-	
+
 	#text = {
 	#	localisation_key = STAT_WEALTH_LOC_DYN
 	#	trigger = {

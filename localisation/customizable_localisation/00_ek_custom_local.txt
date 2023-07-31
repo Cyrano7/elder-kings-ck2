@@ -1,6 +1,6 @@
 defined_text = {
 	name = GetBreederType
-	
+
 	text = {
 		localisation_key = GetBreeder_Destrier
 		trigger = { location = { has_province_modifier = destrier_breeder } }
@@ -76,7 +76,7 @@ defined_text = {
 }
 defined_text = {
 	name = HirdirgeStatusAfterNuke
-	
+
 	text = {
 		localisation_key = HirdirgeIsDead
 		trigger = { has_character_flag = hirdirge_death }
@@ -88,7 +88,7 @@ defined_text = {
 }
 defined_text = {
 	name = GetSocietyBrotherSister
-	
+
 	text = {
 		localisation_key = Brother
 		trigger = { is_female = no }
@@ -100,7 +100,7 @@ defined_text = {
 }
 # defined_text = {
 	# name = GetMartialSociety
-	
+
 	# text = {
 		# localisation_key = string_fighters_tamriel
 		# trigger = {
@@ -122,7 +122,7 @@ defined_text = {
 # }
 # defined_text = {
 	# name = GetStewardshipSociety
-	
+
 	# text = {
 		# localisation_key = string_merchants_tamriel
 		# trigger = {
@@ -138,7 +138,7 @@ defined_text = {
 # }
 # defined_text = {
 	# name = GetDiplomacySociety
-	
+
 	# text = {
 		# localisation_key = string_scenarist_tamriel
 		# trigger = {
@@ -154,7 +154,7 @@ defined_text = {
 # }
 # defined_text = {
 	# name = GetMageSociety
-	
+
 	# text = {
 		# localisation_key = string_mages_tamriel
 		# trigger = {
@@ -170,7 +170,7 @@ defined_text = {
 # }
 # defined_text = {
 	# name = GetCriminalSociety
-	
+
 	# text = {
 		# localisation_key = string_thieves_tamriel
 		# trigger = {
@@ -186,7 +186,7 @@ defined_text = {
 # }
 # defined_text = {
 	# name = GetAssassinSociety
-	
+
 	# text = {
 		# localisation_key = string_db_tamriel
 		# trigger = {
@@ -202,7 +202,7 @@ defined_text = {
 # }
 # defined_text = {
 	# name = GetContractWrit
-	
+
 	# text = {
 		# localisation_key = string_db_contract
 		# trigger = {
@@ -218,7 +218,7 @@ defined_text = {
 # }
 #defined_text = {
 #	name = GetDaedricLike
-#	
+#
 #	text = {
 #		localisation_key = likes_dragonborns
 #		trigger = {
@@ -231,17 +231,17 @@ defined_text = {
 #			likes_dwemer
 #		}
 #	}
-#	
+#
 #}
 #defined_text = {
 #	name = GetEmpressEmperor
-#	
+#
 #	text = {
 #		localisation_key = string_GetEmpress
 #		trigger = {
 #			female = yes
 #		}
-#	}	
+#	}
 #	text = {
 #		localisation_key = string_GetEmperor
 #		trigger = {
@@ -251,7 +251,7 @@ defined_text = {
 #}
 defined_text = {
 	name = GetOblivionRealm
-	
+
 	text = {
 		localisation_key = GetOblivion_Azura
 		trigger = {
@@ -365,12 +365,12 @@ defined_text = {
 # Just a check on a character's sex
 defined_text = {
 	name = GetHagravenBriarheart
-	
+
 	text = {
 		localisation_key = "Briarheart"
 		trigger = { is_female = no }
 	}
-	
+
 	text = {
 		localisation_key = "Hagraven"
 		trigger = { is_female = yes }
@@ -380,15 +380,15 @@ defined_text = {
 # Local wildlife, not too dangerous (animals you can be tasked to hunt and kill)
 defined_text = {
 	name = GetLocalWildLifeI
-	
+
 	text = {
 		localisation_key = "Wolves"
 	}
-	
+
 	text = {
 		localisation_key = "Bears"
 	}
-	
+
 	text = {
 		localisation_key = "Alit"
 		trigger = {
@@ -399,7 +399,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Cliff Racer"
 		trigger = {
@@ -409,7 +409,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Echatere"
 		trigger = {
@@ -418,7 +418,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Frostbite Spiders"
 		trigger = {
@@ -427,7 +427,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Reef Viper"
 		trigger = {
@@ -436,7 +436,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Terror Bird"
 		trigger = {
@@ -450,19 +450,19 @@ defined_text = {
 # Local wildlife, much more dangerous (but not magical)
 defined_text = {
 	name = GetLocalWildLifeII
-	
+
 	text = {
 		localisation_key = "Crocodiles"
 	}
-	
+
 	text = {
 		localisation_key = "Trolls"
 	}
-	
+
 	text = {
 		localisation_key = "Ogres"
 	}
-	
+
 	text = {
 		localisation_key = "Lions"
 		trigger = {
@@ -472,7 +472,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Sabercats"
 		trigger = {
@@ -482,7 +482,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Giant Scorpions"
 		trigger = {
@@ -492,7 +492,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Grahl"
 		trigger = {
@@ -501,7 +501,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Gryphons"
 		trigger = {
@@ -510,7 +510,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Giants"
 		trigger = {
@@ -523,7 +523,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Haj Mota"
 		trigger = {
@@ -532,7 +532,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Sabertooth Tiger"
 		trigger = {
@@ -541,7 +541,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Sea Serpent"
 		trigger = {
@@ -550,7 +550,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Sea Drake"
 		trigger = {
@@ -559,7 +559,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Swamp Leviathan"
 		trigger = {
@@ -568,7 +568,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Wamasu"
 		trigger = {
@@ -577,7 +577,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Welwa"
 		trigger = {
@@ -587,7 +587,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Yaghra"
 		trigger = {
@@ -602,15 +602,15 @@ defined_text = {
 # Magical local wildlife (magical beings you can be tasked to hunt and kill)
 defined_text = {
 	name = GetLocalMagicialWildLife
-	
+
 	text = {
 		localisation_key = "Spriggans"
 	}
-	
+
 	text = {
 		localisation_key = "Daedroth"
 	}
-	
+
 	text = {
 		localisation_key = "Luchers"
 		trigger = {
@@ -621,7 +621,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Bonewalker"
 		trigger = {
@@ -630,7 +630,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Dragonling"
 		trigger = {
@@ -639,7 +639,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Ice Wraiths"
 		trigger = {
@@ -648,7 +648,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Indrik"
 		trigger = {
@@ -657,7 +657,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Nereid"
 		trigger = {
@@ -666,7 +666,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Voriplasm"
 		trigger = {
@@ -675,7 +675,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Wispmother"
 		trigger = {
@@ -689,19 +689,19 @@ defined_text = {
 # Low undead
 defined_text = {
 	name = GetLocalLowUndead
-	
+
 	text = {
 		localisation_key = "Skeletons"
 	}
-	
+
 	text = {
 		localisation_key = "Zombies"
 	}
-	
+
 	text = {
 		localisation_key = "Ghosts"
 	}
-	
+
 	text = {
 		localisation_key = "Draugr"
 		trigger = {
@@ -710,7 +710,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Wraiths"
 		trigger = {
@@ -719,7 +719,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Mummies"
 		trigger = {
@@ -728,7 +728,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Wight"
 		trigger = {
@@ -743,19 +743,19 @@ defined_text = {
 
 defined_text = {
 	name = GetLocalPowerfulUndead
-	
+
 	text = {
 		localisation_key = "Bone Colossus"
 	}
-	
+
 	text = {
 		localisation_key = "Lich"
 	}
-	
+
 	text = {
 		localisation_key = "Hemonculous"
 	}
-	
+
 	text = {
 		localisation_key = "Dragon Priest"
 		trigger = {
@@ -764,7 +764,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Mournful Aegis"
 		trigger = {
@@ -778,11 +778,11 @@ defined_text = {
 # Werebeasts
 defined_text = {
 	name = GetLocalWerebeast
-	
+
 	text = {
 		localisation_key = "Werewolf"
 	}
-	
+
 	text = {
 		localisation_key = "Werebat"
 		trigger = {
@@ -792,7 +792,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Werebear"
 		trigger = {
@@ -802,7 +802,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Wereboar"
 		trigger = {
@@ -813,7 +813,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Werecrocodile"
 		trigger = {
@@ -823,7 +823,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Werelion"
 		trigger = {
@@ -835,7 +835,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Werevulture"
 		trigger = {
@@ -844,7 +844,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Wereshark"
 		trigger = {
@@ -861,14 +861,14 @@ defined_text = {
 defined_text = {
 	# Sithis / Mephala
 	name = GetAssassinDeity
-	
+
 	text = {
 		localisation_key = "Sithis"
 		trigger = {
 			society_member_of = dark_brotherhood_tamriel
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Mephala"
 		trigger = {
@@ -880,14 +880,14 @@ defined_text = {
 defined_text = {
 	# Black Sacrament / Writ of Execution
 	name = GetAssassinWrit
-	
+
 	text = {
 		localisation_key = "Black Sacrament"
 		trigger = {
 			society_member_of = dark_brotherhood_tamriel
 		}
 	}
-	
+
 	text = {
 		localisation_key = "Writ of Execution"
 		trigger = {
@@ -899,7 +899,7 @@ defined_text = {
 #grammar
 defined_text = {
 	name = SocietyIsAre #We live in a society
-	
+
 	text = {
 		localisation_key = "is"
 		trigger = {
@@ -911,7 +911,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = { #Bottom Text
 		localisation_key = "are"
 		trigger = {
@@ -928,7 +928,7 @@ defined_text = {
 ### Defines if character is living in Tamriel or Akavir
 defined_text = {
 	name = GetTamrielAkavir
-	
+
 	text = {
 		localisation_key = "Akavir"
 		trigger = {
@@ -950,7 +950,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = "Tamriel"
 	}
@@ -960,7 +960,7 @@ defined_text = {
 defined_text = {
 
 	name = GetHisHerDaedraPrince
-	
+
 	text = {
 		localisation_key = "her"
 		trigger = {
@@ -975,7 +975,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	text = {
 		localisation_key = "his"
 		trigger = {
@@ -999,87 +999,87 @@ defined_text = {
 defined_text = {
 
 	name = GetDaedraPrinceLastWords
-	
+
 	text = {
 		localisation_key = AzuraLastWords
 		trigger = { true_religion = daedra_azura }
 	}
-	
+
 	text = {
 		localisation_key = BoethiahLastWords
 		trigger = { true_religion = daedra_boethiah }
 	}
-	
+
 	text = {
 		localisation_key = MephalaLastWords
 		trigger = { true_religion = daedra_mephala }
 	}
-	
+
 	text = {
 		localisation_key = MeridiaLastWords
 		trigger = { true_religion = daedra_meridia }
 	}
-	
+
 	text = {
 		localisation_key = NamiraLastWords
 		trigger = { true_religion = daedra_namira }
 	}
-	
+
 	text = {
 		localisation_key = NocturnalLastWords
 		trigger = { true_religion = daedra_nocturnal }
 	}
-	
+
 	text = {
 		localisation_key = VaerminaLastWords
 		trigger = { true_religion = daedra_vaermina }
 	}
-	
+
 	text = {
 		localisation_key = ClavicusLastWords
 		trigger = { true_religion = daedra_clavicus }
 	}
-	
+
 	text = {
 		localisation_key = HermaeusLastWords
 		trigger = { true_religion = daedra_hermaeus }
 	}
-	
+
 	text = {
 		localisation_key = HircineLastWords
 		trigger = { true_religion = daedra_hircine }
 	}
-	
+
 	text = {
 		localisation_key = MehrunesLastWords
 		trigger = { true_religion = daedra_mehrunes }
 	}
-	
+
 	text = {
 		localisation_key = MolagLastWords
 		trigger = { true_religion = daedra_molag }
 	}
-	
+
 	text = {
 		localisation_key = PeryiteLastWords
 		trigger = { true_religion = daedra_peryite }
 	}
-	
+
 	text = {
 		localisation_key = SanguineLastWords
 		trigger = { true_religion = daedra_sanguine }
 	}
-	
+
 	text = {
 		localisation_key = SheogorathLastWords
 		trigger = { true_religion = daedra_sheogorath }
 	}
-	
+
 	text = {
 		localisation_key = JyggalagLastWords
 		trigger = { true_religion = daedra_jyggalag }
 	}
-	
+
 	text = {
 		localisation_key = MalacathLastWords
 		trigger = { true_religion = daedra_malacath }
@@ -1090,12 +1090,12 @@ defined_text = {
 defined_text = {
 
 	name = GetAdamantineStatus
-	
+
 	text = {
 		localisation_key = AdamantineStands
 		trigger = { NOT = { has_global_flag = adamantine_deactivated } }
 	}
-	
+
 	text = {
 		localisation_key = AdamantineDown
 		trigger = { has_global_flag = adamantine_deactivated }
@@ -1106,12 +1106,12 @@ defined_text = {
 defined_text = {
 
 	name = GetWhiteGoldStatus
-	
+
 	text = {
 		localisation_key = WhiteGoldStands
 		trigger = { NOT = { has_global_flag = whitegold_deactivated } }
 	}
-	
+
 	text = {
 		localisation_key = WhiteGoldDown
 		trigger = { has_global_flag = whitegold_deactivated }
@@ -1122,12 +1122,12 @@ defined_text = {
 defined_text = {
 
 	name = GetSnowThroatStatus
-	
+
 	text = {
 		localisation_key = SnowThroatStands
 		trigger = { NOT = { has_global_flag = snowthroat_deactivated } }
 	}
-	
+
 	text = {
 		localisation_key = SnowThroatDown
 		trigger = { has_global_flag = snowthroat_deactivated }
@@ -1138,12 +1138,12 @@ defined_text = {
 defined_text = {
 
 	name = GetGreenSapStatus
-	
+
 	text = {
 		localisation_key = GreenSapStands
 		trigger = { NOT = { has_global_flag = greensap_deactivated } }
 	}
-	
+
 	text = {
 		localisation_key = GreenSapDown
 		trigger = { has_global_flag = greensap_deactivated }
@@ -1154,12 +1154,12 @@ defined_text = {
 defined_text = {
 
 	name = GetCrystalStatus
-	
+
 	text = {
 		localisation_key = CrystalStands
 		trigger = { NOT = { has_global_flag = crystal_deactivated } }
 	}
-	
+
 	text = {
 		localisation_key = CrystalDown
 		trigger = { has_global_flag = crystal_deactivated }
@@ -1170,12 +1170,12 @@ defined_text = {
 defined_text = {
 
 	name = GetRedTowerStatus
-	
+
 	text = {
 		localisation_key = RedTowerStands
 		trigger = { NOT = { has_global_flag = redtower_deactivated } }
 	}
-	
+
 	text = {
 		localisation_key = RedTowerDown
 		trigger = { has_global_flag = redtower_deactivated }
@@ -1186,12 +1186,12 @@ defined_text = {
 # defined_text = {
 
 	# name = GetBrassTowerStatus
-	
+
 	# text = {
 		# localisation_key = BrassTowerStands
 		# trigger = { NOT = { has_global_flag = redtower_deactivated } }
 	# }
-	
+
 	# text = {
 		# localisation_key = BrassTowerDown
 		# trigger = { has_global_flag = redtower_deactivated }

@@ -1033,27 +1033,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyEasyPcs
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			combat_rating = 70
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 70 }
 			combat_rating = 0
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 0 }
 		}
@@ -1063,27 +1063,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyMediumPcs
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			combat_rating = 90
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 90 }
 			combat_rating = 20
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 20 }
 		}
@@ -1093,27 +1093,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyHardPcs
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			combat_rating = 110
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 110 }
 			combat_rating = 40
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 40 }
 		}
@@ -1123,27 +1123,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyVeryHardPcs
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			combat_rating = 130
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 130 }
 			combat_rating = 60
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { combat_rating = 60 }
 		}
@@ -1154,27 +1154,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyEasyDiplomacy
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			diplomacy = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 15 }
 			diplomacy = 0
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 0 }
 		}
@@ -1184,27 +1184,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyMediumDiplomacy
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			diplomacy = 20
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 20 }
 			diplomacy = 5
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 5 }
 		}
@@ -1214,27 +1214,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyHardDiplomacy
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			diplomacy = 25
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 25 }
 			diplomacy = 10
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 10 }
 		}
@@ -1244,27 +1244,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyVeryHardDiplomacy
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			diplomacy = 30
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 30 }
 			diplomacy = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { diplomacy = 15 }
 		}
@@ -1275,27 +1275,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyEasyMartial
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			martial = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { martial = 15 }
 			martial = 0
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { martial = 0 }
 		}
@@ -1305,27 +1305,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyMediumMartial
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			martial = 20
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { martial = 20 }
 			martial = 5
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { martial = 5 }
 		}
@@ -1335,27 +1335,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyHardMartial
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			martial = 25
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { martial = 25 }
 			martial = 10
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { martial = 10 }
 		}
@@ -1365,27 +1365,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyVeryHardMartial
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			martial = 30
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { martial = 30 }
 			martial = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { martial = 15 }
 		}
@@ -1396,27 +1396,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyEasyStewardship
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			stewardship = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 15 }
 			stewardship = 0
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 0 }
 		}
@@ -1426,27 +1426,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyMediumStewardship
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			stewardship = 20
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 20 }
 			stewardship = 5
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 5 }
 		}
@@ -1456,27 +1456,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyHardStewardship
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			stewardship = 25
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 25 }
 			stewardship = 10
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 10 }
 		}
@@ -1486,27 +1486,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyVeryHardStewardship
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			stewardship = 30
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 30 }
 			stewardship = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { stewardship = 15 }
 		}
@@ -1517,27 +1517,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyEasyIntrigue
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			intrigue = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 15 }
 			intrigue = 0
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 0 }
 		}
@@ -1547,27 +1547,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyMediumIntrigue
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			intrigue = 20
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 20 }
 			intrigue = 5
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 5 }
 		}
@@ -1577,27 +1577,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyHardIntrigue
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			intrigue = 25
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 25 }
 			intrigue = 10
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 10 }
 		}
@@ -1607,27 +1607,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyVeryHardIntrigue
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			intrigue = 30
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 30 }
 			intrigue = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { intrigue = 15 }
 		}
@@ -1638,27 +1638,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyEasyLearning
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			learning = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { learning = 15 }
 			learning = 0
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { learning = 0 }
 		}
@@ -1668,27 +1668,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyMediumLearning
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			learning = 20
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { learning = 20 }
 			learning = 5
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { learning = 5 }
 		}
@@ -1698,27 +1698,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyHardLearning
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			learning = 25
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { learning = 25 }
 			learning = 10
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { learning = 10 }
 		}
@@ -1728,27 +1728,27 @@ defined_text = {
 defined_text = {
 	name = GetMissionDifficultyVeryHardLearning
 	use_first_valid = yes
-	
+
 	text = {
 		localisation_key = "This mission would be §Gtoo easy for you§!."
-		
+
 		trigger = {
 			learning = 30
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Ya decent challenge§!."
-		
+
 		trigger = {
 			NOT = { learning = 30 }
 			learning = 15
 		}
 	}
-	
+
 	text = {
 		localisation_key = "This mission would be §Rtoo difficult§!."
-		
+
 		trigger = {
 			NOT = { learning = 15 }
 		}
@@ -1780,9 +1780,9 @@ defined_text = {
 #
 defined_text = {
 	name = GetLearningNecromancyStep
-	
+
 	use_first_valid = yes
-	
+
 	# Failures
 	text = {
 		localisation_key = "§RFailure§!"
@@ -1790,21 +1790,21 @@ defined_text = {
 			NOT = { check_variable = { which = necromancy_studying_points value = 1 } }
 		}
 	}
-	
+
 	text = {
 		localisation_key = "§RImminent Failure§!"
 		trigger = {
 			NOT = { check_variable = { which = necromancy_studying_points value = 11 } }
 		}
 	}
-	
+
 	text = {
 		localisation_key = "§RCurrently Failing§!"
 		trigger = {
 			NOT = { check_variable = { which = necromancy_studying_points value = 21 } }
 		}
 	}
-	
+
 	# Successes
 	text = {
 		localisation_key = "§GSuccess§!"
@@ -1812,28 +1812,28 @@ defined_text = {
 			check_variable = { which = necromancy_studying_points value = 100 }
 		}
 	}
-	
+
 	text = {
 		localisation_key = "§GImminent Success§!"
 		trigger = {
 			check_variable = { which = necromancy_studying_points value = 75 }
 		}
 	}
-	
+
 	text = {
 		localisation_key = "§GTowards Success§!"
 		trigger = {
 			check_variable = { which = necromancy_studying_points value = 50 }
 		}
 	}
-	
+
 	text = {
 		localisation_key = "§GSome Success§!"
 		trigger = {
 			check_variable = { which = necromancy_studying_points value = 31 }
 		}
 	}
-	
+
 	text = {
 		localisation_key = "§YNeutral§!"
 		trigger = {
@@ -1845,7 +1845,7 @@ defined_text = {
 ### House Council strength
 defined_text = {
 	name = GetHouseDresStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -1858,7 +1858,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -1866,7 +1866,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseHlaaluStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -1879,7 +1879,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -1887,7 +1887,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseRedoranStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -1900,7 +1900,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -1908,7 +1908,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseIndorilStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -1921,7 +1921,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -1929,7 +1929,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseTelvanniStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -1942,7 +1942,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -1950,7 +1950,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseSadrasStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -1963,7 +1963,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -1971,7 +1971,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseSulStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -1984,7 +1984,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -1992,7 +1992,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseVelothStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -2005,7 +2005,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}
@@ -2013,7 +2013,7 @@ defined_text = {
 
 defined_text = {
 	name = GetHouseDagothStr
-	
+
 	use_first_valid = yes
 
 	text = {
@@ -2026,7 +2026,7 @@ defined_text = {
 			}
 		}
 	}
-	
+
 	fallback_text = {
 		localisation_key = NON_EXISTING_HOUSE_CT
 	}

@@ -1222,7 +1222,7 @@ transform_imperial_desc;Cast Imperial Transformation to permanently change your 
 EVTDESC600119;Use Alteration magic to transfigure yourself into a human of Cyrodiil.;;;;;;;;;;;;;x
 EVTOPTA600119;I shall become an Imperial, the true Heartlander of Tamriel!;;;;;;;;;;;;;x
 EVTOPTB600119;I shall become Nibenean, the scholars and mages of Cyrodiil.;;;;;;;;;;;;;x
-EVTOPTC600119;I shall become a Colovian, the strong-willed and warlike people of Cyrodiil.;;;;;;;;;;;;;x 
+EVTOPTC600119;I shall become a Colovian, the strong-willed and warlike people of Cyrodiil.;;;;;;;;;;;;;x
 EVTOPTD600119;What am I thinking? I'm perfectly fine with who I am.;;;;;;;;;;;;;x
 transform_nord;Nordic Transformation;;;;;;;;;;;;;x
 transform_nord_desc;Cast Nordic Transformation to permanently change your race.;;;;;;;;;;;;;x
