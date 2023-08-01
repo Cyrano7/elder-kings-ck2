@@ -589,7 +589,7 @@ fighters_guild_akavir_rank_7_female;Blademaster;;;;;;;;;;;;;x
 fighters_guild_akavir_leader_desc;The Blademaster of the Iron Hilts.;;;;;;;;;;;;;x
 currency_name_fighters_guild_akavir;Reputation;;;;;;;;;;;;;x
 fighters_guild_atmora;Bear's Craft;;;;;;;;;;;;;x
-fighters_guild_atmora_desc;A loose association of warriors and raiders, the Bear's Craft was born in the turmoil that gripped Atmora after Skyrim cut her ties. Bound not by honour like the famous Companions, but by the Glory of Battle, this group spends as much time fighting amongst themselves as they do fighting the Draugr that walk their lands.;;;;;;;;;;;;;x
+fighters_guild_atmora_desc;A loose association of warriors and raiders, the Bear's Craft was born in the turmoil that gripped Atmora after Skyrim cut her ties. Bound not by honor like the famous Companions, but by the Glory of Battle, this group spends as much time fighting amongst themselves as they do fighting the Draugr that walk their lands.;;;;;;;;;;;;;x
 fighters_guild_atmora_rank_1_male;Cub;;;;;;;;;;;;;x
 fighters_guild_atmora_rank_1_female;Cub;;;;;;;;;;;;;x
 fighters_guild_atmora_rank_2_male;Protector;;;;;;;;;;;;;x
@@ -1736,7 +1736,7 @@ eksocieties.250.d;The [Root.Society.GetName] is home to various tinkerers, think
 eksocieties.250.mil;Study the art of war!;;;;;;;;;;;;;x
 eksocieties.250.eco;The economy, fools!;;;;;;;;;;;;;x
 eksocieties.250.cul;They will wish they lived in more enlightened times, like we do.;;;;;;;;;;;;;x
-eksocieties.250.milcul;Artistry. Honour. Virtue.;;;;;;;;;;;;;x
+eksocieties.250.milcul;Artistry. Honor. Virtue.;;;;;;;;;;;;;x
 eksocieties.250.agentBetterTech;We could learn a lot from our neighbours... Especially if they don't notice anything.;;;;;;;;;;;;;x
 eksocieties.250.agent;The [Root.Society.GetName] is home to individuals with very diverse... Talents.;;;;;;;;;;;;;x
 eksocieties.250.cancel;I don't think it's really necessary.;;;;;;;;;;;;;x

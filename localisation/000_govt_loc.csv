@@ -69,7 +69,7 @@ vassalage_law_0_desc;Feudalism tightens the relationship between liege and vassa
 #custgovts.desc.challenger.109;You fight desperately for your life, but your father proves to be the better. Eventually, you are left battered and bloodied at his feet. While you lie there helpless, he deals the killing blow.;;;;;;;;;;;;;x
 #custgovts.desc.opponent.109;You son deals blows after blow after blow against you. You tire quickly, and before you know it, you see the final strike coming towards you...;;;;;;;;;;;;;x
 #custgovts.a.109;I go to Malacath.;;;;;;;;;;;;;x
-custgovts.100.desc;My [GetFromRelation], [From.GetTitledFirstName], has had the audacity to question my right to rule our people before the entire court. The Code of Malacath demands that I fight with honour, but given my authority, I may be able to postpone the duel indefinitely.;;;;;;;;;;;;;x
+custgovts.100.desc;My [GetFromRelation], [From.GetTitledFirstName], has had the audacity to question my right to rule our people before the entire court. The Code of Malacath demands that I fight with honor, but given my authority, I may be able to postpone the duel indefinitely.;;;;;;;;;;;;;x
 custgovts.100.accept;We will see who is worthy to lead our people!;;;;;;;;;;;;;x
 custgovts.100.refuse;Your time has not come.;;;;;;;;;;;;;x
 custgovts.101;[From.GetBestName] has accepted my challenge of [From.GetHerHis] right to rule. The most prominent warriors in the realm are gathering to witness our combat.;;;;;;;;;;;;;x

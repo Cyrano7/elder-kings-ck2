@@ -831,7 +831,7 @@ purchase_pet;Purchase a Pet;;;;;;;;;;;;;x
 purchase_pet_desc;Consult with a pet breeder who can provide you with a selection of pets available for purchase.;;;;;;;;;;;;;x
 EKPets15;My treasured [ek_dead_pet.GetName] passed away peacefully this morning. It was truly a member of my family, and I shall miss the poor creature dearly.;;;;;;;;;;;;;x
 EKPets15OptA;Bury my [ek_dead_pet.GetName] in the castle garden.;;;;;;;;;;;;;x
-EKPets15OptB;Hold a funeral in honour of my departed [ek_dead_pet.GetName].;;;;;;;;;;;;;x
+EKPets15OptB;Hold a funeral in honor of my departed [ek_dead_pet.GetName].;;;;;;;;;;;;;x
 EKPets15OptC;Taxidermy it! My [ek_dead_pet.GetName] shall be with me forever!;;;;;;;;;;;;;x
 EKPets15OptD;Butcher the carcass for meat - we need all the food we can get.;;;;;;;;;;;;;x
 EKPets20;My loyal friend, my [ek_dead_pet.GetName] mount has passed away.;;;;;;;;;;;;;x

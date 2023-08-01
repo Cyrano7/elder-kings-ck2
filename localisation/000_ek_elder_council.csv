@@ -210,11 +210,11 @@ eldercouncil.5.propose;[From.GetTitledName] is a perfect fit for the Elder Counc
 eldercouncil.5.dont;Perhaps I have misjudged [From.GetHerHim]...;;;;;;;;;;;;;x
 eldercouncil.6.hc;To [Root.GetTitledName],\nI believe that you are in possession of expertise that will prove invaluable to the Elder Council. I urge you to join our ranks in the Imperial City.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
 elder_council.6.emp;To [Root.GetTitledName],\nI believe that you are in possession of expertise that will prove invaluable to the Elder Council. I urge you to join its ranks in the Imperial City.\n\nSigned, [From.GetTitledName];;;;;;;;;;;;;x
-eldercouncil.6.accept;It is an honour!;;;;;;;;;;;;;x
+eldercouncil.6.accept;It is an honor!;;;;;;;;;;;;;x
 eldercouncil.6.refuse;My time has not yet come.;;;;;;;;;;;;;x
-eldercouncil.7.desc;To [Root.GetTitledName],\nI am honoured by your appointment of me to the Elder Council. I shall come to the Imperial City at once.\n\nSigned, [From.GetTitledName];;;;;;;;;;;;;x
+eldercouncil.7.desc;To [Root.GetTitledName],\nI am honored by your appointment of me to the Elder Council. I shall come to the Imperial City at once.\n\nSigned, [From.GetTitledName];;;;;;;;;;;;;x
 eldercouncil.7.accept;Excellent!;;;;;;;;;;;;;x
-eldercouncil.8.desc;To [Root.GetTitledName],\nI am honoured by your appointment of me to the Elder Council. However, I do not believe that the time is ripe for me to join its ranks.\n\nSigned, [From.GetTitledName];;;;;;;;;;;;;x
+eldercouncil.8.desc;To [Root.GetTitledName],\nI am honored by your appointment of me to the Elder Council. However, I do not believe that the time is ripe for me to join its ranks.\n\nSigned, [From.GetTitledName];;;;;;;;;;;;;x
 eldercouncil.8.accept;That's too bad.;;;;;;;;;;;;;x
 ec_restore_elder_council;Restore the Elder Council;;;;;;;;;;;;;x
 ec_restore_elder_council_desc;The Elder Council is a husk of its former self but ours laws still require the Council's function. Appointing so many members to the Council will draw the attention of all in the realm, and so a balanced hand will be needed.;;;;;;;;;;;;;x
@@ -402,7 +402,7 @@ eldercouncil_accepted;To the accomplished [Root.GetTitledFirstName],\nIt is the 
 eldercouncil_pay;To the accomplished [Root.GetTitledFirstName],\nIt is the opinion of the Elder Council that you are worthy of joining its ranks. As a councillor, you are permitted to vote on Council matters and are expected to help the Council carry out its will. Send the payment for your seat to the Imperial City at once.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
 eldercouncil_rejected;To [Root.GetTitledFirstName],\nIt is the opinion of the Elder Council that you are not in possession of any skills that the Council would stand to benefit from. Your application to join the Elder Council is rejected.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
 eldercouncil_application;To [Root.GetTitledFirstName],\nWe have received word of your interest in joining the Elder Council. Your admittance will be considered with respect to our current laws.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
-eldercouncil.2.accept;It is an honour.;;;;;;;;;;;;;x
+eldercouncil.2.accept;It is an honor.;;;;;;;;;;;;;x
 eldercouncil.2.rejected;Damn them all!;;;;;;;;;;;;;x
 eldercouncil.2.pay;It is a small price to pay.;;;;;;;;;;;;;x
 eldercouncil.2.dontpay;That is outrageously expensive!;;;;;;;;;;;;;x

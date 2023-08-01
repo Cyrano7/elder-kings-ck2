@@ -1,5 +1,5 @@
 EDICTTOOLTIP;Edicts are a forced law change bypassing the legislative bodies of the realm and ignoring the wishes of all vassals. To enact them requires a strong, decisive or devious leader, or overwhelming popularity amongst your vassals.;;;;;;;;;;;;;x
-EDICTISSUED;Issuing an Edict is considered a dishonourable and tyrannical action. Your opinion will suffer with your vassals for not only changing the law but doing so in such a tyrannical way.;;;;;;;;;;;;;x
+EDICTISSUED;Issuing an Edict is considered a dishonorable and tyrannical action. Your opinion will suffer with your vassals for not only changing the law but doing so in such a tyrannical way.;;;;;;;;;;;;;x
 force_crown_levy_1;Edict: Minimal Crown Levy;;;;;;;;;;;;;x
 force_crown_levy_1_desc;Issue an Edict, establishing Minimal Crown Levy as a law of your realm.;;;;;;;;;;;;;x
 NOWEAKRULER;To issue an edict, a ruler must not be weak, craven, slothful or content.;;;;;;;;;;;;;x

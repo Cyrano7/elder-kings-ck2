@@ -194,7 +194,7 @@ ca_dunmerinfquarters_2;Velothi Infantry Quarters;;;;;;;;;;;;;x
 ca_dunmerinfquarters_3;Velothi Infantry Quarters;;;;;;;;;;;;;x
 ca_dunmerinfquarters_4;Velothi Infantry Quarters;;;;;;;;;;;;;x
 ca_dunmerinfquarters_5;Velothi Infantry Quarters;;;;;;;;;;;;;x
-ca_dunmerinfquarters_desc;There are four martial disciplines that govern traditional Velothi military culture - sword, spear, bow and magic. Here, fighters of all four types are housed, outfitted and trained in the time-honoured ways of their ancestors.;;;;;;;;;;;;;x
+ca_dunmerinfquarters_desc;There are four martial disciplines that govern traditional Velothi military culture - sword, spear, bow and magic. Here, fighters of all four types are housed, outfitted and trained in the time-honored ways of their ancestors.;;;;;;;;;;;;;x
 ca_dwemeranimonculory_0;Animonculory;;;;;;;;;;;;;x
 ca_dwemeranimonculory_1;Animonculory;;;;;;;;;;;;;x
 ca_dwemeranimonculory_2;Animonculory;;;;;;;;;;;;;x
@@ -1058,10 +1058,10 @@ ca_tower_hinfquarters_3;Infantry Quarters;;;;;;;;;;;;;x
 ca_tower_hinfquarters_3_desc;Quarters have been made to give your infantry much needed rest and relaxation.;;;;;;;;;;;;;x
 ca_tower_hinfquarters_4;Infantry Apartments;;;;;;;;;;;;;x
 ca_tower_hinfquarters_4_desc;Decent, well made apartments for your infantry to live in inside the tower so that they can be well rested for war.;;;;;;;;;;;;;x
-ca_tower_honorguard_0;Honour Guard Barracks;;;;;;;;;;;;;x
+ca_tower_honorguard_0;Honor Guard Barracks;;;;;;;;;;;;;x
 ca_tower_honorguard_0_desc;A barracks for the guards of the tower who have dedicated their lives to protecting the royal family and their realm.;;;;;;;;;;;;;x
-ca_tower_honorguard_1;Extravagant Honour Guard Barracks;;;;;;;;;;;;;x
-ca_tower_honorguard_1_desc;The honour guard barracks have been outfitted with royal banners and extravagant furniture and decorations, to inspire and motivate those who are dedicated.;;;;;;;;;;;;;x
+ca_tower_honorguard_1;Extravagant Honor Guard Barracks;;;;;;;;;;;;;x
+ca_tower_honorguard_1_desc;The honor guard barracks have been outfitted with royal banners and extravagant furniture and decorations, to inspire and motivate those who are dedicated.;;;;;;;;;;;;;x
 ca_tower_leatherworker_0;Leather Workshop;;;;;;;;;;;;;x
 ca_tower_leatherworker_0_desc;A leather workshop to produce leather for armour and other things for the tower.;;;;;;;;;;;;;x
 ca_tower_leatherworker_1;Leather Hall;;;;;;;;;;;;;x
@@ -1659,7 +1659,7 @@ ct_militiabarracks_4_desc;The militia headquarters is where the city's militia f
 ct_militiarecruiting_0;Recruitment Signs;;;;;;;;;;;;;x
 ct_militiarecruiting_0_desc; Recruitment signs remind people there is always paid work as a soldier or guard.;;;;;;;;;;;;;x
 ct_militiarecruiting_1;Recruitment Stands;;;;;;;;;;;;;x
-ct_militiarecruiting_1_desc;Stands scattered around the city where recruiters let people know how glorious a life of a soldier is or how honourable it is to maintain order in the city as a guard.;;;;;;;;;;;;;x
+ct_militiarecruiting_1_desc;Stands scattered around the city where recruiters let people know how glorious a life of a soldier is or how honorable it is to maintain order in the city as a guard.;;;;;;;;;;;;;x
 ct_militiarecruiting_2;Recruiting Posts;;;;;;;;;;;;;x
 ct_militiarecruiting_2_desc;Recruitment posts, opened in some parts of the city, allows those who are interested in joining the guards or the army to be accepted in to service.;;;;;;;;;;;;;x
 ct_militiarecruiting_3;Recruiting Bureau;;;;;;;;;;;;;x
@@ -1805,7 +1805,7 @@ ct_tangmosimianslingers_desc;Many Tang Mo militia prefer to use slings instead o
 ct_temple_0;Temple;;;;;;;;;;;;;x
 ct_temple_0_desc;A temple dedicated to the Divines, or a Daedric prince, depending on local faith.;;;;;;;;;;;;;x
 ct_temple_1;Hall of the Dead;;;;;;;;;;;;;x
-ct_temple_1_desc;A hall of the dead is a funerary structure that contains the bodies of the dead. Halls of the dead are most commonly seen in Skyrim, where honoured dead are mummified to be preserved for eternity.;;;;;;;;;;;;;x
+ct_temple_1_desc;A hall of the dead is a funerary structure that contains the bodies of the dead. Halls of the dead are most commonly seen in Skyrim, where honored dead are mummified to be preserved for eternity.;;;;;;;;;;;;;x
 ct_temple_2;Street Shrines;;;;;;;;;;;;;x
 ct_temple_2_desc;Small shrines built in streets.;;;;;;;;;;;;;x
 ct_temple_3;Quarter Temples;;;;;;;;;;;;;x

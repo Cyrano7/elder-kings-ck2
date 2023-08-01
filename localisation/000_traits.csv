@@ -120,8 +120,8 @@ depressed;Depressed;;;;;;;;;;;;;x
 depressed_desc;Life has lost its lustre to [Root.GetFirstName].;;;;;;;;;;;;;x
 diligent;Diligent;;;;;;;;;;;;;x
 diligent_desc;[Root.GetDiligentDesc];;;;;;;;;;;;;x
-dishonourable;Dishonourable;;;;;;;;;;;;;x
-dishonourable_desc;[Root.GetFirstName] has a particularly dishonourable disposition, and is known to be untrustworthy and unreliable.;;;;;;;;;;;;;x
+dishonourable;Dishonorable;;;;;;;;;;;;;x
+dishonourable_desc;[Root.GetFirstName] has a particularly dishonorable disposition, and is known to be untrustworthy and unreliable.;;;;;;;;;;;;;x
 disloyal;Disloyal;;;;;;;;;;;;;x
 disloyal_desc;This individual is disloyal.;;;;;;;;;;;;;x
 dragonborn;Dragonborn;;;;;;;;;;;;;x
@@ -149,7 +149,7 @@ dwemer_desc;The people of the deep are a fabled "Lost Race" of Mer from Dwemeret
 envious;Envious;;;;;;;;;;;;;x
 envious_desc;[Root.GetFirstName] is envious. His intrigue is naturally boosted by envious emotions.;;;;;;;;;;;;;x
 excommunicated;Excommunicated;;;;;;;;;;;;;x
-excommunicated_desc;[Root.GetFirstName] has been excommunicated - excluded from their religion - a terrible stain on honour and respectability.;;;;;;;;;;;;;x
+excommunicated_desc;[Root.GetFirstName] has been excommunicated - excluded from their religion - a terrible stain on honor and respectability.;;;;;;;;;;;;;x
 exslave;Former Slave;;;;;;;;;;;;;x
 exslave_desc;Once bound in chains, this person has since gained their freedom. Despite this, the stigma of being a slave still hangs over them.;;;;;;;;;;;;;x
 extreme_terrain_leader;Extreme Terrain Leader;;;;;;;;;;;;;x
@@ -182,8 +182,8 @@ homosexual;Homosexual;;;;;;;;;;;;;x
 homosexual_desc;[Root.GetFirstName] is a bit queer...;;;;;;;;;;;;;x
 honest;Honest;;;;;;;;;;;;;x
 honest_desc;Lies do not come easily to [Root.GetFirstName], who values truth above all else. It is not a good trait for spymasters and plotters, but is respected among diplomats.;;;;;;;;;;;;;x
-honourable;Honourable;;;;;;;;;;;;;x
-honourable_desc;[Root.GetFirstName] has a particularly honourable disposition, and is known as a trust worthy and reliable individual.;;;;;;;;;;;;;x
+honourable;Honorable;;;;;;;;;;;;;x
+honourable_desc;[Root.GetFirstName] has a particularly honorable disposition, and is known as a trust worthy and reliable individual.;;;;;;;;;;;;;x
 houseless_dunmer;Houseless Dunmer;;;;;;;;;;;;;x
 houseless_dunmer_desc;This Dunmer has refused to take part in House politics.;;;;;;;;;;;;;x
 house_dres;House Dres;;;;;;;;;;;;;x

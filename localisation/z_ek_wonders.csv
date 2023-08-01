@@ -217,9 +217,9 @@ upgrade_retinue_understone_desc;A cadre of elite Guards defend the halls and wal
 upgrade_retinue_motalion;Motalion Guard;;;;;;;;;;;;;x
 upgrade_retinue_motalion_desc;At times, even the restful dead need protection.;;;;;;;;;;;;;x
 upgrade_motalion_overseer;Funerary Overseer;;;;;;;;;;;;;x
-upgrade_motalion_overseer_desc;A position of great honour and respect, the Overseer ensures the dead remain restful and all proper rituals and rites are undertaken.;;;;;;;;;;;;;x
+upgrade_motalion_overseer_desc;A position of great honor and respect, the Overseer ensures the dead remain restful and all proper rituals and rites are undertaken.;;;;;;;;;;;;;x
 title_motalion_overseer;Funerary Overseer;;;;;;;;;;;;;x
-title_motalion_overseer_desc;A position of great honour and respect, the Overseer of Motalion ensures that all rituals are observed and all rites given to the dead, and that their rest remains one of peace.;;;;;;;;;;;;;x
+title_motalion_overseer_desc;A position of great honor and respect, the Overseer of Motalion ensures that all rituals are observed and all rites given to the dead, and that their rest remains one of peace.;;;;;;;;;;;;;x
 motalion_overseer_custom_modifier_tt;Unlocks the §YFunerary Overseer§! minor title.;;;;;;;;;;;;;x
 master_shipwright_custom_modifier_tt;Unlocks the §YMaster Shipwright§! minor title.;;;;;;;;;;;;;x
 wonder_motalion;Motalion Necropolis;;;;;;;;;;;;;x
