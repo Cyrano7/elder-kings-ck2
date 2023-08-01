@@ -835,8 +835,8 @@ COMMUNEWITHIST2OPT;The Sap! It was too much!;;;;;;;;;;;;;x
 COMMUNEWITHIST3DESC;As I drank the sap, it tasted sharp and bitter, somehow thicker than usual. I felt at first the familiar oneness but then, thoughts became darker, the sweet singing of the Hist grew deep and sinister, and all about me demons danced!;;;;;;;;;;;;;x
 commune_with_hist;Commune with the Hist;;;;;;;;;;;;;x
 commune_with_hist_desc;Visit the local Hist Grove and drink from the holy sap.;;;;;;;;;;;;;x
-comportd0;Your court painter stands ready, scroll in hand, as they enquire of whom the portrait should be painted.;;;;;;;;;;;;;x
-comportd1;The artist goes on to enquire how they should paint the portrait...;;;;;;;;;;;;;x
+comportd0;Your court painter stands ready, scroll in hand, as they inquire of whom the portrait should be painted.;;;;;;;;;;;;;x
+comportd1;The artist goes on to inquire how they should paint the portrait...;;;;;;;;;;;;;x
 comporto0a;Myself, of course.;;;;;;;;;;;;;x
 comporto0b;My great father.;;;;;;;;;;;;;x
 comporto0c;My dear mother.;;;;;;;;;;;;;x
@@ -1365,7 +1365,7 @@ ELDERCOUNCIL1DESC;As a powerful landholder within the Empire, you are automatica
 ELDERCOUNCIL2DESC;As a member of the Imperial Dynasty, I feel it is my right to hold a seat upon the Elder Council!;;;;;;;;;;;;;x
 ELDERCOUNCIL3DESC;As a member of the Emperor's Small Council, it's only fitting that you are awarded a seat on the greater Elder Council.;;;;;;;;;;;;;x
 ELDERCOUNCIL4DESC;The Emperor has revoked my appointed chair upon the Elder Council!;;;;;;;;;;;;;x
-ELDERCOUNCIL5DESC;The Optimates were the aristocratic individuals who sought to limit the power of the Emperor in favour of the bereaucratic Elder Council, and by extension the Noble class itself.;;;;;;;;;;;;;x
+ELDERCOUNCIL5DESC;The Optimates were the aristocratic individuals who sought to limit the power of the Emperor in favour of the bureaucratic Elder Council, and by extension the Noble class itself.;;;;;;;;;;;;;x
 ELDERCOUNCIL6DESC;The Imperialists were the so-called loyalists of the Elder Council who generally supported the decisions of the Emperor and voted in his favour.;;;;;;;;;;;;;x
 ELDERCOUNCIL7DESC;The Nationalists were the dissidents of the Council who sought the dissolution or weakening of the Empire and its centralised authority.;;;;;;;;;;;;;x
 ELDERCOUNCIL8DESC;At some point in their lives, each man, or woman, must ask themselves where their political alignment falls. Am I for the Empire, and the Emperor (Imperialist)? \nAm I for the Empire, but for the people (Optimate)? \nOr am I against the Empire, and seeking home rule for myself and my people (Nationalist)?;;;;;;;;;;;;;x
@@ -1698,14 +1698,14 @@ EVTDESC39310;I devote myself to the service of [Root.Religion.GetRandomGodName],
 EVTDESC39311;I am a fallen man. What was once a noble knight, is now just a mere sinner. I am not a Holy Knight.;Je suis un homme déchu. Celui qui était jadis un noble chevalier n’est plus aujourd’hui qu’un vulgaire pécheur. Je ne suis pas un vrai chevalier.;Ich bin ein gebrochener Mann. War ich einst ein nobler Ritter, so bin ich jetzt bloß noch ein Sünder. Ich bin kein wahrer Ritter.;;Soy un hombre caído. Lo que antes fue un noble caballero, ahora es solo un pecador. No soy un auténtico caballero.;;;;;;;;;x
 EVTDESC39410;There are rumours that one of the rulers of our great faith is employing a heretic in their court. This is not acceptable to our religious integrity, and this lord will surely be damned unless we intervene.;On dit que l'un des dirigeants de la Chrétienté emploie un hérétique à sa Cour. L'Église ne peut le tolérer, et ce Seigneur terrestre sera sûrement damné si nous n'intervenons pas.;Es kursieren Gerüchte, dass einer der christlichen Herrscher an seinem Hof einen Ketzer unterhält. Das sagt der Kirche überhaupt nicht zu: Ewige Verdammnis erwartet den Herrscher, wenn wir nicht eingreifen.;;Existen rumores de que uno de los gobernantes de la cristiandad emplea a un hereje en su corte. Esto no es admisible por la iglesia y este señor terrenal será maldecido a menos que intervengamos.;;;;;;;;;x
 EVTDESC39441;As the chief spiritual advisor of your faith, I am most concerned that you allow heretics as your counsel. They should immediately be removed from position their position and thrown in irons!;Je suis très inquiet que vous preniez des conseillers hérétiques auprès de vous. Ils devraient être démis de leurs fonctions immédiatement.;Es besorgt mich zu sehen, dass Ihr Euch von Ketzern beraten lasst. Sie sollten umgehend ihres Amtes enthoben werden!;;Me preocupa que admitas a herejes como consejeros. Deberían ser retirados de sus cargos inmediatamente.;;;;;;;;;x
-EVTDESC4155;A troubadour and his wife the trobairitz has arrived from High Rock. Their performances range from vulgar dunmer satires to political breton sirventes and everything in between, including nordic songs and cyrodiilic poems of courtly love.;Un troubadour et sa femme sont arrivés d’Occitanie. Leurs talents vont de la vulgaire satire aux sirventes politiques, en passant par le chant et les poèmes d’amour courtois.;Ein Troubadour und seine Frau, eine Trobairitz, sind aus Okzitanien angekommen. Ihre Vorträge umfassen das gesamte Spektrum von vulgären bis zu politischen Sirventes, einschließlich Liedern und Gedichten über höfische Liebe.;;Ha llegado de Occitania un matrimonio de trovadores. Sus interpretaciones van desde vulgares sátiras hasta poemas de crítica política, aparte de todo lo que hay en medio, sin olvidar canciones y poemas de amor cortés.;;;;;;;;;x
+EVTDESC4155;A troubadour and his wife the trobairitz has arrived from High Rock. Their performances range from vulgar Dunmer satires to political Breton sirventes and everything in between, including Nordic songs and Cyrodiilic poems of courtly love.;Un troubadour et sa femme sont arrivés d’Occitanie. Leurs talents vont de la vulgaire satire aux sirventes politiques, en passant par le chant et les poèmes d’amour courtois.;Ein Troubadour und seine Frau, eine Trobairitz, sind aus Okzitanien angekommen. Ihre Vorträge umfassen das gesamte Spektrum von vulgären bis zu politischen Sirventes, einschließlich Liedern und Gedichten über höfische Liebe.;;Ha llegado de Occitania un matrimonio de trovadores. Sus interpretaciones van desde vulgares sátiras hasta poemas de crítica política, aparte de todo lo que hay en medio, sin olvidar canciones y poemas de amor cortés.;;;;;;;;;x
 EVTDESC5023;Atone for thy sins!'\n\nMy subjects does not like the new impaling punishment and, led by the priests, show their umbrage by throwing rotten vegetables at me!;Expiez vos péchés !'\n\nMes sujets n'apprécient pas le nouveau procédé de châtiment que j'ai mis en place : l'empalement. Menés par les prêtres, ils ont montré leur mécontentement en jetant des légumes pourris sur mon passage !;Büßt für Eure Sünden!'\n\nMeine Untertanen mögen die neue, aufspießende Bestrafung nicht und sie zeigen, angeführt von den Priestern, ihren Unmut indem sie verfaultes Gemüse auf mich warfen! ;;¡Arrepentíos de vuestros pecados!\n\nA mis súbditos no les gusta el nuevo castigo por empalamiento y, liderados por los imames, mostraron su descontento tirándome vegetales podridos.;;;;;;;;;x
 EVTDESC5090;I feel inspired! I should use the gifts given to me. The people will surely love me now! Therefore I will...;;;;;;;;;;;;;x
 EVTDESC5091;What to choose, what to choose. The people might like one thing less and another more. What should I do?;;;;;;;;;;;;;x
 EVTDESC5092;The people loved my speech!;;;;;;;;;;;;;x
 EVTDESC5093;The people can't get enough of my songs!;;;;;;;;;;;;;x
 EVTDESC5094;Roses are red and violets are blue, watch out 'cause Sheogorath is coming for you!;;;;;;;;;;;;;x
-EVTDESC510000;In the midsts of battle I was unseated from my horse and left to wander afoot! Fortunately one of my soldiers dismounted and handed me the reigns of his horse so I might lead my men to victory.;;;;;;;;;;;;;x
+EVTDESC510000;In the midst of battle I was unseated from my horse and left to wander afoot! Fortunately one of my soldiers dismounted and handed me the reigns of his horse so I might lead my men to victory.;;;;;;;;;;;;;x
 EVTDESC510001;A Horse! A Horse! My kingdom for a horse!  As my men fled the battlefield, I was unseated from my mount. By happenstance an arrow caught a cavalryman just as he rode past, and using his fine steed I made my escape!;;;;;;;;;;;;;x
 EVTDESC5100;I'm bored.  I think I'll write something, or draw something maybe.;;;;;;;;;;;;;x
 EVTDESC5101;It looks good. I wonder if I have some paint at home.;;;;;;;;;;;;;x
@@ -1968,7 +1968,7 @@ EVTDESC_SOA_3053;The dark animus of [Root.Religion.GetRandomEvilGodName] courses
 EVTDESC_SOA_3054;[Root.Religion.GetRandomEvilGodNameCap] gifted me with this disease to strengthen my resolve... Now, my will is like a sharpened blade and I wish this blight gone from my body!;[Root.Religion.GetRandomEvilGodNameCap] m'a infligé cette maladie pour me mettre à l'épreuve... Aujourd'hui, ma volonté est comme une lame acérée et j'exige que ce mal quitte mon corps !;[Root.Religion.GetRandomEvilGodNameCap] segnete mich mit dieser Krankheit, um meine Entschlossenheit zu stärken... Mein Wille wird das Messer sein, mit dem ich meinen Leib von seiner Fäulnis befreie!;;[Root.Religion.GetRandomEvilGodNameCap] me obsequió con esta enfermedad para reforzar mi propósito… ¡Ahora, mi voluntad es como una cuchilla afilada y quiero que esta maldición salga de mi cuerpo!;;;;;;;;;x
 EVTDESC_SOA_3060;No bars can hold [Root.Religion.GetRandomEvilGodName]'s own! The senses of my gaolers were blinded long enough for me to escape.;Rien ne peut emprisonner ce qui appartient à [Root.Religion.GetRandomEvilGodName] ! Les sens de mes geôliers ont été perturbés, le temps pour moi de prendre la fuite.;Kein Gitter vermag einen Jünger von [Root.Religion.GetRandomEvilGodName] aufzuhalten! Von Blindheit geschlagen, erlaubten die Wärter mir zu entkommen.;;¡No hay cárcel capaz de retener a [Root.Religion.GetRandomEvilGodName]! El juicio de mis carceleros estaba lo suficientemente nublado para poder escapar.;;;;;;;;;x
 EVTDESC_SOA_3061;My prisoner, the depraved [From.GetTitledName], who is rumored to be the spawn of [From.Religion.GetRandomEvilGodName], has somehow escaped my dungeons! The guards have no explanation - the cell was still locked, but empty.;[From.GetTitledName], ce rebut de la société que l'on dit être un enfant de [From.Religion.GetRandomEvilGodName], a pu s'échapper de mon cachot ! Les gardes ne peuvent pas expliquer ce qui s'est passé. La cellule était encore verrouillée, mais à l'intérieur, personne !;Meinem Gefangenen, dem verderbten [From.GetTitledName], den man für einen Bastard von [From.Religion.GetRandomEvilGodName] hält, ist die Flucht aus meinem Kerker geglückt! Die Wärter haben keine Erklärung. Das Schloss war unversehrt, die Zelle jedoch leer...;;¡Mi prisionero, el depravado [From.GetTitledName], del que se rumorea que es la semilla de [From.Religion.GetRandomEvilGodName], ha logrado escapar de las mazmorras! Los guardias no se lo explican, la celda seguía cerrada, aunque vacía.;;;;;;;;;x
-EVTDESC_SOA_3065;A well equipped army of cultists, followers of [Root.Religion.GetRandomEvilGodName], has arrived in [Root.Location.GetName] led by three powerful breton witches. They stand ready to serve me and our dread prince in this important war.;Une armée bien équipée de disciples de [Root.Religion.GetRandomEvilGodName] est arrivée en [Root.Location.GetName], menée par trois puissantes sorcières. Ils sont prêts à servir leur maître absolu et moi-même dans cette guerre sanglante.;Ein gut ausgerüstete Armee von Kultisten, die sich zu [Root.Religion.GetRandomEvilGodName] bekennen, ist unter der Führung dreier Hexen in [Root.Location.GetName] angekommen. Sie stehen bereit, mir und unserem gefürchteten Meister in diesem wichtigen Krieg zu dienen.;;Un ejército bien equipado de sectarios, seguidores de [Root.Religion.GetRandomEvilGodName], ha llegado a [Root.Location.GetName] con tres poderosas brujas a la cabeza. Están listos para servirnos a mí y a nuestro temido maestro en esta importante guerra.;;;;;;;;;x
+EVTDESC_SOA_3065;A well equipped army of cultists, followers of [Root.Religion.GetRandomEvilGodName], has arrived in [Root.Location.GetName] led by three powerful Breton witches. They stand ready to serve me and our dread prince in this important war.;Une armée bien équipée de disciples de [Root.Religion.GetRandomEvilGodName] est arrivée en [Root.Location.GetName], menée par trois puissantes sorcières. Ils sont prêts à servir leur maître absolu et moi-même dans cette guerre sanglante.;Ein gut ausgerüstete Armee von Kultisten, die sich zu [Root.Religion.GetRandomEvilGodName] bekennen, ist unter der Führung dreier Hexen in [Root.Location.GetName] angekommen. Sie stehen bereit, mir und unserem gefürchteten Meister in diesem wichtigen Krieg zu dienen.;;Un ejército bien equipado de sectarios, seguidores de [Root.Religion.GetRandomEvilGodName], ha llegado a [Root.Location.GetName] con tres poderosas brujas a la cabeza. Están listos para servirnos a mí y a nuestro temido maestro en esta importante guerra.;;;;;;;;;x
 EVTDESC_SOA_3071;My [GetFromRelation], little [From.GetFirstName], has really taken to [From.GetPossPronoun] nanny - a remarkably talented young woman, learned as any [Root.Religion.GetPriestTitle]. It is strange though... I have no idea when this girl showed up or where she came from, exactly.;Mon/ma [GetFromRelation] [From.GetFirstName] adore sa nourrice, une jeune femme très talentueuse instruite comme n'importe quel [Root.Religion.GetPriestTitle]. C'est étrange, quand on y pense... Je ne parviens pas à me rappeler quand cette fille est apparue, ni d'où elle vient.;Mein(e) [GetFromRelation] [From.GetFirstName] hat [From.GetPossPronoun] Kindermädchen wirklich liebgewonnen. Sie ist eine außergewöhnliche Frau, gelehrt wie eine [Root.Religion.GetPriestTitle]. Seltsam ist nur, dass niemand mehr weiß, wann und woher die junge Dame eigentlich hierher gekommen ist...;;Mi [GetFromRelation], el pequeño [From.GetFirstName], se ha encariñado mucho con [From.GetPossPronoun] niñera, una joven con un talento increíble, tan docta como cualquier [Root.Religion.GetPriestTitle]. Aunque es extraño… No tengo ni idea de dónde ha salido esta chica ni de dónde es exactamente.;;;;;;;;;x
 EVTDESC_SOA_3072;My new nanny is a gift from [Root.Religion.GetRandomEvilGodName] - literally. She is remarkably talented, more learned than any [Root.Religion.GetPriestTitle].;Ma nouvelle nourrice est un don de [Root.Religion.GetRandomEvilGodName]. Littéralement. Elle est vraiment douée, bien plus que n'importe quel [Root.Religion.GetPriestTitle].;Mein Kindermädchen ist ein Geschenk von [Root.Religion.GetRandomEvilGodName]. Und das ist durchaus wörtlich zu nehmen. Sie ist außergewöhnlich talentiert und gebildeter als jede(r) [Root.Religion.GetPriestTitle].;;Mi nueva niñera es un regalo de [Root.Religion.GetRandomEvilGodName], literalmente. Tiene un talento increíble, es más docta que cualquier [Root.Religion.GetPriestTitle].;;;;;;;;;x
 EVTDESC_SOA_3074;My talented courtier, the nanny [From.GetFirstName], has left court to follow her young charge.;Ma talentueuse courtisane [From.GetFirstName] a décidé de quitter la cour pour se concentrer sur son protégé.;Mein talentiertes Kindermädchen [From.GetFirstName] hat den Hof verlassen, um ihren Zögling zu begleiten.;;Mi talentosa cortesana, la niñera de [From.GetFirstName], ha abandonado la corte para seguir su joven carga.;;;;;;;;;x
@@ -2783,7 +2783,7 @@ faction_telvanni_desc;This faction represents Great House Telvanni politics in M
 faction_telvanni_title;Great House Telvanni;;;;;;;;;;;;;x
 faction_veloth_desc;This faction represents Great House Veloth politics in Morrowind;;;;;;;;;;;;;x
 faction_veloth_title;Great House Veloth;;;;;;;;;;;;;x
-FALKREATHINDEPEN01DESC;Falkreath stands indepedent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
+FALKREATHINDEPEN01DESC;Falkreath stands independent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
 FALKREATHINDEPEN01OPT;For Falkreath!;;;;;;;;;;;;;x
 FALKREATHINDEPEN02DESC;For many years now the Kingdom of Falkreath has kept its independence and none now dispute our right to claim our ancient lands as our own.;;;;;;;;;;;;;x
 FALKREATHINDEPEN02OPT;These lands shall always be Falkreaths!;;;;;;;;;;;;;x
@@ -2869,7 +2869,7 @@ fan.72.name;Compensate [FromFrom.GetHerHis] family.;;;;;;;;;;;;;x
 fan.8.desc;[From.GetName] attacked me with a mace and I blocked it with my shield. I immediately counterattacked, pushing [From.GetHerHis] mace-arm to the left with my shield and stabbing it with my sword. [From.GetSheHe] gave up after this, saying [From.GetSheHe] didn't have a chance anymore.;;;;;;;;;;;;;x
 fan.81.name;I'm not done with you yet, [From.GetName].;;;;;;;;;;;;;x
 fan.82.name;I win! Do you want to stay at my castle while you heal?;;;;;;;;;;;;;x
-fan.9.desc;After I made an agressive sequence of attacks, not giving [From.GetName] a single break, [From.GetSheHe] bowed his knees and gave up!;;;;;;;;;;;;;x
+fan.9.desc;After I made an aggressive sequence of attacks, not giving [From.GetName] a single break, [From.GetSheHe] bowed his knees and gave up!;;;;;;;;;;;;;x
 fan.91.name;No cowards on my land!;;;;;;;;;;;;;x
 fan.92.name;I won!;;;;;;;;;;;;;x
 farewellcruelworld;Farewell cruel world!;;;;;;;;;;;;;x
@@ -3095,7 +3095,7 @@ HIGHROCKFORMS8DESC;My envoy has returned from Daggerfall, the [From.GetTitledFir
 HIGHROCKFORMS9;Camlorn Declares War!;;;;;;;;;;;;;x
 HIGHROCKFORMS9DESC;My envoy has returned from Camlorn, the [From.GetTitledFirstName] has refused to submit, and has gone a step further. My envoy informs me they have declared war for the High Kingdom!;;;;;;;;;;;;;x
 HIGHROCKFORMS;The High Kingdom of High Rock;;;;;;;;;;;;;x
-HIGHROCKFORMSDESC;Today, I [Root.GetFirstName] have united the High Kingdom of High Rock. My power in these stoney highlands is almost unmatched, and now is the time I send forth my envoys to the realm, and demand the submission of those that would call themselves my equals.;;;;;;;;;;;;;x
+HIGHROCKFORMSDESC;Today, I [Root.GetFirstName] have united the High Kingdom of High Rock. My power in these stony highlands is almost unmatched, and now is the time I send forth my envoys to the realm, and demand the submission of those that would call themselves my equals.;;;;;;;;;;;;;x
 HIGHROCKFORMSINFORMOTHERDESC;As a holder of land or title within the territory of High Rock, we have received word of the crowning of a new High King or Queen. Other Petty Kings and rulers have acquiesced to this High King's demands of subservience, and while our stature affords us no responsibility to entertain the idea, there is a chance this ruler will look to claiming the title they believe rightly belongs to them.;;;;;;;;;;;;;x
 HIGHROCKFORMSOPTB;I am without equals, High Rock belongs to me!;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNCAMLORN1;The Petty Kingdom of Camlorn;;;;;;;;;;;;;x
@@ -3146,7 +3146,7 @@ HIGHROCKPETTYCROWNJEHENNA3DESC;My liege, [From.GetTitledFirstName][From.GetFirst
 HIGHROCKPETTYCROWNJEHENNA4;The Petty Kingdom of Jehenna;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNJEHENNA4DESC;My liege has refused my request to be granted the Kingdom of Jehenna.;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNJEHENNA5;The Kingdom of Jehenna;;;;;;;;;;;;;x
-HIGHROCKPETTYCROWNJEHENNA5DESC;Jehenna stands indepedent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
+HIGHROCKPETTYCROWNJEHENNA5DESC;Jehenna stands independent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNJEHENNA5OPT;For Jehenna!;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNJEHENNA6;The Kingdom of Jehenna;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNJEHENNA6DESC;For many years now the Kingdom of Jehenna has kept its independence and none now dispute our right to claim our ancient lands as our own.;;;;;;;;;;;;;x
@@ -3159,7 +3159,7 @@ HIGHROCKPETTYCROWNNORTHPOINT3DESC;My liege, [From.GetTitledFirstName][From.GetFi
 HIGHROCKPETTYCROWNNORTHPOINT4;The Petty Kingdom of Northpoint;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNNORTHPOINT4DESC;My liege has refused my request to be granted the Kingdom of Northpoint.;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNNORTHPOINT5;The Kingdom of Northpoint;;;;;;;;;;;;;x
-HIGHROCKPETTYCROWNNORTHPOINT5DESC;Northpoint stands indepedent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
+HIGHROCKPETTYCROWNNORTHPOINT5DESC;Northpoint stands independent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNNORTHPOINT5OPT;For Northpoint!;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNNORTHPOINT6;The Kingdom of Northpoint;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNNORTHPOINT6DESC;For many years now the Kingdom of Northpoint has kept its independence and none now dispute our right to claim our ancient lands as our own.;;;;;;;;;;;;;x
@@ -3172,7 +3172,7 @@ HIGHROCKPETTYCROWNWAYREST3DESC;My liege, [From.GetTitledFirstName][From.GetFirst
 HIGHROCKPETTYCROWNWAYREST4;The Petty Kingdom of Wayrest;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNWAYREST4DESC;My liege has refused my request to be granted the Kingdom of Wayrest.;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNWAYREST5;The Kingdom of Wayrest;;;;;;;;;;;;;x
-HIGHROCKPETTYCROWNWAYREST5DESC;Wayrest stands indepedent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
+HIGHROCKPETTYCROWNWAYREST5DESC;Wayrest stands independent again, ready to face the world under its own banner, with me as its [Root.GetTitledFirstName]!;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNWAYREST5OPT;For Wayrest!;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNWAYREST6;The Kingdom of Wayrest;;;;;;;;;;;;;x
 HIGHROCKPETTYCROWNWAYREST6DESC;For many years now the Kingdom of Wayrest has kept its independence and none now dispute our right to claim our ancient lands as our own.;;;;;;;;;;;;;x
@@ -3323,7 +3323,7 @@ interregnum1t;Chaos Interregnum;;;;;;;;;;;;;x
 INVADEDKINGDOM;Reachmen Invasion;;;;;;;;;;;;;x
 INVADEDKINGDOMDESC;The Reachmen horde has declared war against your kingdom! It's only a matter of time before their troops reach your gates!;;;;;;;;;;;;;x
 INVADEDKINGDOMHELP;Reachmen Invasion!;;;;;;;;;;;;;x
-INVADEDKINGDOMHELPDESC;The Reachmen horde has declared war against yet another kingdom and their king is asking for you help in the name of breton-kind, in the name of High Rock, in the name of the Divines themselves!;;;;;;;;;;;;;x
+INVADEDKINGDOMHELPDESC;The Reachmen horde has declared war against yet another kingdom and their king is asking for you help in the name of Breton-kind, in the name of High Rock, in the name of the Divines themselves!;;;;;;;;;;;;;x
 INVADEDKINGDOMHELPOPTA;For High Rock!;;;;;;;;;;;;;x
 INVADEDKINGDOMHELPOPTB;I need to worry about my own realm!;;;;;;;;;;;;;x
 INVADEDKINGDOMOPTA;High Rock shall prevail!;;;;;;;;;;;;;x
@@ -3535,7 +3535,7 @@ korba.5.option.a;Send the excavation teams!;;;;;;;;;;;;;x
 korba.5.option.b;Invite Adventurers to explore the ruins.;;;;;;;;;;;;;x
 korba.5.option.c;I will explore the ruins, to glory and...loot!;;;;;;;;;;;;;x
 korba.5.option.d;I dare not open the ruins!;;;;;;;;;;;;;x
-korba.6.desc;This province is on the verge of a cultural renaissance. Artisans, playwrights and other colourful individuals are congregating in our settlements and new works are a daily occurance.;;;;;;;;;;;;;x
+korba.6.desc;This province is on the verge of a cultural renaissance. Artisans, playwrights and other colourful individuals are congregating in our settlements and new works are a daily occurrence.;;;;;;;;;;;;;x
 korba.6.option.a;Allow the Renaissance to sweep our Province!;;;;;;;;;;;;;x
 korba.6.option.b;We cannot allow such free thinking at this time, disperse the crowds!;;;;;;;;;;;;;x
 korba.7.desc;A recent survey of this province has revealed several Kwama Colonies, we could set up Mines to harvest the Eggs increasing our local economy for a small investment, or we could ignore them, although the Colony may pose a hazard to our populace.;;;;;;;;;;;;;x
@@ -4143,24 +4143,24 @@ ransom_all_tooltip;Character is asked to pay ransom.;Character is asked to pay r
 rare_woods;Rare Hardwood;;;;;;;;;;;;;x
 rare_woods_desc;Rare patches of hardwoods, otherwise expensive imports have been found within the province.;;;;;;;;;;;;;x
 REACHMENCAMLORN;Conquest of Camlorn;;;;;;;;;;;;;x
-REACHMENCAMLORNDESC;We have conquered the formerly nord lands of the west, the kingdom of Camlorn! The petty breton kings have no chance against our horde!;;;;;;;;;;;;;x
+REACHMENCAMLORNDESC;We have conquered the formerly Nord lands of the west, the kingdom of Camlorn! The petty Breton kings have no chance against our horde!;;;;;;;;;;;;;x
 REACHMENDAGGERFALL;Conquest of Daggerfall;;;;;;;;;;;;;x
-REACHMENDAGGERFALLDESC;We have conquered the biggest and most famous region of High Rock, the kingdom of Daggerfall! The petty breton kings have no chance against our horde!;;;;;;;;;;;;;x
+REACHMENDAGGERFALLDESC;We have conquered the biggest and most famous region of High Rock, the kingdom of Daggerfall! The petty Breton kings have no chance against our horde!;;;;;;;;;;;;;x
 REACHMENEVERMORE;Conquest of Evermore;;;;;;;;;;;;;x
-REACHMENEVERMOREDESC;We have conquered the entryway of High Rock, the kingdom of Evemore! The petty breton kings have no chance against our horde!;;;;;;;;;;;;;x
+REACHMENEVERMOREDESC;We have conquered the entryway of High Rock, the kingdom of Evemore! The petty Breton kings have no chance against our horde!;;;;;;;;;;;;;x
 REACHMENHIGHROCK;Conquest of High Rock;;;;;;;;;;;;;x
-REACHMENHIGHROCKDESC;We have conquered most of High Rock! The petty breton kings had no chance against our horde! A few breton renmants resist in vain and soon shall be dominated, maybe we are ought to pay a visit to those mountain Orcs and Direnni elves as well...;;;;;;;;;;;;;x
+REACHMENHIGHROCKDESC;We have conquered most of High Rock! The petty Breton kings had no chance against our horde! A few Breton remnants resist in vain and soon shall be dominated, maybe we are ought to pay a visit to those mountain Orcs and Direnni elves as well...;;;;;;;;;;;;;x
 REACHMENHIGHROCKOPTA;No longer a drake, I'm a full dragon!;;;;;;;;;;;;;x
 REACHMENHIGHROCKOPTB;I'm Faolan reborn!;;;;;;;;;;;;;x
 REACHMENHIGHROCKOPTC;I'm the greatest conqueror since Reman!;;;;;;;;;;;;;x
 REACHMENHIGHROCKOPTD;People will never forget the Black Drake!;;;;;;;;;;;;;x
 REACHMENNORTHPOINT;Conquest of Northpoint;;;;;;;;;;;;;x
-REACHMENNORTHPOINTDESC;We have conquered the most important port of northern High Rock, the kingdom of Northpoint! The petty breton kings have no chance against our horde!;;;;;;;;;;;;;x
+REACHMENNORTHPOINTDESC;We have conquered the most important port of northern High Rock, the kingdom of Northpoint! The petty Breton kings have no chance against our horde!;;;;;;;;;;;;;x
 REACHMENWAYREST;Conquest of Wayrest;;;;;;;;;;;;;x
-REACHMENWAYRESTDESC;We have conquered the Jewel of the Bay, the kingdom of Wayrest! The petty breton kings have no chance against our horde!;;;;;;;;;;;;;x
+REACHMENWAYRESTDESC;We have conquered the Jewel of the Bay, the kingdom of Wayrest! The petty Breton kings have no chance against our horde!;;;;;;;;;;;;;x
 reachmen_culture_modifier;Reachmen Modifier;;;;;;;;;;;;;x
 reach_faiths;Reach Faiths;;;;;;;;;;;;;x
-reach_faiths_desc;The Reach Faiths is a catch-all term for the religions practised within the Reach, such as the Hagraven Cults, the so-called Old Gods (a form of polytheistic worship of various Daedric Princes combined with traditional animism and shamanism).;;;;;;;;;;;;;x
+reach_faiths_desc;The Reach Faiths is a catch-all term for the religions practiced within the Reach, such as the Hagraven Cults, the so-called Old Gods (a form of polytheistic worship of various Daedric Princes combined with traditional animism and shamanism).;;;;;;;;;;;;;x
 realkingdom;Kingdom of [Root.GetTitle];;;;;;;;;;;;;x
 realkingdomd;The Petty Kingdom of [Root.GetTitle] has gained its independence and reformed as a true Kingdom!;;;;;;;;;;;;;x
 realkingdomo;Hail [Root.GetTitle]!;;;;;;;;;;;;;x
