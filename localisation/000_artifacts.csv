@@ -253,8 +253,8 @@ ring_phynaster;Ring of Phynaster;;;;;;;;;;;;;x
 ring_phynaster_desc;The Ring of Phynaster was made hundreds of years ago by a person who needed good defences to survive his adventurous life. Thanks to the Ring, Phynaster lived for hundreds of years, and since then it has passed from person to person.;;;;;;;;;;;;;x
 sanguine_rose;Sanguine Rose;;;;;;;;;;;;;x
 sanguine_rose_desc;The Sanguine Rose is a Daedric artifact created by the Daedric Prince Sanguine. It can take on many forms, including that of an actual rose, a wooden stave carved like a rose and a staff-sized rose. Although powerful, the Rose is not an artifact most would care to possess. It can be used to summon a lesser daedra, who will attack all except the holder. Each time the Rose is used it wilts a little, and when all the petals fall off, it loses its power.;;;;;;;;;;;;;x
-armor_saviors_hide;Saviour's Hide;;;;;;;;;;;;;x
-armor_saviors_hide_desc;Legend has it that Hircine rewarded his peeled hide to the first and only mortal to have ever escaped his hunting grounds. This unknown mortal had the hide tailored into this magickal cuirass for his future adventures. The Saviour's Hide has a tendency to travel from hero to hero as though it has a mind of its own.;;;;;;;;;;;;;x
+armor_saviors_hide;Savior's Hide;;;;;;;;;;;;;x
+armor_saviors_hide_desc;Legend has it that Hircine rewarded his peeled hide to the first and only mortal to have ever escaped his hunting grounds. This unknown mortal had the hide tailored into this magickal cuirass for his future adventures. The Savior's Hide has a tendency to travel from hero to hero as though it has a mind of its own.;;;;;;;;;;;;;x
 pet_scamp;Scamp;;;;;;;;;;;;;x
 pet_scamp_desc;[Root.GetFirstName] seems to somehow have made a Scamp his personal familiar, a very odd occurrence as most Daedra, even the lesser forms, are generally only able to remain in Nirn for a short period of time, unless the barriers are broken...;;;;;;;;;;;;;x
 scourge;Scourge;;;;;;;;;;;;;x
@@ -820,7 +820,7 @@ knotify282d;You have obtained a Skaal Coat.;;;;;;;;;;;;;x
 knotify283d;You have obtained a suit of Cyrodilic Legate Armour.;;;;;;;;;;;;;x
 knotify284d;You have obtained a suit of Imperial Legate Armour.;;;;;;;;;;;;;x
 knotify285d;You have obtained the Armour of the Old Gods.;;;;;;;;;;;;;x
-knotify286d;You have obtained the Saviour's Hide.;;;;;;;;;;;;;x
+knotify286d;You have obtained the Savior's Hide.;;;;;;;;;;;;;x
 knotify5003d;I have adopted [From.GetFirstName].;;;;;;;;;;;;;x
 EKArtifacts50;I've found a buyer who is willing to purchase my [FromFromFrom.GetName] from me. All I have to do is hand my customer the [FromFromFrom.GetName] and they'll give me the agreed upon sum of gold.;;;;;;;;;;;;;x
 EKArtifacts50Accept;It's a deal!;;;;;;;;;;;;;x
