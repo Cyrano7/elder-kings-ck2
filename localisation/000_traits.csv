@@ -372,7 +372,7 @@ rhetorician_desc;[Root.GetFirstName] is skilled in rhetoric, when it comes to ar
 ruthless;Ruthless;;;;;;;;;;;;;x
 ruthless_desc;This individual stops at nothing to achieve their aims, and shows little if any compassion or mercy in their actions.;;;;;;;;;;;;;x
 shadowscale;Shadowscale;;;;;;;;;;;;;x
-shadowscale_desc;This Argonian was baptised under the Shadow stars and is thus a Shadowscale.;;;;;;;;;;;;;x
+shadowscale_desc;This Argonian was baptized under the Shadow stars and is thus a Shadowscale.;;;;;;;;;;;;;x
 shakes;Shakes;;;;;;;;;;;;;x
 shakes_death;of the Shakes;;;;;;;;;;;;;x
 shakes_desc;[Root.GetFirstName] is afflicted with a mild disease causing physical tremors and violent bouts of shaking and fitting.;;;;;;;;;;;;;x
@@ -383,31 +383,31 @@ sick_incapable_desc;[Root.GetFirstName]'s health issues has left unable them una
 sickly;Sickly;;;;;;;;;;;;;x
 sickly_desc;[Root.GetFirstName] was born with a sickly disposition. Even the changing weather seems to have them lied up bed with a fever.;;;;;;;;;;;;;x
 sign_apprentice;The Apprentice (Birthsign);;;;;;;;;;;;;x
-sign_apprentice_desc;[Root.GetFirstName] was baptised under the Apprentice stars.;;;;;;;;;;;;;x
+sign_apprentice_desc;[Root.GetFirstName] was baptized under the Apprentice stars.;;;;;;;;;;;;;x
 sign_atronach;The Atronach (Birthsign);;;;;;;;;;;;;x
-sign_atronach_desc;[Root.GetFirstName] was baptised under the Atronach stars.;;;;;;;;;;;;;x
+sign_atronach_desc;[Root.GetFirstName] was baptized under the Atronach stars.;;;;;;;;;;;;;x
 sign_lady;The Lady (Birthsign);;;;;;;;;;;;;x
-sign_lady_desc;[Root.GetFirstName] was baptised under the Lady stars. The Lady shall fortify in the quest for glory.;;;;;;;;;;;;;x
+sign_lady_desc;[Root.GetFirstName] was baptized under the Lady stars. The Lady shall fortify in the quest for glory.;;;;;;;;;;;;;x
 sign_lord;The Lord (Birthsign);;;;;;;;;;;;;x
-sign_lord_desc;[Root.GetFirstName] was baptised under the Lord stars. The Lord proves a faithful patron.;;;;;;;;;;;;;x
+sign_lord_desc;[Root.GetFirstName] was baptized under the Lord stars. The Lord proves a faithful patron.;;;;;;;;;;;;;x
 sign_lover;The Lover (Birthsign);;;;;;;;;;;;;x
-sign_lover_desc;[Root.GetFirstName] was baptised under the Lover stars. The Lover shall sweeten the journey as one confronts their fate.;;;;;;;;;;;;;x
+sign_lover_desc;[Root.GetFirstName] was baptized under the Lover stars. The Lover shall sweeten the journey as one confronts their fate.;;;;;;;;;;;;;x
 sign_mage;The Mage (Birthsign);;;;;;;;;;;;;x
 sign_mage_desc;[Root.GetFirstName] bears the sign of the Mage.  It would not be wise to test their magickal prowess!;;;;;;;;;;;;;x
 sign_ritual;The Ritual (Birthsign);;;;;;;;;;;;;x
-sign_ritual_desc;[Root.GetFirstName] was baptised under the Ritual stars. The Ritual shall give speed upon a star-patterned path.;;;;;;;;;;;;;x
+sign_ritual_desc;[Root.GetFirstName] was baptized under the Ritual stars. The Ritual shall give speed upon a star-patterned path.;;;;;;;;;;;;;x
 sign_serpent;The Serpent (Birthsign);;;;;;;;;;;;;x
-sign_serpent_desc;[Root.GetFirstName] was baptised under the Serpent stars. The Serpent shall sting foes who seek blood.;;;;;;;;;;;;;x
+sign_serpent_desc;[Root.GetFirstName] was baptized under the Serpent stars. The Serpent shall sting foes who seek blood.;;;;;;;;;;;;;x
 sign_shadow;The Shadow (Birthsign);;;;;;;;;;;;;x
-sign_shadow_desc;[Root.GetFirstName] was baptised under the Shadow stars. The Shadow keeps hidden from destiny's cunning hounds.;;;;;;;;;;;;;x
+sign_shadow_desc;[Root.GetFirstName] was baptized under the Shadow stars. The Shadow keeps hidden from destiny's cunning hounds.;;;;;;;;;;;;;x
 sign_steed;The Steed (Birthsign);;;;;;;;;;;;;x
-sign_steed_desc;[Root.GetFirstName] was baptised under the Steed stars. The Steed speeds progress on the road to destiny.;;;;;;;;;;;;;x
+sign_steed_desc;[Root.GetFirstName] was baptized under the Steed stars. The Steed speeds progress on the road to destiny.;;;;;;;;;;;;;x
 sign_thief;The Thief (Birthsign);;;;;;;;;;;;;x
-sign_thief_desc;[Root.GetFirstName] was baptised under the Thief stars. The Thief guides the steps on the road to destiny.;;;;;;;;;;;;;x
+sign_thief_desc;[Root.GetFirstName] was baptized under the Thief stars. The Thief guides the steps on the road to destiny.;;;;;;;;;;;;;x
 sign_tower;The Tower (Birthsign);;;;;;;;;;;;;x
-sign_tower_desc;[Root.GetFirstName] was baptised under the Tower stars. The Tower proves a stout refuge in times of need.;;;;;;;;;;;;;x
+sign_tower_desc;[Root.GetFirstName] was baptized under the Tower stars. The Tower proves a stout refuge in times of need.;;;;;;;;;;;;;x
 sign_warrior;The Warrior (Birthsign);;;;;;;;;;;;;x
-sign_warrior_desc;[Root.GetFirstName] was baptised under the Warrior stars. The Warrior shall prove a stalwart companion when fortune fades.;;;;;;;;;;;;;x
+sign_warrior_desc;[Root.GetFirstName] was baptized under the Warrior stars. The Warrior shall prove a stalwart companion when fortune fades.;;;;;;;;;;;;;x
 silverhand;Silverhand;;;;;;;;;;;;;x
 silverhand_desc;The Silver Hand is a group of werewolf hunters. They are enemies of the Companions, as they are aware that the mercenary group's elite members are lycanthropes. Hunters affiliated with the Silver Hand are known to brandish silver swords and seek to rid Skyrim of werewolves.;;;;;;;;;;;;;x
 skooma_addiction;Skooma Addiction;;;;;;;;;;;;;x
@@ -507,7 +507,7 @@ wroth_desc;[Root.GetFirstName] certainly has a hot temper.;;;;;;;;;;;;;x
 wrymouth;Wrymouth;;;;;;;;;;;;;x
 wrymouth_desc;[Root.GetFirstName] has a deformed jaw and their mouth will not close properly.;;;;;;;;;;;;;x
 zealous;Zealous;;;;;;;;;;;;;x
-zealous_desc;[Root.GetFirstName] burns with religious fervour and cannot tolerate heretics, infidels, or heathens.;;;;;;;;;;;;;x
+zealous_desc;[Root.GetFirstName] burns with religious fervor and cannot tolerate heretics, infidels, or heathens.;;;;;;;;;;;;;x
 v_breton;Breton;Breton;Breton;;Breton;;;;;;;;;x
 v_breton_desc;[Root.GetFirstName] is a Breton, a man from High Rock. They are powerful magicians due to their elven ancestry.;;;;;;;;;;;;;x
 v_imperial;Imperial;Imperial;Imperial;;Imperial;;;;;;;;;x

@@ -851,16 +851,16 @@ EVTOPTD600069;I've changed my mind.;;;;;;;;;;;;;x
 spell_sheogorath_tactic_1;Tactics of Sheogorath;;;;;;;;;;;;;x
 spell_sheogorath_tactic_2;Tactics of Sheogorath;;;;;;;;;;;;;x
 spell_sheogorath_tactic_3;Tactics of Sheogorath;;;;;;;;;;;;;x
-religious_fervor;Religious Fervour;;;;;;;;;;;;;x
+religious_fervor;Religious Fervor;;;;;;;;;;;;;x
 religious_fervor_desc;Increase command religious;;;;;;;;;;;;;x
 EVTDESC600070;Use Mysticism magic to improve your target's command ability.;;;;;;;;;;;;;x
 EVTOPTA600070;I will cast a lesser version of the spell.;;;;;;;;;;;;;x
 EVTOPTB600070;I will cast a moderate version of the spell.;;;;;;;;;;;;;x
 EVTOPTC600070;I will cast a greater version of the spell.;;;;;;;;;;;;;x
 EVTOPTD600070;I've changed my mind.;;;;;;;;;;;;;x
-spell_religious_fervor_1;Religious Fervour;;;;;;;;;;;;;x
-spell_religious_fervor_2;Religious Fervour;;;;;;;;;;;;;x
-spell_religious_fervor_3;Religious Fervour;;;;;;;;;;;;;x
+spell_religious_fervor_1;Religious Fervor;;;;;;;;;;;;;x
+spell_religious_fervor_2;Religious Fervor;;;;;;;;;;;;;x
+spell_religious_fervor_3;Religious Fervor;;;;;;;;;;;;;x
 conjure_siege;Conjure Siege;;;;;;;;;;;;;x
 conjure_siege_desc;Increase siege command;;;;;;;;;;;;;x
 EVTDESC600071;Use Mysticism magic to improve your target's command ability.;;;;;;;;;;;;;x
