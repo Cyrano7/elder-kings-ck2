@@ -324,9 +324,9 @@ on_pilgrimage_desc;[Root.GetFirstName] is away on pilgrimage.;;;;;;;;;;;;;x
 on_guild;Guild Membership;;;;;;;;;;;;;x
 on_guild_desc;[Root.GetFirstName] is away from Court, working as part of a Guild.;;;;;;;;;;;;;x
 organizer;Organiser;;;;;;;;;;;;;x
-organizer_desc;[Root.GetFirstName] is a skilful organiser in matters of logistics and in overcoming the challenges of moving a large body of soldiers from one point to another.;;;;;;;;;;;;;x
+organizer_desc;[Root.GetFirstName] is a skillful organiser in matters of logistics and in overcoming the challenges of moving a large body of soldiers from one point to another.;;;;;;;;;;;;;x
 painter;Painter;;;;;;;;;;;;;x
-painter_desc;When people talk of art, they often refer to that of Painting, the act of turning thoughts, words, sounds or even smells into images for all to see. A truely great painter is capable of eliciting those same thoughts from their audience.;;;;;;;;;;;;;x
+painter_desc;When people talk of art, they often refer to that of Painting, the act of turning thoughts, words, sounds or even smells into images for all to see. A truly great painter is capable of eliciting those same thoughts from their audience.;;;;;;;;;;;;;x
 paranoid;Paranoid;;;;;;;;;;;;;x
 paranoid_desc;[Root.GetFirstName] sees enemies in every shadow, unable to trust anyone.;;;;;;;;;;;;;x
 gambler;Gambler;;;;;;;;;;;;;x

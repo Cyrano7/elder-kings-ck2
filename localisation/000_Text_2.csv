@@ -503,7 +503,7 @@ kambition30o5tt;You abandon your trip to the market.\n;;;;;;;;;;;;;x
 kambition31d;"The Bandits disperse, leaving you alone in the darkened alley. "That was lucky." You think to yourself.";;;;;;;;;;;;;x
 kambition31ott;You continue on to the market.\n;;;;;;;;;;;;;x
 kambition32d;Your attempts to do avail you from your situation. The Bandits laugh at your efforts and thoroughly beat you, leaving your bloodied and pillaged in the alley.;;;;;;;;;;;;;x
-kambition3d;Browsing the wares you come across a few interesting baubles but nothing truely impressive.;;;;;;;;;;;;;x
+kambition3d;Browsing the wares you come across a few interesting baubles but nothing truly impressive.;;;;;;;;;;;;;x
 kambition3o;Well...I could always do with some more of these...oh and those!;;;;;;;;;;;;;x
 kambition3o1;I might as well buy something, I don't want to leave empty handed.;;;;;;;;;;;;;x
 kambition4d;You browse the wears and find an mildly interesting necklace. Upon closer inspection you realise it is a religious medallion.;;;;;;;;;;;;;x
@@ -1289,7 +1289,7 @@ opinion_of_dragonborn;Opinion of Dragonborn;;;;;;;;;;;;;x
 opinion_of_greybeard;Opinion of Greybeard;;;;;;;;;;;;;x
 opinion_of_dragon_paarthurnax;Opinion of Paarthurnax;;;;;;;;;;;;;x
 TECH_CULTURE_FLEX;Culture & the Arts;Tolérance;Toleranz;;Tolerancia;;;;;;;;;x
-TECH_CULTURE_FLEX_DESC;The acceptance and promotion of the fine arts, music and foods of our own and other cultures is how you truely advance and unify a people.;L'acceptation d'autrui facilite le règne sur différentes cultures et religions.;Die Akzeptanz Andersdenkender macht es leichter, über verschiedene Kulturen und Religionen zu herrschen.;;La aceptación de los demás hace más fácil gobernar sobre diferentes culturas y religiones;;;;;;;;;x
+TECH_CULTURE_FLEX_DESC;The acceptance and promotion of the fine arts, music and foods of our own and other cultures is how you truly advance and unify a people.;L'acceptation d'autrui facilite le règne sur différentes cultures et religions.;Die Akzeptanz Andersdenkender macht es leichter, über verschiedene Kulturen und Religionen zu herrschen.;;La aceptación de los demás hace más fácil gobernar sobre diferentes culturas y religiones;;;;;;;;;x
 theologian_opinion;Theologian Opinion;;;;;;;;;;;;;x
 skooma_addiction_opinion;Skooma Addict Opinion;;;;;;;;;;;;;x
 short;Diminutive;;;;;;;;;;;;;x
