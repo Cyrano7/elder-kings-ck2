@@ -148,7 +148,7 @@ ec_policy_quests_50;§GAdministrative Quest Funding§!: ¤§Y50§! per quest;;;;;;;;;
 ec_policy_quests_75;§GAdministrative Quest Funding§!: ¤§Y75§! per quest;;;;;;;;;;;;;x
 ec_policy_appointment;§GAdmittance§!: [GetECAppointmentPolicy];;;;;;;;;;;;;x
 ec_policy_join_requirements;§GJoin Requirements§!: [GetECJoinRequirements];;;;;;;;;;;;;x
-ec_policy_join_quality;§GJoin Requirements§!: §YSkilled§! and §Yinfluential§! inviduals may join the Elder Council;;;;;;;;;;;;;x
+ec_policy_join_quality;§GJoin Requirements§!: §YSkilled§! and §Yinfluential§! individuals may join the Elder Council;;;;;;;;;;;;;x
 ec_policy_join_payment;§GJoin Requirements§!: Anyone who can §Ybuy their seat§! can join the Elder Council;;;;;;;;;;;;;x
 ec_policy_join_vote_hc;§GJoin Requirements§!: The §YHigh Chancellor§! may §Ypropose candidates§! to the Council;;;;;;;;;;;;;x
 ec_policy_join_vote_emp;§GJoin Requirements§!: The §Y[This.GetRubyThroneTitle]§! may §Ypropose candidates§! to the Council;;;;;;;;;;;;;x
@@ -430,11 +430,11 @@ eldercouncil.25.accept;Very well.;;;;;;;;;;;;;x
 eldercouncil.25.error;eldercouncil.25 has experience an error, please keep this save and report this if you see it! [GetECVoteTally];;;;;;;;;;;;;x
 eldercouncil.26.passed;To [Root.GetTitledName],\nThe Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue] in favour of recognising your claim to the Ruby Throne. We await your presence in the Imperial City for your imperial coronation.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
 eldercouncil.26.tied;To [Root.GetTitledName],\nThe Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue] in favour of recognising your claim to the Ruby Throne, with me breaking the tie. We await your presence in the Imperial City for your imperial coronation.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
-eldercouncil.26.error;To [Root.GetTitledName],\nAn error has occured in eldercouncil.26. The Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue]. Please report this and keep this save\n\nSigned, JJ;;;;;;;;;;;;;x
+eldercouncil.26.error;To [Root.GetTitledName],\nAn error has occurred in eldercouncil.26. The Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue]. Please report this and keep this save\n\nSigned, JJ;;;;;;;;;;;;;x
 eldercouncil.26.accept;Let my rule begin!;;;;;;;;;;;;;x
 eldercouncil.27.passed;To the warlord [Root.GetDynName],\nThe Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue] against your outrageous demands. Your empty threats will not dictate imperial policy or Council affairs.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
 eldercouncil.27.tied;To the warlord [Root.GetDynName],\nThe Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue] against your outrageous demands, with me breaking the tie. Your empty threats will not dictate imperial policy or Council affairs.\n\nSigned, [From.GetElderCouncilRank] [From.GetFirstName];;;;;;;;;;;;;x
-eldercouncil.27.error;To [Root.GetTitledName],\nAn error has occured in eldercouncil.27. The Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue]. Please report this and keep this save\n\nSigned, JJ;;;;;;;;;;;;;x
+eldercouncil.27.error;To [Root.GetTitledName],\nAn error has occurred in eldercouncil.27. The Elder Council has voted [global_ec_yes.GetValue] to [global_ec_no.GetValue]. Please report this and keep this save\n\nSigned, JJ;;;;;;;;;;;;;x
 eldercouncil.27.war;They'll soon see just how empty my threats were...;;;;;;;;;;;;;x
 eldercouncil.27.accept;Without the Council's support, I must drop my claim.;;;;;;;;;;;;;x
 eldercouncil.28.title;Rise of a Pretender;;;;;;;;;;;;;x
@@ -477,7 +477,7 @@ eldercouncil.42.title;[This.GetRubyThroneTitle]-In-Fact;;;;;;;;;;;;;x
 eldercouncil.42.desc;The Elder Council has voted in favour in recognising the claim of [target_pretender.GetBestName] to the Ruby Throne. The Council, a vestige of its former self since the fall of the last Empire, has apparently decided that it is in its best interest to recognise this pretender for a time, despite their seemingly illegitimate way of claiming the Ruby Throne.;;;;;;;;;;;;;x
 eldercouncil.42.accept;How long will the [target_pretender.GetOnlyDynastyName] Empire last?;;;;;;;;;;;;;x
 eldercouncil.43.title;Fall of a Pretender;;;;;;;;;;;;;x
-eldercouncil.43.desc;The Elder Council has rejected the claim of the [target_pretender.Culture.GetName] warlord [target_pretender.GetBestName] to the Ruby Throne. Unwilling to challenge the authority of the Council on the field, the pretender has dropped their claim, and [target_pretender.GetHerHis] ambitions may be silenced for the forseeable future.;;;;;;;;;;;;;x
+eldercouncil.43.desc;The Elder Council has rejected the claim of the [target_pretender.Culture.GetName] warlord [target_pretender.GetBestName] to the Ruby Throne. Unwilling to challenge the authority of the Council on the field, the pretender has dropped their claim, and [target_pretender.GetHerHis] ambitions may be silenced for the foreseeable future.;;;;;;;;;;;;;x
 eldercouncil.43.accept;How long until the next pretender?;;;;;;;;;;;;;x
 pretender_attack_council_cb;Claim the Ruby Throne;;;;;;;;;;;;;x
 pretender_attack_council_cb_desc;[Root.GetBestName] will contest the decision of the Elder Council by force, enforcing [Root.GetHerHis] claim on the Ruby Throne.;;;;;;;;;;;;;x

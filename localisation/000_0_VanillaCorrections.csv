@@ -173,7 +173,7 @@ OPINION_OF_POPE;Opinion of Religion Head;Opinion envers le Pape;Meinung des Paps
 EVTDESC_WOL_81_F;It isn't easy bedding every man who catches my fancy. Jealous spouses, watchful mothers, meddling courtiers - it takes skill to navigate such treacherous waters!;;;;;;;;;;x
 EVTDESC_WOL_81_M;Chasing skirts can be a dangerous business. Jealous spouses, watchful parents, eavesdropping maids... by [Root.Religion.GetRandomGodName], it's a wonder I'm still alive!;;;;;;;;;;x
 EVTOPTA9002;My crippling addiction must not be revealed...;;;;;;;;;;;;;x
-EVTDESC935;My network of spies in [Root.Location.GetName] have investigated a local noble and it turns out that they are a slave to the toxic skooma... By threating to spread this rumor, my liege might be able to extort the favours or money from them.;;;;;;;;;x
+EVTDESC935;My network of spies in [Root.Location.GetName] have investigated a local noble and it turns out that they are a slave to the toxic skooma... By threatening to spread this rumor, my liege might be able to extort the favours or money from them.;;;;;;;;;x
 EVTDESC20350;My liege, my network of spies here in [From.Location.GetName] have found out that a local noble is a skooma addict. What should I do with this information?\n\nYour humble Spymaster,\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA20350;Blackmail them!;Faites-le chanter !;Erpresst ihn!;;¡Extorsiónalo!;;;;;;;;;x
 EVTOPTB20350;Spread rumors about them.;Répandez les rumeurs le concernant.;Verbreitet Gerüchte über ihn.;;Difunde los rumores.;;;;;;;;;x
